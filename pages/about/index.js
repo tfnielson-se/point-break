@@ -1,11 +1,11 @@
-import { FaPython } from 'react-icons/fa';
-import { SiDjango } from 'react-icons/si';
-import { SiElixir } from 'react-icons/si';
-import {FaPhoenixFramework} from 'react-icons/fa';
-import {SiRubyonrails} from 'react-icons/si';
-import {SiJavascript} from 'react-icons/si';
-import{SiReact} from 'react-icons/si';
-import {SiNextdotjs} from 'react-icons/si';
+import { FaPython } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+import { SiElixir } from "react-icons/si";
+import { FaPhoenixFramework } from "react-icons/fa";
+import { SiRubyonrails } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 const About = () => {
 	return (
@@ -15,26 +15,28 @@ const About = () => {
 					<div className="second-color h-5"></div>
 					<div>
 						<p className="font-fourth-color text-center bg-transparent rounded-tl-l text-6xl">
-							<strong className="bg-gray-800 px-4 tracking-widest">
+							<strong className="bg-gray-700 px-4 tracking-widest">
 								point.break
 							</strong>
 						</p>
 					</div>
 					<div className="p-6 second-color">
 						<div>
-							<span className="text-2xl font-medium font-fourth-color bg-gray-700 px-2">
-								ABOUT US
-							</span>
+							<p className="text-2xl px-2 third-color">
+								<strong className="fourth-color p-1">
+									ABOUT US
+								</strong>
+							</p>
 							<p className="mt-2 text-lg">
 								Our mission is to help businesses and
 								individuals achieve their goals through the
 								power of technology. We are committed to
 								providing high-quality software development
-								services that are tailored to meet our client&apos;
-								unique needs and requirements. Our goal is to
-								deliver reliable, efficient, and scalable
-								solutions that drive business growth and
-								success. We believe in building long-term
+								services that are tailored to meet our
+								client&apos; unique needs and requirements. Our
+								goal is to deliver reliable, efficient, and
+								scalable solutions that drive business growth
+								and success. We believe in building long-term
 								relationships with our clients, based on trust,
 								communication, and collaboration. Our passion
 								for technology and commitment to excellence
@@ -49,33 +51,34 @@ const About = () => {
 			<div className="flex justify-center text-center m-auto my-10 max-w-2xl">
 				<div className="bring-up second-color w-full mx-3 rounded-b-xl rounded-t-md">
 					<p className="text-2xl first mb-5">
-						<strong className="bg-gray-700 p-2">Stacks</strong>
+						<strong className="bg-gray-700 p-2">STACKS</strong>
 					</p>
-					<p className="text-xl pb-1">
+					<p className="text-xl mx-5 third-color">
 						{" "}
 						Python / Django{" "}
 						<span className="font-first-color">|</span> Elixir /
 						Phoenix / LiveView{" "}
-						<span className="font-first-color">|</span> Ruby on Rails{" "}
-						<span className="font-first-color">|</span> JavaScript /
-						React.js / Next.js{" "}
+						<span className="font-first-color">|</span> Ruby on
+						Rails <span className="font-first-color">|</span>{" "}
+						JavaScript / React.js / Next.js{" "}
 					</p>
-                    <p className="text-xl pb-5">
-                    We utilize cutting-edge technologies that are highly regarded in the industry to deliver top-quality solutions to our clients.
-                    </p>
-                  
+					<p className="text-xl pb-5">
+						We utilize cutting-edge technologies that are highly
+						regarded in the industry to deliver top-quality
+						solutions to our clients.
+					</p>
 				</div>
 			</div>
-        <div className="flex justify-around pb-3">
-            <FaPython className="text-6xl mx-1"/>
-            <SiDjango className="text-6xl mx-1"/>
-            <SiElixir className="text-6xl mx-1"/>
-            <FaPhoenixFramework className="text-6xl mx-1"/>
-            <SiRubyonrails className="text-6xl mx-1"/>
-            <SiJavascript className="text-6xl mx-1"/>
-            <SiReact className="text-6xl mx-1"/>
-            <SiNextdotjs className="text-6xl mx-1"/>
-        </div>
+			<div className="flex justify-around pb-3">
+				<FaPython className="hover:text-sky-600 text-6xl mx-1" />
+				<SiDjango className="hover:text-emerald-600 text-6xl mx-1" />
+				<SiElixir className="hover:text-violet-500 text-6xl mx-1" />
+				<FaPhoenixFramework className="hover:text-orange-500 text-6xl mx-1" />
+				<SiRubyonrails className="hover:text-red-500 text-6xl mx-1" />
+				<SiJavascript className="hover:text-yellow-400 text-6xl mx-1" />
+				<SiReact className="hover:text-cyan-400 text-6xl mx-1" />
+				<SiNextdotjs className="hover:text-stone-800 text-6xl mx-1" />
+			</div>
 		</>
 	);
 };

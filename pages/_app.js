@@ -15,13 +15,13 @@ export default function App({ Component, pageProps }) {
 			<nav className="flex flex-around my-2">
 				<div className="">
                     <Link href="/">
-					<strong className="text-4xl tracking-widest ml-5 px-2 bg-gray-800">
+					<strong className="text-4xl tracking-wide ml-5 px-2 bg-gray-700">
 						{" "}
-						point.break {" "}
+						p.b {" "}
 					</strong>
-					<h3 className="text-sm ml-6 pt-1">
+					{/* <h3 className="text-sm ml-6 pt-1">
 						Software Engineering & Development
-					</h3>
+					</h3> */}
                     </Link>
 				</div>
 				<div className="w-full flex flex-row justify-around m-auto text-xl">
