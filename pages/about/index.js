@@ -30,7 +30,7 @@ const About = () => {
 								individuals achieve their goals through the
 								power of technology. We are committed to
 								providing high-quality software development
-								services that are tailored to meet our clients'
+								services that are tailored to meet our client&apos;
 								unique needs and requirements. Our goal is to
 								deliver reliable, efficient, and scalable
 								solutions that drive business growth and
