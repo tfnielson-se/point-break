@@ -1,0 +1,18 @@
+const ServiceCard = ({title, img, body}) => {
+    return(
+        <div className="bring-up max-w-md overflow-hidden rounded-lg shadow-lg second-color mx-2">
+				<div className="">
+					<h1 className="font-fourth-color text-3xl font-bold text-gray-800 uppercase px-4 py-2">
+						<strong className="bg-gray-700 px-2 py">{title}</strong>
+					</h1>
+					<p className="mt-1 text-lg px-4 py-2">
+						{body}
+					</p>
+				</div>
+
+				<img className="object-cover w-full h-48 mt-2 " src={img} />
+			</div>
+    )
+}
+
+export default ServiceCard;
