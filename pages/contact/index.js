@@ -8,7 +8,7 @@ const Contact = () => {
 		<div className="flex justify-around mx-10 my-10">
 			<div>
 				<VscGithub className="hover:text-stone-800 text-6xl my-2" />
-                <span className="text-2xl">e-mail: </span>
+                <span className="text-2xl">developer: </span>
                 <a
 					href="https://github.com/tfnielson-se"
 					className="text-2xl nav-btn m-auto"
@@ -29,7 +29,7 @@ const Contact = () => {
 			</div>
 			<div>
 				<TfiEmail className="hover:text-stone-800 text-6xl my-2" />
-               
+                <span className="text-2xl">e-mail: </span>
 				<a
 					href="mailto: pointbreak.se@gmail.com"
 					className="text-2xl nav-btn m-auto"
@@ -39,13 +39,21 @@ const Contact = () => {
 				</a>
 			</div>
 		</div>
-            <div className=" flex justify around h-10 third-color">
+            <div className=" flex justify around">
             {""}
-            <section className="w-full h-2 second-color m-auto mx-5"></section>
-            <section className="w-1/4 h-2 fourth-color m-auto"></section>
+            <section className="ml-2 w-5 h-2 fourth-color m-auto rounded"></section>
+            <section className="ml-2 w-10 h-2 fourth-color m-auto rounded"></section>
+            <section className="ml-2 w-20 h-2 fourth-color m-auto rounded"></section>
+            <section className="ml-2 w-40 h-2 fourth-color m-auto rounded"></section>
 
-            <section className="w-full h-2 second-color m-auto mx-5"></section>
+            <section className="w-full h-2 third-color m-auto mx-5 rounded "></section>
+            <section className="w-1/4 h-2 second-color m-auto rounded"></section>
 
+            <section className="w-full h-2 third-color m-auto mx-5 rounded"></section>
+            <section className="mr-2 w-40 h-2 fourth-color m-auto rounded"></section>
+            <section className="mr-2 w-20 h-2 fourth-color m-auto rounded"></section>
+            <section className="mr-2 w-10 h-2 fourth-color m-auto rounded"></section>
+            <section className="mr-2 w-5 h-2 fourth-color m-auto rounded"></section>
        
             </div>
             </>

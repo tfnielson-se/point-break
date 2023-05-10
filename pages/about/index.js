@@ -27,7 +27,7 @@ const About = () => {
 									ABOUT US
 								</strong>
 							</p>
-							<p className="mt-2 text-lg">
+							<p className="mt-2 text-xl tracking-wide ">
 								Our mission is to help businesses and
 								individuals achieve their goals through the
 								power of technology. We are committed to
@@ -50,7 +50,7 @@ const About = () => {
 			</div>
 			<div className="flex justify-center text-center m-auto my-10 max-w-2xl">
 				<div className="bring-up second-color w-full mx-3 rounded-b-xl rounded-t-md">
-					<p className="text-2xl first mb-5">
+					<p className="text-2xl first mb-4">
 						<strong className="bg-gray-700 p-2">STACKS</strong>
 					</p>
 					<p className="text-xl mx-5 third-color">
@@ -62,7 +62,7 @@ const About = () => {
 						Rails <span className="font-first-color">|</span>{" "}
 						JavaScript / React.js / Next.js{" "}
 					</p>
-					<p className="text-xl pb-5">
+					<p className="text-xl pb-5 tracking-wide">
 						We utilize cutting-edge technologies that are highly
 						regarded in the industry to deliver top-quality
 						solutions to our clients.
