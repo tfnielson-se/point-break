@@ -22,8 +22,8 @@ const About = () => {
 					</div>
 					<div className="p-6 second-color">
 						<div>
-							<p className="text-2xl px-2 third-color">
-								<strong className="fourth-color p-1">
+							<p className="px-2 third-color">
+								<strong className="text-2xl bg-gray-700 p-1">
 									ABOUT US
 								</strong>
 							</p>
@@ -70,14 +70,14 @@ const About = () => {
 				</div>
 			</div>
 			<div className="flex justify-around pb-3">
-				<FaPython className="hover:text-sky-600 text-6xl mx-1" />
-				<SiDjango className="hover:text-emerald-600 text-6xl mx-1" />
-				<SiElixir className="hover:text-violet-500 text-6xl mx-1" />
-				<FaPhoenixFramework className="hover:text-orange-500 text-6xl mx-1" />
-				<SiRubyonrails className="hover:text-red-500 text-6xl mx-1" />
-				<SiJavascript className="hover:text-yellow-400 text-6xl mx-1" />
-				<SiReact className="hover:text-cyan-400 text-6xl mx-1" />
-				<SiNextdotjs className="hover:text-stone-800 text-6xl mx-1" />
+				<FaPython className="hover:text-sky-600 text-6xl mx-1 bring-up" />
+				<SiDjango className="hover:text-emerald-600 text-6xl mx-1 bring-up" />
+				<SiElixir className="hover:text-violet-500 text-6xl mx-1 bring-up" />
+				<FaPhoenixFramework className="hover:text-orange-500 text-6xl mx-1 bring-up" />
+				<SiRubyonrails className="hover:text-red-500 text-6xl mx-1 bring-up" />
+				<SiJavascript className="hover:text-yellow-400 text-6xl mx-1 bring-up" />
+				<SiReact className="hover:text-cyan-400 text-6xl mx-1 bring-up" />
+				<SiNextdotjs className="hover:text-stone-800 text-6xl mx-1 bring-up" />
 			</div>
 		</>
 	);

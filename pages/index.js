@@ -3,14 +3,14 @@ import Link from "next/link";
 import { useState } from "react";
 import ServiceCard from "./ServiceCard";
 
-import { FaPython } from "react-icons/fa";
-import { SiDjango } from "react-icons/si";
-import { SiElixir } from "react-icons/si";
-import { FaPhoenixFramework } from "react-icons/fa";
-import { SiRubyonrails } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiReact } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
+// import { FaPython } from "react-icons/fa";
+// import { SiDjango } from "react-icons/si";
+// import { SiElixir } from "react-icons/si";
+// import { FaPhoenixFramework } from "react-icons/fa";
+// import { SiRubyonrails } from "react-icons/si";
+// import { SiJavascript } from "react-icons/si";
+// import { SiReact } from "react-icons/si";
+// import { SiNextdotjs } from "react-icons/si";
 
 const Home = () => {
 	return (
@@ -30,8 +30,8 @@ const Home = () => {
 						</p>
 					</div>
 				</div>
-            <button className="bring-up text-2xl mt-10 py-3 px-10 font-third-color hover:bg-cyan-100 rounded-lg tracking-wide hover:tracking-widest"> Experience </button>
-            <div className="flex justify-around pb-3">
+            {/* <button className=" text-2xl mt-10 py-3 px-10 font-third-color hover:bg-cyan-100 rounded-lg tracking-wide hover:tracking-widest"> Experience </button> */}
+            {/* <div className="flex justify-around pb-3">
 				<FaPython className="hover:text-sky-600 text-6xl mx-1" />
 				<SiDjango className="hover:text-emerald-600 text-6xl mx-1" />
 				<SiElixir className="hover:text-violet-500 text-6xl mx-1" />
@@ -40,7 +40,7 @@ const Home = () => {
 				<SiJavascript className="hover:text-yellow-400 text-6xl mx-1" />
 				<SiReact className="hover:text-cyan-400 text-6xl mx-1" />
 				<SiNextdotjs className="hover:text-stone-800 text-6xl mx-1" />
-			</div>
+			</div> */}
 			</div>
 		</>
 	);

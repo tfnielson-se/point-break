@@ -8,6 +8,7 @@ const Contact = () => {
 		<div className="flex justify-around mx-10 my-10">
 			<div>
 				<VscGithub className="hover:text-stone-800 text-6xl my-2" />
+                <span className="text-2xl">e-mail: </span>
                 <a
 					href="https://github.com/tfnielson-se"
 					className="text-2xl nav-btn m-auto"
@@ -28,6 +29,7 @@ const Contact = () => {
 			</div>
 			<div>
 				<TfiEmail className="hover:text-stone-800 text-6xl my-2" />
+               
 				<a
 					href="mailto: pointbreak.se@gmail.com"
 					className="text-2xl nav-btn m-auto"
