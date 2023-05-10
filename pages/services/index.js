@@ -1,9 +1,9 @@
 import ServiceCard from "../ServiceCard";
 
 const Services = () => {
-    return (
-        <>
-        <div className="flex justify-around my-10">
+	return (
+		<>
+			<div className="flex justify-around py-5">
 				<ServiceCard
 					title={"Software Engineering"}
 					img={"/coding.jpg"}
@@ -18,7 +18,7 @@ const Services = () => {
 						"Your ideas made into reality and transformed into an unique user experience."
 					}
 				/>
-                {/* <ServiceCard
+				{/* <ServiceCard
 					title={"Mobile Development"}
 					img={"/mobile.jpg"}
 					body={
@@ -26,7 +26,7 @@ const Services = () => {
 					}
 				/> */}
 			</div>
-            <div className="flex justify-around my-10">
+			<div className="flex justify-around py-3">
 				<ServiceCard
 					title={"SEO"}
 					img={"/seo.jpg"}
@@ -42,8 +42,8 @@ const Services = () => {
 					}
 				/>
 			</div>
-        </>
+		</>
+	);
+};
 
-    )}
-
-    export default Services;
+export default Services;
