@@ -26,7 +26,7 @@ const Services = () => {
 					}
 				/> */}
 			</div>
-			<div className="flex justify-around py-3">
+			<div className="flex justify-around py-5">
 				<ServiceCard
 					title={"SEO"}
 					img={"/seo.jpg"}
