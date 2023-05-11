@@ -1,8 +1,17 @@
 import ServiceCard from "../ServiceCard";
+import { motion, AnimatePresence } from "framer-motion";
+
 
 const Services = () => {
 	return (
 		<>
+                <AnimatePresence>
+				<motion.div
+					initial={{ opacity: 0, y: 15 }}
+					animate={{ opacity: 1, y: 0 }}
+					exit={{ opacity: 0, y: 15 }}
+					transition={{ delay: 0.25 }}
+				>
 			<div className="flex justify-around py-5">
 				<ServiceCard
 					title={"Software Engineering"}
@@ -42,6 +51,8 @@ const Services = () => {
 					}
 				/>
 			</div>
+            </motion.div>
+            </AnimatePresence>
 		</>
 	);
 };

@@ -1,20 +1,16 @@
 // [<0>]
-import Link from "next/link";
-import { useState } from "react";
-import ServiceCard from "./ServiceCard";
-
-// import { FaPython } from "react-icons/fa";
-// import { SiDjango } from "react-icons/si";
-// import { SiElixir } from "react-icons/si";
-// import { FaPhoenixFramework } from "react-icons/fa";
-// import { SiRubyonrails } from "react-icons/si";
-// import { SiJavascript } from "react-icons/si";
-// import { SiReact } from "react-icons/si";
-// import { SiNextdotjs } from "react-icons/si";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Home = () => {
 	return (
 		<>
+        <AnimatePresence>
+				<motion.div
+					initial={{ opacity: 0, y: 15 }}
+					animate={{ opacity: 1, y: 0 }}
+					exit={{ opacity: 0, y: 15 }}
+					transition={{ delay: 0.25 }}
+				>
 			<div className="text-center mt-20">
 				<div className="">
 					<p className=" home-title third-color text-center bg-transparent rounded-tl-l text-6xl">
@@ -30,8 +26,8 @@ const Home = () => {
 						</p>
 					</div>
 				</div>
-            {/* <button className=" text-2xl mt-10 py-3 px-10 font-third-color hover:bg-cyan-100 rounded-lg tracking-wide hover:tracking-widest"> Experience </button> */}
-            {/* <div className="flex justify-around pb-3">
+				{/* <button className=" text-2xl mt-10 py-3 px-10 font-third-color hover:bg-cyan-100 rounded-lg tracking-wide hover:tracking-widest"> Experience </button> */}
+				{/* <div className="flex justify-around pb-3">
 				<FaPython className="hover:text-sky-600 text-6xl mx-1" />
 				<SiDjango className="hover:text-emerald-600 text-6xl mx-1" />
 				<SiElixir className="hover:text-violet-500 text-6xl mx-1" />
@@ -42,6 +38,9 @@ const Home = () => {
 				<SiNextdotjs className="hover:text-stone-800 text-6xl mx-1" />
 			</div> */}
 			</div>
+            </motion.div>
+            </AnimatePresence>
+            
 		</>
 	);
 };
