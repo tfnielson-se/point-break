@@ -17,7 +17,7 @@
 }
 
 .home-title {
-    font-size: 10em;
+	font-size: 10em;
 }
 
 /* 
@@ -32,21 +32,29 @@ strong {
 }
 
 .nav-btn {
-    transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 .nav-btn:hover {
-    background: #374151;
-    padding-right: 1em;
-    padding-left: 0.2em;
-    color: #fdc57b;
+	background: #374151;
+	padding-right: 1em;
+	padding-left: 0.2em;
+	color: #fdc57b;
 }
 
 .bring-up {
-    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-    transition: all 1s ease-out
+  opacity: 90%;
+	filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+	/* box-shadow: 6px 6px 1px 1px #756c83b6; */
+	box-shadow: 8px 8px 2px 0px #756c838f;
+
+  transition: all 0.5s ease-out;
 }
 .bring-up:hover {
-	filter: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.288)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  opacity: 100%;
+	filter: drop-shadow(0 30px 15px rgba(0, 0, 0, 0.288)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+	box-shadow: 12px 12px 4px 1px #756c8352;
+  /* box-shadow: 12px 12px 2px 1px #f3818165; */
+
 }
 
 /* .first-color {
@@ -80,40 +88,40 @@ strong {
 	color: #fdc57b;
 } */
 
-.first-color { 
-	background: #fbfbfb; 
-}
-	
-.second-color { 
-	background: #b9e1dc; 
+.first-color {
+	background: #fbfbfb;
 }
 
-.third-color { 
-	background: #f38181; 
+.second-color {
+	background: #b9e1dc;
 }
 
-.fourth-color { 
-	background: #756c83; 
+.third-color {
+	background: #f38181;
 }
 
-.font-first-color { 
-	color: #fbfbfb; 
+.fourth-color {
+	background: #756c83;
 }
 
-.font-second-color { 
-	color: #b9e1dc; 
+.font-first-color {
+	color: #fbfbfb;
 }
 
-.font-third-color { 
-    color: #f38181; 
+.font-second-color {
+	color: #b9e1dc;
 }
 
-.font-fourth-color { 
-	color: #756c83; 
+.font-third-color {
+	color: #f38181;
+}
+
+.font-fourth-color {
+	color: #756c83;
 }
 
 html {
-	height: 100vh;
+	height: 100%;
 	/* color: #f38181; */
 	font-family: "raj";
 	background-color: #fbfbfb;

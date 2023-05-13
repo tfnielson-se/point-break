@@ -18,16 +18,16 @@ const About = () => {
 					exit={{ opacity: 0, y: 15 }}
 					transition={{ delay: 0.25 }}
 				>
-					<div className="bring-up flex justify-center my-5">
-						<div className="max-w-2xl overflow-hidden rounded-b-xl rounded-t-md shadow-md ">
+					<div className="flex justify-center my-5">
+						<div className="bring-up max-w-2xl overflow-hidden rounded-b-xl rounded-t-md ">
 							<div className="second-color h-5"></div>
-							<div>
+
 								<p className="font-fourth-color text-center bg-transparent rounded-tl-l text-6xl">
 									<strong className="bg-gray-700 px-4 tracking-widest">
 										point.break
 									</strong>
 								</p>
-							</div>
+
 							<div className="p-6 second-color">
 								<div>
 									<p className="px-2 third-color">
@@ -84,14 +84,14 @@ const About = () => {
 						</div>
 					</div>
 					<div className="flex justify-around pb-3">
-						<FaPython className="hover:text-sky-600 text-6xl mx-1 bring-up" />
-						<SiDjango className="hover:text-emerald-600 text-6xl mx-1 bring-up" />
-						<SiElixir className="hover:text-violet-500 text-6xl mx-1 bring-up" />
-						<FaPhoenixFramework className="hover:text-orange-500 text-6xl mx-1 bring-up" />
-						<SiRubyonrails className="hover:text-red-500 text-6xl mx-1 bring-up" />
-						<SiJavascript className="hover:text-yellow-400 text-6xl mx-1 bring-up" />
-						<SiReact className="hover:text-cyan-400 text-6xl mx-1 bring-up" />
-						<SiNextdotjs className="hover:text-stone-800 text-6xl mx-1 bring-up" />
+						<FaPython className=" text-6xl mx-1" />
+						<SiDjango className=" text-6xl mx-1" />
+						<SiElixir className=" text-6xl mx-1" />
+						<FaPhoenixFramework className=" text-6xl mx-1" />
+						<SiRubyonrails className=" text-6xl mx-1" />
+						<SiJavascript className=" text-6xl mx-1" />
+						<SiReact className=" text-6xl mx-1" />
+						<SiNextdotjs className=" text-6xl mx-1" />
 					</div>
 				</motion.div>
 			</AnimatePresence>
