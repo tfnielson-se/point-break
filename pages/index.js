@@ -20,7 +20,7 @@ const Home = () => {
 					<div className="text-center my-10">
 						<div className="hidden lg:block">
 							<p className="home-title third-color text-center text-6xl">
-								<strong className="second-color font-fifth-color px-4 tracking-widest border-8 border-purple-900">
+								<strong className="second-color font-fifth-color pb-4 px-4 tracking-widest border-8 border-purple-900">
 									point.break
 								</strong>
 							</p>
