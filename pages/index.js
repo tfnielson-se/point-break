@@ -21,7 +21,7 @@ const Home = () => {
 						<div className="hidden lg:block">
 							<p className="home-title third-color text-center text-6xl">
 								<strong className="second-color font-fifth-color px-4 tracking-widest border-8 border-purple-900">
-									p.b
+									point.break
 								</strong>
 							</p>
 						</div>
