@@ -18,7 +18,7 @@ const About = () => {
 					exit={{ opacity: 0, y: 15 }}
 					transition={{ delay: 0.25 }}
 				>
-					<div className="flex justify-center my-5">
+					<div className="flex justify-center m-2 lg:m-5">
 						<div className="bring-up max-w-2xl rounded-b-xl">
 							<div className="second-color h-5"></div>
 
@@ -38,14 +38,7 @@ const About = () => {
 									<p className="m-2 text-2xl tracking-wide leading-relaxed">
 										Our mission is to help businesses and
 										individuals achieve their goals through
-										the power of technology. We are
-										committed to providing high-quality
-										software development services that are
-										tailored to meet our client&apos; unique
-										needs and requirements. Our goal is to
-										deliver reliable, efficient, and
-										scalable solutions that drive business
-										growth and success. We believe in
+										the power of technology. We believe in
 										building long-term relationships with
 										our clients, based on trust,
 										communication, and collaboration. Our
@@ -59,14 +52,14 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex justify-center text-center m-auto my-10 max-w-2xl">
+					<div className="flex justify-center m-auto my-10 max-w-2xl">
 						<div className="bring-up second-color w-full mx-3 rounded-b-xl">
-							<p className="text-3xl first mb-4 second-color">
-								<strong className="font-fifth-color">
+							<p className="text-3xl third-color px-2 m-5 font-fifth-color">
+								<strong className="p-1">
 									STACKS
 								</strong>
 							</p>
-							<p className="text-2xl mx-5 fifth-color font-first-color tracking-wide leading-relaxed p-1">
+							<p className="text-2xl text-center mx-5 fifth-color font-first-color tracking-wide leading-relaxed p-1">
 								{" "}
 								Python / Django{" "}
 								<span className="font-first-color">|</span>{" "}
