@@ -11,7 +11,7 @@ const Navbar = () => {
 		<nav className="hidden lg:flex flex-around my-2">
 			<div className="">
 				<Link href="/">
-					<strong className="text-4xl tracking-wide m-5 px-2 second-color font-fourth-color">
+					<strong className="text-4xl tracking-wide m-5 px-2 second-color font-fifth-color">
 						{" "}
 						p.b{" "}
 					</strong>
@@ -20,7 +20,9 @@ const Navbar = () => {
 					</h3> */}
 				</Link>
 			</div>
-			<div className={`${font.className} w-full flex flex-row justify-around m-auto text-xl font-second-color`}>
+			<div
+				className={`${font.className} w-full flex flex-row justify-around m-auto text-2xl font-second-color`}
+			>
 				<Link href="/" className="nav-btn px-1">
 					Home
 				</Link>

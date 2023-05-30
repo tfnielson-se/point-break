@@ -1,4 +1,4 @@
-import ServiceCard from "../ServiceCard";
+import ServiceCard from "../components/ServiceCard";
 import { motion, AnimatePresence } from "framer-motion";
 
 
@@ -17,30 +17,30 @@ const Services = () => {
 					title={"Software Engineering"}
 					img={"/coding.jpg"}
 					body={
-						"Front End, Back End, & Full Stack Development using the best technology specific for your project."
+						"Fuel your project's success with our proficiency in Front End, Back End, and Full Stack Development. We employ state-of-the-art technologies to craft a tailored digital solution that precisely aligns with your requirements.."
 					}
 				/>
 				<ServiceCard
 					title={"Web Design"}
 					img={"/creative.jpg"}
 					body={
-						"Your ideas made into reality and transformed into an unique user experience."
+						"Translate your concepts into reality and cultivate a unique user experience with our professional web design services. Our team is dedicated to transforming your ideas into a captivating website that sets you apart."
 					}
 				/>
-				{/* <ServiceCard
+				<ServiceCard
 					title={"Mobile Development"}
 					img={"/mobile.jpg"}
 					body={
-						""
+						"Reach the full potential of your mobile presence with our expert mobile development services, ensuring seamless user experiences and unparalleled success."
 					}
-				/> */}
+				/>
 			</div>
 			<div className="flex flex-wrap justify-around">
 				<ServiceCard
 					title={"SEO"}
 					img={"/seo.jpg"}
 					body={
-						"Focusing on SEO best practices to make your business thrive."
+						"Maximize your business's potential for success by harnessing the power of SEO best practices with our expert services.."
 					}
 				/>
 				<ServiceCard

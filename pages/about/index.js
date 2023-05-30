@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const About = () => {
 	return (
-		<>
+		<section className="m-5">
 			<AnimatePresence>
 				<motion.div
 					initial={{ opacity: 0, y: 15 }}
@@ -19,23 +19,23 @@ const About = () => {
 					transition={{ delay: 0.25 }}
 				>
 					<div className="flex justify-center my-5">
-						<div className="bring-up max-w-2xl overflow-hidden rounded-b-xl rounded-t-md ">
+						<div className="bring-up max-w-2xl overflow-hidden rounded-b-xl">
 							<div className="second-color h-5"></div>
 
-								<p className="font-fourth-color text-center bg-transparent rounded-tl-l text-6xl">
-									<strong className="bg-gray-700 px-4 tracking-widest">
-										point.break
-									</strong>
-								</p>
+							<p className="font-fifth-color text-center bg-transparent text-6xl">
+								<strong className="fifth-color px-4 tracking-widest">
+									point.break
+								</strong>
+							</p>
 
 							<div className="p-6 second-color">
 								<div>
 									<p className="px-2 third-color">
-										<strong className="text-2xl bg-gray-700 p-1">
+										<strong className="text-3xl p-1">
 											ABOUT US
 										</strong>
 									</p>
-									<p className="mt-2 text-xl tracking-wide ">
+									<p className="m-2 text-2xl tracking-wide leading-relaxed">
 										Our mission is to help businesses and
 										individuals achieve their goals through
 										the power of technology. We are
@@ -60,13 +60,13 @@ const About = () => {
 						</div>
 					</div>
 					<div className="flex justify-center text-center m-auto my-10 max-w-2xl">
-						<div className="bring-up second-color w-full mx-3 rounded-b-xl rounded-t-md">
-							<p className="text-2xl first mb-4">
-								<strong className="bg-gray-700 p-2">
+						<div className="bring-up second-color w-full mx-3 rounded-b-xl">
+							<p className="text-3xl first mb-4 second-color">
+								<strong className="font-fifth-color">
 									STACKS
 								</strong>
 							</p>
-							<p className="text-xl mx-5 third-color">
+							<p className="text-2xl mx-5 fifth-color font-second-color tracking-wide leading-relaxed p-1">
 								{" "}
 								Python / Django{" "}
 								<span className="font-first-color">|</span>{" "}
@@ -76,7 +76,7 @@ const About = () => {
 								<span className="font-first-color">|</span>{" "}
 								JavaScript / React.js / Next.js{" "}
 							</p>
-							<p className="text-xl pb-5 tracking-wide">
+							<p className="text-2xl text-left p-3 m-2 tracking-wide leading-relaxed">
 								We utilize cutting-edge technologies that are
 								highly regarded in the industry to deliver
 								top-quality solutions to our clients.
@@ -84,18 +84,18 @@ const About = () => {
 						</div>
 					</div>
 					<div className="flex justify-around pb-3">
-						<FaPython className=" text-6xl mx-1" />
-						<SiDjango className=" text-6xl mx-1" />
-						<SiElixir className=" text-6xl mx-1" />
-						<FaPhoenixFramework className=" text-6xl mx-1" />
-						<SiRubyonrails className=" text-6xl mx-1" />
-						<SiJavascript className=" text-6xl mx-1" />
-						<SiReact className=" text-6xl mx-1" />
-						<SiNextdotjs className=" text-6xl mx-1" />
+						<FaPython className="font-second-color text-6xl mx-1" />
+						<SiDjango className="font-second-color text-6xl mx-1" />
+						<SiElixir className="font-second-color text-6xl mx-1" />
+						<FaPhoenixFramework className="font-second-color text-6xl mx-1" />
+						<SiRubyonrails className="font-second-color text-6xl mx-1" />
+						<SiJavascript className="font-second-color text-6xl mx-1" />
+						<SiReact className="font-second-color text-6xl mx-1" />
+						<SiNextdotjs className="font-second-color text-6xl mx-1" />
 					</div>
 				</motion.div>
 			</AnimatePresence>
-		</>
+		</section>
 	);
 };
 
