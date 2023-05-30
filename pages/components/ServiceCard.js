@@ -1,9 +1,12 @@
 import { Cutive_Mono } from "@next/font/google";
+import { Share_Tech_Mono } from "@next/font/google";
 
 const font = Cutive_Mono({
 	subsets: ["latin"],
 	weight: "400",
 });
+
+
 
 const ServiceCard = ({ title, img, body }) => {
 	return (
@@ -18,7 +21,7 @@ const ServiceCard = ({ title, img, body }) => {
 						{title}
 					</strong>
 				</h1>
-				<p className="font-second-color mt-1 text-2xl tracking-wide px-4 py-2">
+				<p className={`font-second-color mt-1 text-2xl tracking-wide px-4 py-2`}>
 					{body}
 				</p>
 			</div>
