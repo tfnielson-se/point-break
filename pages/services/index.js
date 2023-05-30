@@ -12,7 +12,7 @@ const Services = () => {
 					exit={{ opacity: 0, y: 15 }}
 					transition={{ delay: 0.25 }}
 				>
-			<div className="flex justify-around py-5">
+			<div className="flex flex-wrap justify-around">
 				<ServiceCard
 					title={"Software Engineering"}
 					img={"/coding.jpg"}
@@ -35,7 +35,7 @@ const Services = () => {
 					}
 				/> */}
 			</div>
-			<div className="flex justify-around py-5">
+			<div className="flex flex-wrap justify-around">
 				<ServiceCard
 					title={"SEO"}
 					img={"/seo.jpg"}

@@ -12,16 +12,23 @@ const Home = () => {
 					transition={{ delay: 0.25 }}
 				>
 			<div className="text-center mt-20">
-				<div className="">
-					<p className=" home-title third-color text-center bg-transparent rounded-tl-l text-6xl">
-						<strong className="bg-gray-700 px-4 tracking-widest">
+				<div className="hidden lg:block">
+					<p className="home-title third-color text-center bg-transparent rounded-tl-l text-6xl">
+						<strong className="second-color font-fourth-color px-4 tracking-widest">
 							point.break
+						</strong>
+					</p>
+				</div>
+                <div className="lg:hidden">
+					<p className="home-title third-color text-center bg-transparent rounded-tl-l text-6xl my-10 ">
+						<strong className="second-color font-fourth-color px-4 tracking-widest">
+							p.b
 						</strong>
 					</p>
 				</div>
 				<div className="flex flex-row justify-around w-full mt-1">
 					<div>
-						<p className="font-second-color text-4xl fourth-color px-3 italic">
+						<p className="font-third-color text-4xl fourth-color px-3 italic">
 							Software Engineering & Development
 						</p>
 					</div>

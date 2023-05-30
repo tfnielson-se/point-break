@@ -1,11 +1,18 @@
+import { Cutive_Mono } from "@next/font/google";
+
+const font = Cutive_Mono({
+	subsets: ["latin"],
+	weight: "400",
+});
+
 const ServiceCard = ({title, img, body}) => {
     return(
-        <div className="bring-up max-w-md overflow-hidden rounded-lg shadow-lg second-color">
+        <div className={`bring-up max-w-md overflow-hidden rounded-sm second-color m-5`}>
 				<div className="">
 					<h1 className="fourth-color text-3xl font-bold text-gray-800 uppercase px-4 py-2">
-						<strong className="bg-gray-700 px-2 py">{title}</strong>
+						<strong className={`px-2 ${font.className} font-fourth-color`}>{title}</strong>
 					</h1>
-					<p className="mt-1 text-lg tracking-wide px-4 py-2">
+					<p className="mt-1 text-xl tracking-wide px-4 py-2">
 						{body}
 					</p>
 				</div>
