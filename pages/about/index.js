@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const About = () => {
 	return (
-		<>
+		<section className="m-5 about-bg">
 			<AnimatePresence>
 				<motion.div
 					initial={{ opacity: 0, y: 15 }}
@@ -18,34 +18,27 @@ const About = () => {
 					exit={{ opacity: 0, y: 15 }}
 					transition={{ delay: 0.25 }}
 				>
-					<div className="bring-up flex justify-center my-5">
-						<div className="max-w-2xl overflow-hidden rounded-b-xl rounded-t-md shadow-md ">
+					<div className="flex justify-center m-2 lg:m-5">
+						<div className="bring-up max-w-2xl">
 							<div className="second-color h-5"></div>
-							<div>
-								<p className="font-fourth-color text-center bg-transparent rounded-tl-l text-6xl">
-									<strong className="bg-gray-700 px-4 tracking-widest">
-										point.break
-									</strong>
-								</p>
-							</div>
-							<div className="p-6 second-color">
+
+							<p className="font-fifth-color text-center bg-transparent text-5xl ;lg:text-6xl">
+								<strong className="fifth-color font-first-color py-1 px-4 tracking-widest">
+									ABOUT US
+								</strong>
+							</p>
+
+							<div className="p-5 second-color">
 								<div>
-									<p className="px-2 third-color">
-										<strong className="text-2xl bg-gray-700 p-1">
-											ABOUT US
+									<p className="px-2 third-color lg:w-2/3">
+										<strong className="text-3xl fifth-colo py-1 px-3">
+											OUR MISSION
 										</strong>
 									</p>
-									<p className="mt-2 text-xl tracking-wide ">
-										Our mission is to help businesses and
+									<p className="m-2 text-2xl tracking-wide leading-normal font-fifth-color">
+										... is to help businesses and
 										individuals achieve their goals through
-										the power of technology. We are
-										committed to providing high-quality
-										software development services that are
-										tailored to meet our client&apos; unique
-										needs and requirements. Our goal is to
-										deliver reliable, efficient, and
-										scalable solutions that drive business
-										growth and success. We believe in
+										the power of technology. We believe in
 										building long-term relationships with
 										our clients, based on trust,
 										communication, and collaboration. Our
@@ -59,14 +52,14 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex justify-center text-center m-auto my-10 max-w-2xl">
-						<div className="bring-up second-color w-full mx-3 rounded-b-xl rounded-t-md">
-							<p className="text-2xl first mb-4">
-								<strong className="bg-gray-700 p-2">
+					<div className="flex justify-center m-auto my-10 max-w-2xl">
+						<div className="bring-up second-color w-full mx-3">
+							<p className="text-3xl third-color px-2 m-5 font-fifth-color w-2/3">
+								<strong className="p-1">
 									STACKS
 								</strong>
 							</p>
-							<p className="text-xl mx-5 third-color">
+							<p className="text-2xl text-center mx-5 fifth-color font-first-color tracking-wide leading-relaxed p-1">
 								{" "}
 								Python / Django{" "}
 								<span className="font-first-color">|</span>{" "}
@@ -76,26 +69,26 @@ const About = () => {
 								<span className="font-first-color">|</span>{" "}
 								JavaScript / React.js / Next.js{" "}
 							</p>
-							<p className="text-xl pb-5 tracking-wide">
+							<p className="text-2xl text-left p-3 m-2 tracking-wide leading-relaxed font-fifth-color">
 								We utilize cutting-edge technologies that are
 								highly regarded in the industry to deliver
 								top-quality solutions to our clients.
 							</p>
 						</div>
 					</div>
-					<div className="flex justify-around pb-3">
-						<FaPython className="hover:text-sky-600 text-6xl mx-1 bring-up" />
-						<SiDjango className="hover:text-emerald-600 text-6xl mx-1 bring-up" />
-						<SiElixir className="hover:text-violet-500 text-6xl mx-1 bring-up" />
-						<FaPhoenixFramework className="hover:text-orange-500 text-6xl mx-1 bring-up" />
-						<SiRubyonrails className="hover:text-red-500 text-6xl mx-1 bring-up" />
-						<SiJavascript className="hover:text-yellow-400 text-6xl mx-1 bring-up" />
-						<SiReact className="hover:text-cyan-400 text-6xl mx-1 bring-up" />
-						<SiNextdotjs className="hover:text-stone-800 text-6xl mx-1 bring-up" />
+					<div className="flex flex-wrap justify-around pb-3">
+						<FaPython className="font-fifth-color text-6xl mx-1" />
+						<SiDjango className="font-fifth-color text-6xl mx-1" />
+						<SiElixir className="font-fifth-color text-6xl mx-1" />
+						<FaPhoenixFramework className="font-fifth-color text-6xl mx-1" />
+						<SiRubyonrails className="font-fifth-color text-6xl mx-1" />
+						<SiJavascript className="font-fifth-color text-6xl mx-1" />
+						<SiReact className="font-fifth-color text-6xl mx-1" />
+						<SiNextdotjs className="font-fifth-color text-6xl mx-1" />
 					</div>
 				</motion.div>
 			</AnimatePresence>
-		</>
+		</section>
 	);
 };
 
