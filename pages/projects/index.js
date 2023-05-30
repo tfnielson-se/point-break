@@ -33,7 +33,7 @@ const Projects = () => {
 							Live Websites
 						</p>
 						{items.map((item) => (
-							<ProjectCard title={item.title} body={item.body} />
+							<ProjectCard key={item.title} title={item.title} body={item.body} />
 						))}
 					</div>
 					<div className="m-5 lg:m-10">
