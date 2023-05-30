@@ -1,6 +1,13 @@
 "use clients";
 import Link from "next/link";
 import { useState } from "react";
+import { Cutive_Mono } from "@next/font/google";
+
+const font = Cutive_Mono({
+	subsets: ["latin"],
+	weight: "400",
+});
+
 
 const MobileNavbar = () => {
 	const [hideMenu, setHideMenu] = useState(true);
@@ -14,21 +21,21 @@ const MobileNavbar = () => {
 		<nav className="flex flex-col flex-around lg:hidden my-2 font-second-color">
 			<div className="flex flex-row justify-between p-1">
 				<Link href="/">
-					<strong className="text-4xl tracking-wide mx-10 second-color font-fifth-color px-2">
+					<strong className="text-5xl tracking-wide mx-10 second-color font-fifth-color px-2">
 						{" "}
 						p.b{" "}
 					</strong>
 				</Link>
-				<div className="font-second-color third-color mx-10 rounded-lg">
-					<button onClick={openMenu} className="text-4xl p-1">
+				<div className={`font-second-color  mx-10 ${font.className}`}>
+					<button onClick={openMenu} className="text-4xl third-color p-1">
 						{" "}
-						{"Menu"}{" "}
+						{"//"}{" "}
 					</button>
 				</div>
 			</div>
 
 			{hideMenu ? null : (
-				<div className="w-full flex flex-col justify-around m-auto text-4xl">
+				<div className={`w-full flex flex-col justify-around m-auto text-4xl ${font.className}`}>
 					<Link href="/" className="nav-btn" onClick={closeMenu}>
 						Home
 					</Link>

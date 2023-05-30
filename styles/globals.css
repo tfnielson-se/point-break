@@ -42,6 +42,10 @@ strong {
 	padding-right: 1em;
 	padding-left: 0.2em;
 	color: #ff5f5f;
+    opacity: 100%;
+	filter: drop-shadow(0 30px 15px rgba(0, 0, 0, 0.288))
+		drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+	box-shadow: 4px 4px 0px 0px #ff5f5f;
 }
 
 .bring-up {

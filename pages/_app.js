@@ -15,7 +15,6 @@ export default function App({ Component, pageProps }) {
 			<main className={font.className}>
 				<Navbar />
                 <MobileNavbar />
-				<hr></hr>
 					<Component {...pageProps} />
 			</main>
 		</>

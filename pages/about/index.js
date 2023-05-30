@@ -19,16 +19,16 @@ const About = () => {
 					transition={{ delay: 0.25 }}
 				>
 					<div className="flex justify-center my-5">
-						<div className="bring-up max-w-2xl overflow-hidden rounded-b-xl">
+						<div className="bring-up max-w-2xl rounded-b-xl">
 							<div className="second-color h-5"></div>
 
-							<p className="font-fifth-color text-center bg-transparent text-6xl">
+							<p className="font-fifth-color text-center bg-transparent text-5xl ;lg:text-6xl">
 								<strong className="fifth-color px-4 tracking-widest">
 									point.break
 								</strong>
 							</p>
 
-							<div className="p-6 second-color">
+							<div className="p-6 second-color rounded-b-xl">
 								<div>
 									<p className="px-2 third-color">
 										<strong className="text-3xl p-1">
@@ -66,7 +66,7 @@ const About = () => {
 									STACKS
 								</strong>
 							</p>
-							<p className="text-2xl mx-5 fifth-color font-second-color tracking-wide leading-relaxed p-1">
+							<p className="text-2xl mx-5 fifth-color font-first-color tracking-wide leading-relaxed p-1">
 								{" "}
 								Python / Django{" "}
 								<span className="font-first-color">|</span>{" "}
