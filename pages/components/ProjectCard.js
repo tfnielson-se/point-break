@@ -5,20 +5,20 @@ const font = Cutive_Mono({
 	weight: "400",
 });
 
-const ServiceCard = ({ title, img, body }) => {
+const ProjectCard = ({ title, img, body }) => {
 	return (
 		<div
-			className={`bring-up max-w-md rounded-sm fifth-color m-5`}
+			className={`bring-up max-w-md rounded-sm second-color m-5`}
 		>
 			<div className="">
-				<h1 className="second-color text-3xl font-bold uppercase px-4 py-2">
+				<h1 className="fifth-color text-3xl font-bold uppercase px-4 py-2">
 					<strong
-						className={`px-2 ${font.className} font-fifth-color`}
+						className={`px-2 ${font.className} font-second-color`}
 					>
 						{title}
 					</strong>
 				</h1>
-				<p className="font-second-color mt-1 text-2xl tracking-wide px-4 py-2">
+				<p className="font-third-color mt-1 text-2xl tracking-wide px-4 py-2">
 					{body}
 				</p>
 			</div>
@@ -28,4 +28,4 @@ const ServiceCard = ({ title, img, body }) => {
 	);
 };
 
-export default ServiceCard;
+export default ProjectCard;
