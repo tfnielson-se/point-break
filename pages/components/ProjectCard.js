@@ -5,7 +5,7 @@ const font = Cutive_Mono({
 	weight: "400",
 });
 
-const ProjectCard = ({ title, img, body }) => {
+const ProjectCard = ({ title, url, body }) => {
 	return (
 		<div
 			className={`bring-up max-w-md rounded-sm second-color m-5`}
@@ -20,6 +20,9 @@ const ProjectCard = ({ title, img, body }) => {
 				</h1>
 				<p className="font-third-color mt-1 text-2xl tracking-wide px-4 py-2">
 					{body}
+				</p>
+                <p className="font-fifth-color mt-1 text-2xl tracking-wide px-4 py-2">
+					url:{url ? url : 'coming soon..'}
 				</p>
 			</div>
 
