@@ -21,15 +21,15 @@ const MobileNavbar = () => {
 		<nav className="flex flex-col flex-around lg:hidden my-2 font-second-color">
 			<div className="flex flex-row justify-between p-1">
 				<Link href="/">
-					<strong className="text-5xl tracking-wide mx-10 second-color font-fifth-color px-2">
+					<strong className="text-6xl tracking-wide mx-10 second-color font-fifth-color px-2">
 						{" "}
 						p.b{" "}
 					</strong>
 				</Link>
-				<div className={`font-second-color  mx-10 ${font.className}`}>
-					<button onClick={openMenu} className="text-4xl third-color p-1">
+				<div className={`font-fifth-color  mx-10 ${font.className}`}>
+					<button onClick={openMenu} className={`text-4xl ${hideMenu ? "second-color" :"third-color"} p-1 border-8 border-purple-900`}>
 						{" "}
-						{"//"}{" "}
+						{"💾"}{" "}
 					</button>
 				</div>
 			</div>
