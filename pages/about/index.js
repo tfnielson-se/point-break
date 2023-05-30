@@ -31,8 +31,8 @@ const About = () => {
 							<div className="p-5 second-color">
 								<div>
 									<p className="px-2 third-color lg:w-2/3">
-										<strong className="text-3xl fifth-colo py-1 px-3">
-											OUR MISSION
+										<strong className="text-3xl font-second-color py-1 px-3">
+											OUR FOCUS
 										</strong>
 									</p>
 									<p className="m-2 text-2xl tracking-wide leading-normal font-fifth-color">
@@ -54,7 +54,7 @@ const About = () => {
 					</div>
 					<div className="flex justify-center m-auto my-10 max-w-2xl">
 						<div className="bring-up second-color w-full mx-3">
-							<p className="text-3xl third-color px-2 m-5 font-fifth-color w-2/3">
+							<p className="text-3xl third-color px-2 m-5 font-second-color w-2/3">
 								<strong className="p-1">
 									STACKS
 								</strong>
