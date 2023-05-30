@@ -8,34 +8,41 @@ const font = Cutive_Mono({
 	weight: "400",
 });
 
-
 const MobileNavbar = () => {
 	const [hideMenu, setHideMenu] = useState(true);
 	const openMenu = () => {
 		setHideMenu((hideMenu) => !hideMenu);
 	};
-    const closeMenu = () => {
+	const closeMenu = () => {
 		setHideMenu((hideMenu) => !hideMenu);
 	};
 	return (
 		<nav className="flex flex-col flex-around lg:hidden my-2 font-second-color">
-			<div className="flex flex-row justify-between p-1">
-				<Link href="/">
-					<strong className="text-6xl tracking-wide mx-10 second-color font-fifth-color px-2">
+			<div className="flex flex-row justify-between">
+				<p className="text-6xl tracking-wide mx-5 second-color font-fifth-color p-3">
+					<Link href="/"> p.b </Link>
+				</p>
+				<div className={`font-fifth-color mx-5 ${font.className}`}>
+					<button
+						onClick={openMenu}
+						className={`flex flex-col text-5xl ${
+							hideMenu ? "second-color font-second-color" : "third-color font-fifth-color"
+						} p-1.5 border-4 border-purple-900`}
+					>
 						{" "}
-						p.b{" "}
-					</strong>
-				</Link>
-				<div className={`font-fifth-color  mx-10 ${font.className}`}>
-					<button onClick={openMenu} className={`text-4xl ${hideMenu ? "second-color" :"third-color"} p-1 border-8 border-purple-900`}>
-						{" "}
-						{"💾"}{" "}
+						{"💾"}
+						{""}
+						<span className="text-sm m-auto third-color w-full">
+							MENU
+						</span>
 					</button>
 				</div>
 			</div>
 
 			{hideMenu ? null : (
-				<div className={`w-full flex flex-col justify-around m-auto text-4xl ${font.className}`}>
+				<div
+					className={`w-full flex flex-col justify-around m-auto text-4xl ${font.className}`}
+				>
 					<Link href="/" className="nav-btn" onClick={closeMenu}>
 						Home
 					</Link>
@@ -43,13 +50,25 @@ const MobileNavbar = () => {
 					<Link href="/about" className="nav-btn" onClick={closeMenu}>
 						About
 					</Link>
-					<Link href="/projects" className="nav-btn" onClick={closeMenu}>
+					<Link
+						href="/projects"
+						className="nav-btn"
+						onClick={closeMenu}
+					>
 						Projects
 					</Link>
-					<Link href="/services" className="nav-btn" onClick={closeMenu}>
+					<Link
+						href="/services"
+						className="nav-btn"
+						onClick={closeMenu}
+					>
 						Services
 					</Link>
-					<Link href="/contact" className="lg:mr-3 nav-btn" onClick={closeMenu}>
+					<Link
+						href="/contact"
+						className="lg:mr-3 nav-btn"
+						onClick={closeMenu}
+					>
 						Contact
 					</Link>
 				</div>
