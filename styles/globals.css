@@ -27,18 +27,15 @@ div {
 	border-radius: 0.5em;
 } */
 
-strong {
-	color: #6ef7c8;
-}
 
 .nav-btn {
 	padding: 0.1em;
-	color: #6ef7c8;
+	color: #bbe9db;
 	background: #4f3b78;
 	transition: all 0.5s ease-in-out;
 }
 .nav-btn:hover {
-	background: #6ef7c8;
+	background: #bbe9db;
 	padding-right: 0.5em;
 	padding-left: 0.2em;
 	color: #ff5f5f;
@@ -70,7 +67,7 @@ strong {
 }
 
 .second-color {
-	background: #6ef7c8;
+	background: #bbe9db;
 }
 
 .third-color {
@@ -89,7 +86,7 @@ strong {
 }
 
 .font-second-color {
-	color: #6ef7c8;
+	color: #bbe9db;
 }
 
 .font-third-color {
