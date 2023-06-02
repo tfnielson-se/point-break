@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Cutive_Mono } from "@next/font/google";
+import {AiOutlineFolder} from 'react-icons/ai'
 
 const font = Cutive_Mono({
 	subsets: ["latin"],
@@ -19,7 +20,7 @@ const MobileNavbar = () => {
 	return (
 		<nav className="flex flex-col flex-around lg:hidden my-2 font-second-color">
 			<div className="flex flex-row justify-between">
-				<p className="text-6xl tracking-wide mx-5 second-color font-fifth-color p-3">
+				<p className="text-6xl mx-5 second-color font-fifth-color m-auto p-2 nav-btn">
 					<Link href="/"> p.b </Link>
 				</p>
 				<div className={`font-fifth-color mx-5 ${font.className}`}>
@@ -41,10 +42,10 @@ const MobileNavbar = () => {
 
 			{hideMenu ? null : (
 				<div
-					className={`w-full flex flex-col justify-around m-auto text-4xl ${font.className}`}
+					className={`w-full flex flex-col justify-around fifth-color p-2 m-auto text-4xl ${font.className}`}
 				>
 					<Link href="/" className="nav-btn" onClick={closeMenu}>
-						Home
+						<p>Home</p>
 					</Link>
 
 					<Link href="/about" className="nav-btn" onClick={closeMenu}>
