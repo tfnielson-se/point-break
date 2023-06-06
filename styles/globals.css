@@ -25,8 +25,14 @@
 
 .home-title {
 	font-size: 10em;
+    background: rgb(151,203,169);
+    background: linear-gradient(90deg, rgba(151,203,169,1) 0%, rgba(109,79,171,1) 100%);
 }
 
+.banner-title {
+    background: rgb(151,203,169);
+    background: linear-gradient(90deg, rgba(151,203,169,1) 0%, rgba(109,79,171,1) 100%);
+}
 
 .nav-btn {
 	padding-right: 0.1em;

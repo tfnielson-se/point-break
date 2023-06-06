@@ -19,15 +19,15 @@ const Home = () => {
 				>
 					<div className="text-center my-10 lg:my-20">
 						<div className="hidden lg:block">
-							<p className="home-title first-color text-center">
-								<strong className="second-colo font-fifth-color pb-2 px-4 tracking-widest">
+							<p className="home-title text-center">
+								<strong className=" font-fifth-color pb-2 px-4 tracking-widest">
 									point.break
 								</strong>
 							</p>
 						</div>
 						<div className="lg:hidden">
-							<p className="first-color text-center text-2xl my-5 py-2">
-								<strong className="text-5xl secon-color font-fifth-color px-4 tracking-widest">
+							<p className="home-title text-center text-2xl pb-8 my-5">
+								<strong className="text-5xl font-fifth-color px-4 tracking-widest">
 									point.break
 								</strong>
 							</p>
