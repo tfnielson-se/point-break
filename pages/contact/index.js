@@ -14,6 +14,13 @@ const Contact = () => {
 					exit={{ opacity: 0, y: 15 }}
 					transition={{ delay: 0.25 }}
 				>
+                    <div className="m-5 lg:m-10 lg:w-1/4">
+						<p
+							className={`first-color font-third-color text-5xl p-1 bring-up`}
+						>
+							Contact
+						</p>
+					</div>
 					<div className="flex flex-wrap justify-around mx-10 my-10">
 						<div className="flex font-first-color">
 							<VscGithub className="text-6xl my-2" />
