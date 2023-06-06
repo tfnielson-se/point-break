@@ -34,6 +34,9 @@ const Services = () => {
 							}
 						/>
 					</div>
+                    <div className="">
+                        <img src="/ocean.jpg" className="h-96 w-full object-cover"/>
+                    </div>
 					<div className="flex flex-wrap justify-around">
 						<ServiceCard
 							title={"SEO"}
