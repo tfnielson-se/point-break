@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Cutive_Mono } from "@next/font/google";
-import {AiOutlineFolder} from 'react-icons/ai'
+import { motion, AnimatePresence } from "framer-motion";
 
 const font = Cutive_Mono({
 	subsets: ["latin"],
@@ -18,6 +18,13 @@ const MobileNavbar = () => {
 		setHideMenu((hideMenu) => !hideMenu);
 	};
 	return (
+        <AnimatePresence>
+        <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 15 }}
+            transition={{ delay: 0.25 }}
+        >
 		<nav className="flex flex-col flex-around lg:hidden my-2 font-second-color">
 			<div className="flex flex-row justify-between">
 				<p className="text-6xl mx-5 second-color font-fifth-color m-auto p-2 nav-btn">
@@ -75,6 +82,8 @@ const MobileNavbar = () => {
 				</div>
 			)}
 		</nav>
+        </motion.div>
+			</AnimatePresence>
 	);
 };
 

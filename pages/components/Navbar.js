@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Cutive_Mono } from "@next/font/google";
-
+import { motion, AnimatePresence } from "framer-motion";
 const font = Cutive_Mono({
 	subsets: ["latin"],
 	weight: "400",
@@ -8,6 +8,13 @@ const font = Cutive_Mono({
 
 const Navbar = () => {
 	return (
+        <AnimatePresence>
+        <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 15 }}
+            transition={{ delay: 0.25 }}
+        >
 		<nav className="hidden lg:flex flex-around my-2">
 			<div className="">
 				<Link href="/">
@@ -44,6 +51,8 @@ const Navbar = () => {
 				</Link>
 			</div>
 		</nav>
+        </motion.div>
+			</AnimatePresence>
 	);
 };
 
