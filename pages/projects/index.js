@@ -43,7 +43,7 @@ const Projects = () => {
 							Own Projects
 						</p>
 						<ProjectCard
-							title={"River Log"}
+							title={"TBD"}
 							body={"Coming soon... A river journal app"}
 						/>
 						{/* <ProjectCard

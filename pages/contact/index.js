@@ -36,11 +36,11 @@ const Contact = () => {
 						<div className="flex font-first-color">
 							<FaLinkedin className="text-6xl my-2" />
 							<a
-								href="https://www.linkedin.com/in/thomasfnielson/"
+								href="https://www.linkedin.com/company/pointbreak-dev/"
 								className="text-2xl nav-btn m-auto mx-3"
 							>
 								{" "}
-								coming soon...
+								point.break
 							</a>
 						</div>
 						<div className="flex font-first-color">

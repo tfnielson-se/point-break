@@ -147,7 +147,9 @@
     background: #0092ca;
     color: #353535;
 }
-
+body {
+    color: #f1e7e7;
+}
 html {
 	/* transition: all 60s ease-in-out; */
 	height: 100vh;
