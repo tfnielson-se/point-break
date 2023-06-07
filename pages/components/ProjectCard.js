@@ -18,11 +18,11 @@ const ProjectCard = ({ title, url, body }) => {
 						{title}
 					</strong>
 				</h1>
-				<p className="font-third-colo mt-1 text-2xl tracking-wide px-4 py-2">
+				<p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2">
 					{body}
 				</p>
-                <p className="font-third-color mt-1 text-2xl tracking-wide px-4 py-2">
-					url:{url ? url : 'coming soon...'}
+				<p className="font-third-color first-color text-2xl tracking-wide px-4 py-2">
+					url:{url ? url : "coming soon..."}
 				</p>
 			</div>
 
