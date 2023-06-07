@@ -3,18 +3,17 @@ import { TfiEmail } from "react-icons/tfi";
 import { FaLinkedin } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
-
 const Contact = () => {
 	return (
-		<>
-			<AnimatePresence>
-				<motion.div
-					initial={{ opacity: 0, y: 15 }}
-					animate={{ opacity: 1, y: 0 }}
-					exit={{ opacity: 0, y: 15 }}
-					transition={{ delay: 0.25 }}
-				>
-                    <div className="m-5 lg:m-10 lg:w-1/4">
+		<AnimatePresence>
+			<motion.div
+				initial={{ opacity: 0, y: 15 }}
+				animate={{ opacity: 1, y: 0 }}
+				exit={{ opacity: 0, y: 15 }}
+				transition={{ delay: 0.25 }}
+			>
+				<section className="m-5">
+					<div className="m-5 lg:m-10 lg:w-1/4">
 						<p
 							className={`first-color font-third-color text-5xl p-1 bring-up`}
 						>
@@ -71,9 +70,9 @@ const Contact = () => {
 						<section className="mr-2 w-10 h-2 second-color m-auto rounded"></section>
 						<section className="mr-2 w-5 h-2 second-color m-auto rounded"></section>
 					</div>
-				</motion.div>
-			</AnimatePresence>
-		</>
+				</section>
+			</motion.div>
+		</AnimatePresence>
 	);
 };
 

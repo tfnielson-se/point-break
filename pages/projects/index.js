@@ -25,6 +25,7 @@ const Projects = () => {
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ delay: 0.25 }}
 			>
+                <section className="m-5">
                  <div className="m-5 lg:m-10 lg:w-1/4">
 						<p
 							className={`first-color font-third-color text-5xl p-1 bring-up`}
@@ -32,7 +33,7 @@ const Projects = () => {
 							Live Websites
 						</p>
 					</div>
-					<div className="my-10">
+					<div className="my-5">
 						{items.map((item) => (
 							<ProjectCard key={item.title} title={item.title} body={item.body} />
 						))}
@@ -65,6 +66,7 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
+                </section>
 			</motion.div>
 		</AnimatePresence>
 	);
