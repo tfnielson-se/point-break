@@ -11,7 +11,7 @@ const font = Cutive_Mono({
 const ServiceCard = ({ title, img, body }) => {
 	return (
 		<div
-			className={`bring-up max-w-md rounded-sm m-5`}
+			className={`bring-up max-w-md rounded-sm m-5 border-l-8 border-b-8 border-r-8`}
 		>
 			<div className="">
 				<h1 className="second-color text-3xl font-bold uppercase px-4 py-2">
@@ -21,7 +21,7 @@ const ServiceCard = ({ title, img, body }) => {
 						{title}
 					</strong>
 				</h1>
-				<p className={`font-second-colo mt-1 text-2xl tracking-wide px-4 py-2`}>
+				<p className={`font-second-colo mt-1 text-2xl tracking-wide px-4 py-2 `}>
 					{body}
 				</p>
 			</div>

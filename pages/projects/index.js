@@ -1,5 +1,5 @@
 "use client";
-
+import { VscGithub } from "react-icons/vsc";
 import { motion, AnimatePresence, Reorder } from "framer-motion";
 import ProjectCard from "../components/ProjectCard";
 import { useState } from "react";
@@ -44,12 +44,23 @@ const Projects = () => {
 						</p>
 						<ProjectCard
 							title={"TBD"}
-							body={"Coming soon... A river journal app"}
+							body={"Coming soon..."}
 						/>
 						{/* <ProjectCard
 							title={""}
 							body={""}
 						/> */}
+                    <div className="flex jusitfy-center font-first-color">
+							<VscGithub className="text-6xl m-5" />
+							{/* <span className="text-2xl">developer: </span> */}
+							<a
+								href="https://github.com/tfnielson-se"
+								className="text-2xl nav-btn m-auto mx-3"
+							>
+								{" "}
+								tfnielson-se
+							</a>
+						</div>
 					</div>
 				</div>
 			</motion.div>

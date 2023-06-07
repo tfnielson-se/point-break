@@ -26,23 +26,16 @@ const About = () => {
 						</p>
 					</div>
 					<div className="flex flex-row flex-wrap justify-around">
-						<div className="bring-up border-r- border-b- flex justify-center m-2 lg:m-5">
-							<div className=" max-w-3xl">
-								{/* <div className="h-5"></div> */}
+						<div className="bring-up border-8 flex justify-center m-1 my-5 lg:m-5 max-w-3xl">
 
-								<p className="font-fifth-color text-center bg-transparent text-5xl ;lg:text-6xl">
-									<strong className="fifth-color font-first-color p-2 tracking-widest">
-										point.break
-									</strong>
-								</p>
-
-								<div className="p-5">
-									<p className="px-2 third-color lg:w-2/3 my-5">
-										<strong className="text-3xl font-second-color py-1 px-3">
+								<div className="m-5">
+									<p className="third-color text-3xl font-second-color py-1 px-3 lg:w-2/3">
+										<strong className="">
 											OUR FOCUS
 										</strong>
 									</p>
-									<p className="m-2 text-2xl tracking-wide leading-normal text-left font-first-color">
+                                    <div>
+									<p className="text-2xl tracking-wide leading-relaxed text-left font-first-color p-3">
 										Our focus is to help businesses and
 										individuals achieve their goals through
 										the power of technology. We do this by
@@ -55,10 +48,10 @@ const About = () => {
 										the best possible service to our
 										clients.
 									</p>
-								</div>
+                                    </div>
 							</div>
 						</div>
-						<div className="flex justify-center m-auto my-10 max-w-xl bring-up w-full mx-3 border-8">
+						<div className="flex justify-left m-auto my-10 max-w-xl bring-up w-full mx-3 border-8">
 							<div className="">
 								<p className="text-3xl third-color px-2 m-5 font-second-color lg:w-2/3">
 									<strong className="p-1">STACKS</strong>
@@ -96,7 +89,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-wrap justify-around pb-3">
+					<div className="flex flex-wrap justify-around p-3">
 						<FaPython className="font-fifth-color text-6xl mx-1" />
 						<SiDjango className="font-fifth-color text-6xl mx-1" />
 						<SiElixir className="font-fifth-color text-6xl mx-1" />
