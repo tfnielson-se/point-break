@@ -25,17 +25,19 @@ const Projects = () => {
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ delay: 0.25 }}
 			>
-				<div className="flex flex-wrap">
-					<div className="m-5 lg:m-10">
+                 <div className="m-5 lg:m-10 lg:w-1/4">
 						<p
 							className={`first-color font-third-color text-5xl p-1 bring-up`}
 						>
 							Live Websites
 						</p>
+					</div>
+					<div className="my-10">
 						{items.map((item) => (
 							<ProjectCard key={item.title} title={item.title} body={item.body} />
 						))}
 					</div>
+				<div className="flex flex-wrap">
 					<div className="m-5 lg:m-10">
 						<p
 							className={`first-color font-third-color text-5xl p-1 bring-up`}
