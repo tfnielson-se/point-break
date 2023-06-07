@@ -3,14 +3,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Services = () => {
 	return (
-		<>
-			<AnimatePresence>
-				<motion.div
-					initial={{ opacity: 0, y: 15 }}
-					animate={{ opacity: 1, y: 0 }}
-					exit={{ opacity: 0, y: 15 }}
-					transition={{ delay: 0.25 }}
-				>
+		<AnimatePresence>
+			<motion.div
+				initial={{ opacity: 0, y: 15 }}
+				animate={{ opacity: 1, y: 0 }}
+				exit={{ opacity: 0, y: 15 }}
+				transition={{ delay: 0.25 }}
+			>
+				<section className="">
 					<div className="m-5 lg:m-10 lg:w-1/4">
 						<p
 							className={`first-color font-third-color text-5xl p-1 bring-up`}
@@ -34,7 +34,7 @@ const Services = () => {
 							}
 						/>
 					</div>
-					<div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8">
+					<div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 ">
 						<img
 							src="/servers2.jpg"
 							className="object-cover lg:h-96 w-full"
@@ -63,9 +63,9 @@ const Services = () => {
 							}
 						/> */}
 					</div>
-				</motion.div>
-			</AnimatePresence>
-		</>
+				</section>
+			</motion.div>
+		</AnimatePresence>
 	);
 };
 

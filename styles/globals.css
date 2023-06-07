@@ -7,6 +7,7 @@
     border-width: 1px;
     border-color: white;
     border-radius: 0.5em;
+    padding: 0.1em
 } */
 
 :root {
@@ -147,7 +148,9 @@
     background: #0092ca;
     color: #353535;
 }
-
+body {
+    color: #f1e7e7;
+}
 html {
 	/* transition: all 60s ease-in-out; */
 	height: 100vh;
