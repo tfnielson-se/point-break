@@ -9,6 +9,7 @@ const Projects = () => {
 		{
 			title: "TBWinder",
 			body: "Real Estate Investments",
+            url: "www.tbwinder.com/"
 		},
 		{
 			title: "Airio Pet Services",
@@ -40,6 +41,7 @@ const Projects = () => {
 									key={item.title}
 									title={item.title}
 									body={item.body}
+                                    url={item.url}
 								/>
 							))}
 						</div>
@@ -58,9 +60,8 @@ const Projects = () => {
 										title={"TBD"}
 										body={"Coming soon..."}
 									/>
-									<div className="flex jusitfy-center font-first-color">
+									{/* <div className="flex jusitfy-center font-first-color">
 										<VscGithub className="text-6xl m-5" />
-										{/* <span className="text-2xl">developer: </span> */}
 										<a
 											href="https://github.com/tfnielson-se"
 											className="text-2xl nav-btn m-auto mx-3"
@@ -68,7 +69,7 @@ const Projects = () => {
 											{" "}
 											tfnielson-se
 										</a>
-									</div>
+									</div> */}
 							</div>
 						</div>
 					</section>
