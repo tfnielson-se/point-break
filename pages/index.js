@@ -34,16 +34,16 @@ const Home = () => {
 						</div>
 						<div className="flex flex-row justify-around w-full">
 							<div>
-								<p className="font-fifth-color text-3xl lg:text-4xl my-1 second-colo px-3 italic border-4 ">
+								<p className="font-fifth-color text-3xl lg:text-4xl my-1 second-colo bring-up px-3 italic border-4 ">
 									Software Engineering
 								</p>
-								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic border-4 border-red-400 fifth-color">
+								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic">
 									Simple Creative Solutions
 								</p>
-								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic border-4 border-red-400 fifth-color">
-									Modern WebDesign
+								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic">
+									UX/UI WebDesign
 								</p>
-								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic border-4 border-red-400 fifth-color">
+								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic">
 									Business Software Architecture
 								</p>
 							</div>
@@ -51,13 +51,13 @@ const Home = () => {
 					</div>
 
 					<div className="hidden lg:block justify-around m-10 text-3xl font-first-color leading-loose">
-						<p className="fifth-color my-1 px-2 border-8 border-red-400 w-3/4">
+						<p className="my-1 px-2">
 							Business Software Architecture
 						</p>
-						<p className="fifth-color my-1 px-2 border-8 border-red-400 w-2/3">
+						<p className="my-1 px-2">
 							Simple Creative Solutions
 						</p>
-						<p className="fifth-color my-1 px-2 border-8 border-red-400 w-1/2">
+						<p className="my-1 px-2">
 							UX/UI WebDesign
 						</p>
 					</div>

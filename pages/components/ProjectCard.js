@@ -21,9 +21,12 @@ const ProjectCard = ({ title, url, body }) => {
 				<p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2">
 					{body}
 				</p>
-				<p className="font-third-color first-color text-2xl tracking-wide px-4 py-2">
+                <div className="first-color w-full py-1">
+				<a href={`${url}`}
+                 className="font-third-color firs-color text-2xl tracking-wide px-4">
 					url:{url ? url : "coming soon..."}
-				</p>
+				</a>
+                </div>
 			</div>
 
 			{/* <img className="object-cover" src={img} alt="service-image - veecteezy.com"/> */}
