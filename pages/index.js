@@ -2,11 +2,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 
 const Home = () => {
-	const slogans = [
-		"Simple Creative Solutions",
-		"Business Software Architecture",
-		"Simple Modern WebDesign",
-	];
 
 	return (
 		<>
@@ -54,12 +49,8 @@ const Home = () => {
 						<p className="my-1 px-2">
 							Business Software Architecture
 						</p>
-						<p className="my-1 px-2">
-							Simple Creative Solutions
-						</p>
-						<p className="my-1 px-2">
-							UX/UI WebDesign
-						</p>
+						<p className="my-1 px-2">Simple Creative Solutions</p>
+						<p className="my-1 px-2">UX/UI WebDesign</p>
 					</div>
 				</motion.div>
 			</AnimatePresence>

@@ -21,7 +21,7 @@ const ServiceCard = ({ title, img, body }) => {
 						{title}
 					</strong>
 				</h1>
-				<p className={`font-second-colo mt-1 text-2xl tracking-wide px-4 py-2 `}>
+				<p className={`mt-1 text-2xl tracking-wide px-4 py-2 `}>
 					{body}
 				</p>
 			</div>

@@ -54,7 +54,7 @@ const Contact = () => {
 							</a>
 						</div>
 					</div>
-					<div className=" flex justify around">
+					<div className="flex justify around">
 						{""}
 						<section className="ml-2 w-5 h-2 second-color m-auto rounded"></section>
 						<section className="ml-2 w-10 h-2 second-color m-auto rounded"></section>

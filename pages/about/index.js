@@ -57,15 +57,15 @@ const About = () => {
 									<strong className="p-1">STACKS</strong>
 								</p>
 								<div className="flex flex-wrap justify-center fifth-color mx-5">
-									<p className="text-2xl text-center fifth-color font-first-color tracking-wide leading-relaxed py-1 px-3 elixir-color">
-										{" "}
-										Elixir{" "}
+									<p className="text-2xl text-center fifth-color font-first-color tracking-wide leading-relaxed py-1 px-3 python-color">
+										Python{" "}
 									</p>
 									<p className="font-first-color my-auto">
 										|
 									</p>{" "}
-									<p className="text-2xl text-center fifth-color font-first-color tracking-wide leading-relaxed py-1 px-3 python-color">
-										Python{" "}
+									<p className="text-2xl text-center fifth-color font-first-color tracking-wide leading-relaxed py-1 px-3 elixir-color">
+										{" "}
+										Elixir{" "}
 									</p>
 									<p className="font-first-color my-auto">
 										|
