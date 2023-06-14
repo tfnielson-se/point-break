@@ -23,7 +23,7 @@ const ProjectCard = ({ title, url, body }) => {
 				</p>
                 <div className="first-color w-full py-1">
 				<a href={`${url}`}
-                 className="font-third-color firs-color text-2xl tracking-wide px-4">
+                 className="font-third-color text-2xl tracking-wide px-4">
 					url:{url ? url : "coming soon..."}
 				</a>
                 </div>

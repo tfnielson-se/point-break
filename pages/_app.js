@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
 			<main className={font.className}>
 				<Navbar />
                 <MobileNavbar />
-                <hr className="bg-orange-500"></hr>
+                <hr className=""></hr>
 					<Component {...pageProps} />
 			</main>
 		</>
