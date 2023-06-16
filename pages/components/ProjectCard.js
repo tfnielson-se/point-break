@@ -21,12 +21,16 @@ const ProjectCard = ({ title, url, body }) => {
 				<p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2">
 					{body}
 				</p>
-                <div className="first-color w-full py-1">
-				<a href={`${url}`}
-                 className="font-third-color text-2xl tracking-wide px-4">
-					url:{url ? url : "coming soon..."}
-				</a>
-                </div>
+				<div className="first-color w-full py-1">
+					<a
+						href={`${url}`}
+						className="font-third-color text-2xl tracking-wide px-2"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						url:{url ? "[view]" : "[coming soon...]"}
+					</a>
+				</div>
 			</div>
 
 			{/* <img className="object-cover" src={img} alt="service-image - veecteezy.com"/> */}

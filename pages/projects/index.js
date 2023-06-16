@@ -9,7 +9,7 @@ const Projects = () => {
 		{
 			title: "TBWinder",
 			body: "Real Estate Investments",
-            url: "www.tbwinder.com/"
+            url: "https://www.tbwinder.com/"
 		},
 		{
 			title: "Airio Pet Services",
@@ -57,8 +57,9 @@ const Projects = () => {
                                 </div>
 								<div className="lg:px-20">
 									<ProjectCard
-										title={"TBD"}
-										body={"Coming soon..."}
+										title={"CaféOle!"}
+										body={"Sample FrontEnd, SPA, REST API, Vite+React"}
+                                        url={"https://cafe-ole.vercel.app/"}
 									/>
 									{/* <div className="flex jusitfy-center font-first-color">
 										<VscGithub className="text-6xl m-5" />
