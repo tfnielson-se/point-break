@@ -75,6 +75,12 @@ const Projects = () => {
 						</div>
 					</section>
 				</section>
+                <div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 ">
+						<img
+							src="/texture.jpg"
+							className="object-cover lg:h-96 w-full"
+						/>
+					</div>
 			</motion.div>
 		</AnimatePresence>
 	);
