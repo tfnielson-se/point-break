@@ -2,7 +2,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 
 const Home = () => {
-
 	return (
 		<>
 			<AnimatePresence>
@@ -12,7 +11,7 @@ const Home = () => {
 					exit={{ opacity: 0, y: 15 }}
 					transition={{ delay: 0.25 }}
 				>
-					<div className="text-center my-10 lg:my-20">
+					<div className="text-center mt-10 lg:my-10">
 						<div className="hidden lg:block">
 							<p className="home-title text-center">
 								<strong className=" font-fifth-color pb-2 px-4 tracking-widest">
@@ -44,14 +43,23 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-
-					<div className="hidden lg:block justify-around m-10 text-3xl font-first-color leading-loose">
-						<p className="my-1 px-2">
-							Business Software Architecture
-						</p>
-						<p className="my-1 px-2">Simple Creative Solutions</p>
-						<p className="my-1 px-2">UX/UI WebDesign</p>
-					</div>
+					<section className="flex justify-between">
+						<div className="hidden lg:block justify-around m-auto text-3xl font-first-color leading-loose">
+							<p className="my-1 px-2">
+								Business Software Architecture
+							</p>
+							<p className="my-1 px-2">
+								Simple Creative Solutions
+							</p>
+							<p className="my-1 px-2">UX/UI WebDesign</p>
+						</div>
+						<div className="flex flex-wrap justify-center m-auto">
+							<img
+								src="/logo.png"
+								className="object-cover h-96"
+							/>
+						</div>
+					</section>
 				</motion.div>
 			</AnimatePresence>
 		</>
