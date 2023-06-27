@@ -23,7 +23,7 @@ const MobileNavbar = () => {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 15 }}
-            transition={{ delay: 0.25 }}
+            transition={{ ease: "easeInOut", delay: 0.25 }}
         >
 		<nav className="flex flex-col flex-around lg:hidden my-2 font-second-color">
 			<div className="flex flex-row justify-between">

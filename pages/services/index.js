@@ -23,7 +23,7 @@ const Services = () => {
 							title={"Software Development Solutions"}
 							img={"/coding.jpg"}
 							body={
-								"Fuel your project's success with our proficiency in Front End, Back End, and Full Stack Development. We employ state-of-the-art technologies to craft a tailored digital solution that precisely aligns with your requirements.."
+								"Fuel your project's success with our proficiency in Front End, Back End, and Full Stack Development. We employ state-of-the-art technologies to craft a tailored digital solution that precisely aligns with your requirements."
 							}
 						/>
 						<ServiceCard
@@ -31,6 +31,13 @@ const Services = () => {
 							img={"/seo.jpg"}
 							body={
 								"Maximize your business potential, streamline operations, enhance efficiency, and drive sustainable success in today's dynamic business environment with our expertise. Stay ahead and thrive in the ever-evolving market with our tailored solutions."
+							}
+						/>
+                        <ServiceCard
+							title={"AWS Solutions"}
+							img={"/creative.jpg"}
+							body={
+								"Unleash your business's potential with our AWS solutions. Experience seamless migration, scalable applications, and cost-efficiency. Trust our expertise for transformative success in the dynamic market."
 							}
 						/>
 					</div>
