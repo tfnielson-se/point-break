@@ -52,6 +52,7 @@ const Home = () => {
 								Simple Creative Solutions
 							</p>
 							<p className="my-1 px-2">UX/UI WebDesign</p>
+                            <p className="my-1 px-2">AWS Solutions</p>
 						</div>
 						<div className="flex flex-wrap justify-center m-auto">
 							<img
