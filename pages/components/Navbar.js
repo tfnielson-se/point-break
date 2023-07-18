@@ -18,7 +18,7 @@ const Navbar = () => {
 		<nav className="hidden lg:flex flex-around  py-2 fourth-color font-first-color">
 			<div className="">
 				<Link href="/">
-                        <img src="/logo_white.png" className="h-16 mx-5 second-color font-fifth-color"/>
+                        <img src="/logo_white.png" className="h-16 mx-5"/>
 					{/* <strong className="text-4xl mx-5 second-color font-fifth-color nav-btn">
 						{" "}
 						p.b{" "}

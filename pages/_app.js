@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
 				<MobileNavbar />
 				<hr className=""></hr>
 			</div>
-			<main className={`grow`}>
+			<main className={`min-h-screen grow`}>
 				<Component {...pageProps} />
 			</main>
 			<div className="flex-none">

@@ -21,9 +21,8 @@ const Contact = () => {
 						</p>
 					</div>
 					<div className="flex flex-wrap justify-around mx-10 my-10">
-						<div className="flex font-first-color">
+						{/* <div className="flex">
 							<VscGithub className="text-6xl my-2" />
-							{/* <span className="text-2xl">developer: </span> */}
 							<a
 								href="https://github.com/tfnielson-se"
 								className="text-2xl nav-btn m-auto mx-3"
@@ -31,19 +30,19 @@ const Contact = () => {
 								{" "}
 								tfnielson-se
 							</a>
-						</div>
-						<div className="flex font-first-color">
+						</div> */}
+						<div className="flex">
 							<FaLinkedin className="text-6xl my-2" />
 							<a
 								href="https://www.linkedin.com/company/pointbreak-dev/"
 								className="text-2xl nav-btn m-auto mx-3"
 							>
 								{" "}
-								point.break
+								Point Break
 							</a>
 						</div>
-						<div className="flex font-first-color">
-							<TfiEmail className="text-6xl my-2" />
+						<div className="flex">
+							<TfiEmail className="text-5xl lg:text-6xl my-2" />
 							{/* <span className="text-2xl">e-mail: </span> */}
 							<a
 								href="mailto: pointbreak.se@gmail.com"
@@ -61,10 +60,10 @@ const Contact = () => {
 						<section className="ml-2 w-20 h-2 second-color m-auto rounded"></section>
 						<section className="ml-2 w-40 h-2 second-color m-auto rounded"></section>
 
-						<section className="w-full h-2 third-color m-auto mx-5 rounded "></section>
-						<section className="w-1/4 h-2 second-color m-auto rounded"></section>
+						<section className="w-full h-2 fourth-color m-auto mx-5 rounded "></section>
+						<section className="w-1/4 h-2 first-color m-auto rounded"></section>
 
-						<section className="w-full h-2 third-color m-auto mx-5 rounded"></section>
+						<section className="w-full h-2 fourth-color m-auto mx-5 rounded"></section>
 						<section className="mr-2 w-40 h-2 second-color m-auto rounded"></section>
 						<section className="mr-2 w-20 h-2 second-color m-auto rounded"></section>
 						<section className="mr-2 w-10 h-2 second-color m-auto rounded"></section>

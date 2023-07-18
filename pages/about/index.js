@@ -19,9 +19,7 @@ const About = () => {
 			>
 				<section className="m-5">
 					<div className="m-5 rounded lg:m-10 lg:w-1/4">
-						<p
-							className={`first-color text-5xl p-1 bring-up`}
-						>
+						<p className={`first-color text-5xl p-1 bring-up`}>
 							About
 						</p>
 					</div>
@@ -38,12 +36,15 @@ const About = () => {
 										the power of technology. We do this by
 										building long-term relationships with
 										our clients, based on trust,
-										communication, and collaboration. Our
-										passion for technology and commitment to
-										excellence drives us to continuously
-										learn and innovate, in order to provide
-										the best possible service to our
-										clients.
+										communication, and collaboration.
+									</p>
+									<hr className="border-4 border-stone-600 w-2/3 text"></hr>
+									<p className="text-2xl tracking-wide leading-relaxed text-left p-3">
+										Our passion for technology and
+										commitment to excellence drives us to
+										continuously learn and innovate, in
+										order to provide the best possible
+										service to our clients.
 									</p>
 								</div>
 							</div>
@@ -73,7 +74,7 @@ const About = () => {
 									<p className="font-first-color my-auto">
 										|
 									</p>{" "}
-									<p className="text-2xl text-center second-color tracking-wide leading-relaxed py-1 px-3 react-color">
+									<p className="text-2xl text-center tracking-wide leading-relaxed py-1 px-3 react-color">
 										React.js{" "}
 									</p>
 								</div>

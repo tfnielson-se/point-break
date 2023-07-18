@@ -1,4 +1,7 @@
 import { Cutive_Mono } from "@next/font/google";
+import { VscGithub } from "react-icons/vsc";
+import { TfiEmail } from "react-icons/tfi";
+import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 const font = Cutive_Mono({
@@ -7,58 +10,66 @@ const font = Cutive_Mono({
 });
 const Footer = () => {
 	return (
-		<section className="pt-5">
-        <hr></hr>
+		<section className="mt-5 flex flex-wrap lg:flex-row justify-around fourth-color font-first-color">
 			<div
-				className={`${font.className} flex justify-around p-2 fourth-color font-first-color`}
+				className={`${font.className} flex flex-row justify-around p-2`}
 			>
-				<div className="mx-5 flex flex-col ">
+				<div className="lg:mx-5">
 					<h2 className="text-center">MENU</h2>
-                    <hr></hr>
-					<Link href="/" className="">
-						Home
-					</Link>
-					<Link href="/about" className="">
-						About
-					</Link>
-					<Link href="/projects" className="">
-						Projects
-					</Link>
-					<Link href="/services" className="">
-						Services
-					</Link>
-					<Link href="/contact" className="">
-						Contact
-					</Link>{" "}
+					<hr></hr>
+					<div className="flex flex-row">
+						<div className="flex flex-col">
+							<Link href="/" className="px-3">
+								Home
+							</Link>
+							<Link href="/about" className="px-3">
+								About
+							</Link>
+							<Link href="/projects" className="px-3">
+								Projects
+							</Link>
+						</div>
+						<div className="flex flex-col">
+							<Link href="/services" className="px-3">
+								Services
+							</Link>
+							<Link href="/contact" className="px-3">
+								Contact
+							</Link>{" "}
+						</div>
+					</div>
 				</div>
 				<div className="mx-5">
-					<h2 className="text-center">SERVICES</h2>
-                    <hr></hr>
-				</div>
-				<div className="mx-5 flex flex-col">
 					<h2 className="text-center">CONTACT</h2>
-                    <hr></hr>
-                    <a
-								href="https://github.com/tfnielson-se"
-								className=""
-							>
-								{" "}
-								tfnielson-se
-							</a>
-                            <a
+					<hr></hr>
+					<div className="flex">
+						<div className="flex flex-col">
+							<a
 								href="https://www.linkedin.com/company/pointbreak-dev/"
-								className=""
+								className="text-3xl m-auto mx-3"
 							>
 								{" "}
-								point.break
+								<FaLinkedin className="my-2" />
 							</a>
-                            <a
+						</div>
+						<div className="flex">
+							<a
 								href="mailto: pointbreak.se@gmail.com"
-								className=""
+								className="text-3xl m-auto mx-3"
 							>
 								{" "}
-								pointbreak.se@gmail.com
+								<TfiEmail className="my-2" />
 							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="flex justify-start my-auto p-2">
+				<hr></hr>
+				<img src="/logo_white.png" className="object-cover h-12 mx-5" />
+				<div className="flex flex-col text-center">
+					<p className="text-md">Point Break</p>
+					<p className="text-sm">Software Engineering LLC, 2023</p>
 				</div>
 			</div>
 		</section>

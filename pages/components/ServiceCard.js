@@ -14,7 +14,7 @@ const ServiceCard = ({ title, img, body }) => {
 			className={`bring-up max-w-sm rounded-sm m-5 border-l-8 border-b-8 border-r-8 border-stone-900`}
 		>
 			<div className="">
-				<h1 className="second-color text-3xl font-bold uppercase px-4 py-2">
+				<h1 className="first-color text-3xl font-bold uppercase px-4 py-2">
 					<strong
 						className={`px-2 ${font.className} font-fifth-color`}
 					>
