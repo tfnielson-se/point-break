@@ -23,14 +23,14 @@ const Services = () => {
 							title={"Software Development Solutions"}
 							img={"/coding.jpg"}
 							body={
-								"Fuel your project's success with our proficiency in Front End, Back End, and Full Stack Development. We employ state-of-the-art technologies to craft a tailored digital solution that precisely aligns with your requirements."
+								"Fuel your project's success with our proficiency in Front End, Back End, and Full Stack Development. We employ cutting-edge technologies to craft a tailored solution that precisely aligns with your requirements."
 							}
 						/>
 						<ServiceCard
 							title={"Business Software Architecture"}
 							img={"/seo.jpg"}
 							body={
-								"Maximize your business potential, streamline operations, enhance efficiency, and drive sustainable success in today's dynamic business environment with our expertise. Stay ahead and thrive in the ever-evolving market with our tailored solutions."
+								"Maximize your business potential, streamline operations, enhance efficiency, and drive sustainable success in today's dynamic business environment with our expertise. Stay ahead and thrive in the ever-evolving market."
 							}
 						/>
                         <ServiceCard
@@ -41,9 +41,9 @@ const Services = () => {
 							}
 						/>
 					</div>
-					<div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 ">
+					<div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 border-stone-900">
 						<img
-							src="/servers2.jpg"
+							src="/servers.jpg"
 							className="object-cover lg:h-96 w-full"
 						/>
 					</div>
@@ -52,7 +52,7 @@ const Services = () => {
 							title={"Mobile Development"}
 							img={"/mobile.jpg"}
 							body={
-								"Reach the full potential of your mobile presence with our expert mobile development services, ensuring seamless user experiences and unparalleled success."
+								"Reach the full potential of your mobile presence with our expert mobile development services, ensuring seamless user experiences and unparalleled success approaching every project with a mobile-first focus."
 							}
 						/>
 						<ServiceCard

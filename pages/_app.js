@@ -3,6 +3,7 @@ import { Rajdhani } from "@next/font/google";
 import { Share_Tech_Mono } from "@next/font/google";
 import Navbar from "./components/Navbar";
 import MobileNavbar from "./components/MobileNavbar";
+import Footer from "./components/Footer";
 
 // const font = Rajdhani({
 // 	subsets: ["latin"],
@@ -17,13 +18,18 @@ const font = Share_Tech_Mono({
 
 export default function App({ Component, pageProps }) {
 	return (
-		<>
-			<main className={font.className}>
+		<section className={`${font.className} flex flex-col`}>
+			<div className="flex-none">
 				<Navbar />
-                <MobileNavbar />
-                <hr className=""></hr>
-					<Component {...pageProps} />
+				<MobileNavbar />
+				<hr className=""></hr>
+			</div>
+			<main className={`min-h-screen grow`}>
+				<Component {...pageProps} />
 			</main>
-		</>
+			<div className="flex-none">
+				<Footer />
+			</div>
+		</section>
 	);
 }

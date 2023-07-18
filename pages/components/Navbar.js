@@ -15,22 +15,20 @@ const Navbar = () => {
             exit={{ opacity: 0, y: 15 }}
             transition={{ delay: 0.25 }}
         >
-		<nav className="hidden lg:flex flex-around my-2">
+		<nav className="hidden lg:flex flex-around  py-2 fourth-color font-first-color">
 			<div className="">
 				<Link href="/">
-					<strong className="text-4xl mx-5 second-color font-fifth-color nav-btn">
+                        <img src="/logo_white.png" className="h-16 mx-5"/>
+					{/* <strong className="text-4xl mx-5 second-color font-fifth-color nav-btn">
 						{" "}
 						p.b{" "}
-					</strong>
-					{/* <h3 className="text-sm ml-6 pt-1">
-						Software Engineering & Development
-					</h3> */}
+					</strong> */}
 				</Link>
 			</div>
 			<div
-				className={`${font.className} w-full flex flex-row justify-around m-auto text-2xl font-second-color`}
+				className={`${font.className} w-full flex flex-row justify-around m-auto text-2xl font-first-color`}
 			>
-				<Link href="/" className="nav-btn px-1">
+				<Link href="/" className="nav-btn">
 					Home
 				</Link>
 				<span> | </span>
