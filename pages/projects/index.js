@@ -8,13 +8,13 @@ const Projects = () => {
 	const projList = [
 		{
 			title: "TBWinder",
-			body: "Real Estate Investments",
+			body: "Real Estate Investments Company Rebranding and Website Design.",
             url: "https://www.tbwinder.com/"
 		},
-		{
-			title: "Airio Pet Services",
-			body: "Dog Walking and Pet Care Services",
-		},
+		// {
+		// 	title: "Airio Pet Services",
+		// 	body: "Dog Walking and Pet Care Services",
+		// },
 	];
 	const [items, setItems] = useState(projList);
 
@@ -32,7 +32,7 @@ const Projects = () => {
 							<p
 								className={`first-color font-third-color text-5xl p-1 bring-up`}
 							>
-								Live Websites
+								Websites
 							</p>
 						</div>
 						<div className="lg:px-20">
@@ -47,38 +47,28 @@ const Projects = () => {
 						</div>
 					</section>
 					<section>
-							<div className="flex flex-col m-5 lg:m-10">
-                                <div className="">
+							<section className="">
+                                <div className="m-5 lg:m-10 lg:w-2/3">
 								<p
 									className={`first-color font-third-color text-5xl p-1 bring-up`}
 								>
-									Own Projects
+									Our Work
 								</p>
                                 </div>
 								<div className="lg:px-20">
 									<ProjectCard
-										title={"CaféOle!"}
-										body={"Sample FrontEnd, SPA, REST API, Vite+React"}
-                                        url={"https://cafe-ole.vercel.app/"}
+										title={"Kahilla"}
+										body={"AWS Solutions: IAM, S3, RDS, Lambda, CloudWatch"}
+                                        url={"https://www.kahilla.com/"}
 									/>
-									{/* <div className="flex jusitfy-center font-first-color">
-										<VscGithub className="text-6xl m-5" />
-										<a
-											href="https://github.com/tfnielson-se"
-											className="text-2xl nav-btn m-auto mx-3"
-										>
-											{" "}
-											tfnielson-se
-										</a>
-									</div> */}
 							</div>
-						</div>
+						</section>
 					</section>
 				</section>
-                <div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 ">
+                <div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 border-stone-900 rounded">
 						<img
 							src="/texture.jpg"
-							className="object-cover lg:h-96 w-full"
+							className="object-cover w-full"
 						/>
 					</div>
 			</motion.div>

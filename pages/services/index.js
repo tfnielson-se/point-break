@@ -41,9 +41,9 @@ const Services = () => {
 							}
 						/>
 					</div>
-					<div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 ">
+					<div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 border-stone-900">
 						<img
-							src="/servers2.jpg"
+							src="/servers.jpg"
 							className="object-cover lg:h-96 w-full"
 						/>
 					</div>

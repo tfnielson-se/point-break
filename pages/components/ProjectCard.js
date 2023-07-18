@@ -8,16 +8,19 @@ const font = Cutive_Mono({
 const ProjectCard = ({ title, url, body }) => {
 	return (
 		<div
-			className={`bring-up max-w-md rounded-sm m-5 border-l-8 border-b-8 border-r-8`}
+			className={`bring-up max-w-lg rounded-sm m-5 border-l-8 border-b-8 border-r-8 border-stone-900`}
 		>
 			<div className="">
 				<h1 className="fifth-color text-3xl font-bold uppercase px-4 py-2">
 					<strong
-						className={`px-2 ${font.className} font-second-color`}
+						className={`px-2 ${font.className} first-color rounded`}
 					>
 						{title}
 					</strong>
 				</h1>
+                <p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2 underline">
+					Project Scope:
+				</p>
 				<p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2">
 					{body}
 				</p>
