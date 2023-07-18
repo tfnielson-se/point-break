@@ -23,21 +23,21 @@ const Services = () => {
 							title={"Software Development Solutions"}
 							img={"/coding.jpg"}
 							body={
-								"Fuel your project's success with our proficiency in Front End, Back End, and Full Stack Development. We employ cutting-edge technologies to craft a tailored solution that precisely aligns with your requirements."
+								"Front End, Back End, and Full Stack Development. We employ cutting-edge technologies to craft a tailored solution that precisely aligns with your requirements."
 							}
 						/>
 						<ServiceCard
 							title={"Business Software Architecture"}
 							img={"/seo.jpg"}
 							body={
-								"Maximize your business potential, streamline operations, enhance efficiency, and drive sustainable success in today's dynamic business environment with our expertise. Stay ahead and thrive in the ever-evolving market."
+								"Maximize your business potential, streamline operations, enhance efficiency, and drive sustainable success with a Software tailored and thought for your business."
 							}
 						/>
                         <ServiceCard
 							title={"AWS Solutions"}
 							img={"/creative.jpg"}
 							body={
-								"Unleash your business's potential with our AWS solutions. Experience seamless migration, scalable applications, and cost-efficiency. Trust our expertise for transformative success in the dynamic market."
+								"IAM, S3, EC2, RDS, Custom Python Scripting, Database Management and Data Analysis. Experience seamless migration, scalable applications, and cost-efficiency."
 							}
 						/>
 					</div>
@@ -52,14 +52,14 @@ const Services = () => {
 							title={"Mobile Development"}
 							img={"/mobile.jpg"}
 							body={
-								"Reach the full potential of your mobile presence with our expert mobile development services, ensuring seamless user experiences and unparalleled success approaching every project with a mobile-first focus."
+								"Seamless user experiences, unparalleled success approaching every project with a mobile-first focus."
 							}
 						/>
 						<ServiceCard
 							title={"Web Design"}
 							img={"/creative.jpg"}
 							body={
-								"Translate your concepts into reality and cultivate a unique user experience with our professional web design services. Our team is dedicated to transforming your ideas into a captivating website that sets you apart."
+								"Provide unique user experience with our professional web design services. Our team is dedicated to transforming your ideas into a captivating website that sets you apart."
 							}
 						/>
 						{/* <ServiceCard
