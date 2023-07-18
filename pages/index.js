@@ -15,7 +15,7 @@ const Home = () => {
 						<div className="hidden lg:block">
 							<p className="home-title text-center">
 								<strong className=" font-fourth-color pb-2 px-4 tracking-widest">
-									point.break
+									Point.Break
 								</strong>
 							</p>
 						</div>
