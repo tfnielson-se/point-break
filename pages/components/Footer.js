@@ -10,7 +10,7 @@ const Footer = () => {
 		<section className="pt-5">
         <hr></hr>
 			<div
-				className={`${font.className} flex justify-around p-2`}
+				className={`${font.className} flex justify-around p-2 fourth-color font-first-color`}
 			>
 				<div className="mx-5 flex flex-col ">
 					<h2 className="text-center">MENU</h2>
@@ -35,7 +35,7 @@ const Footer = () => {
 					<h2 className="text-center">SERVICES</h2>
                     <hr></hr>
 				</div>
-				<div className="mx-5 flex flex-col jus">
+				<div className="mx-5 flex flex-col">
 					<h2 className="text-center">CONTACT</h2>
                     <hr></hr>
                     <a

@@ -15,7 +15,7 @@ const Navbar = () => {
             exit={{ opacity: 0, y: 15 }}
             transition={{ delay: 0.25 }}
         >
-		<nav className="hidden lg:flex flex-around my-2">
+		<nav className="hidden lg:flex flex-around  py-2 fourth-color font-first-color">
 			<div className="">
 				<Link href="/">
 					<strong className="text-4xl mx-5 second-color font-fifth-color nav-btn">
@@ -28,7 +28,7 @@ const Navbar = () => {
 				</Link>
 			</div>
 			<div
-				className={`${font.className} w-full flex flex-row justify-around m-auto text-2xl font-second-color`}
+				className={`${font.className} w-full flex flex-row justify-around m-auto text-2xl font-first-color`}
 			>
 				<Link href="/" className="nav-btn px-1">
 					Home

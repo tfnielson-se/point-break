@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Cutive_Mono } from "@next/font/google";
 import { motion, AnimatePresence } from "framer-motion";
+import {GrMenu} from 'react-icons/gr'
 
 const font = Cutive_Mono({
 	subsets: ["latin"],
@@ -33,16 +34,11 @@ const MobileNavbar = () => {
 				<div className={`font-fifth-color mx-5 ${font.className}`}>
 					<button
 						onClick={openMenu}
-						className={`flex flex-col text-5xl ${
-							hideMenu ? "second-color font-second-color" : "third-color font-fifth-color"
-						} p-1.5 border-4 border-purple-900`}
+						className={`flex flex-col text-5xl p-1.5`}
 					>
 						{" "}
-						{"💾"}
+						<GrMenu/>
 						{""}
-						<span className="text-sm m-auto third-color w-full">
-							MENU
-						</span>
 					</button>
 				</div>
 			</div>

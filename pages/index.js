@@ -14,37 +14,37 @@ const Home = () => {
 					<div className="text-center mt-10 lg:my-10">
 						<div className="hidden lg:block">
 							<p className="home-title text-center">
-								<strong className=" font-fifth-color pb-2 px-4 tracking-widest">
+								<strong className=" font-fourth-color pb-2 px-4 tracking-widest">
 									point.break
 								</strong>
 							</p>
 						</div>
 						<div className="lg:hidden">
 							<p className="home-title text-center text-2xl pb-8 my-5">
-								<strong className="text-5xl font-fifth-color px-4 tracking-widest">
+								<strong className="text-5xl font-fourth-color px-4 tracking-widest">
 									point.break
 								</strong>
 							</p>
 						</div>
 						<div className="flex flex-row justify-around w-full">
 							<div>
-								<p className="font-fifth-color text-3xl lg:text-4xl my-1 second-colo bring-up px-3 italic border-4 ">
+								<p className="font-fourth-color text-3xl lg:text-4xl my-1 bring-up px-3 italic border-4">
 									Software Engineering
 								</p>
-								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic">
+								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
 									Simple Creative Solutions
 								</p>
-								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic">
+								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
 									UX/UI WebDesign
 								</p>
-								<p className="lg:hidden font-first-color text-2xl my-5 px-3 italic">
+								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
 									Business Software Architecture
 								</p>
 							</div>
 						</div>
 					</div>
 					<section className="flex justify-between">
-						<div className="hidden lg:block justify-around m-auto text-3xl font-first-color leading-loose">
+						<div className="hidden lg:block justify-around m-auto text-3xl leading-loose">
 							<p className="my-1 px-2">
 								Business Software Architecture
 							</p>
