@@ -26,15 +26,17 @@ const MobileNavbar = () => {
             exit={{ opacity: 0, y: 15 }}
             transition={{ ease: "easeInOut", delay: 0.25 }}
         >
-		<nav className="flex flex-col flex-around lg:hidden my-2 font-second-color">
+		<nav className="flex flex-col flex-around lg:hidden py-2 fourth-color">
 			<div className="flex flex-row justify-between">
-				<p className="text-6xl mx-5 second-color font-fifth-color m-auto p-2 nav-btn">
-					<Link href="/"> p.b </Link>
+                    
+				<p className="text-6xl mx-5 second-color font-fifth-color m-auto p-2">
+					<Link href="/"> <img src='/logo_white.png' className="object-cover h-20"/>
+                    </Link>
 				</p>
-				<div className={`font-fifth-color mx-5 ${font.className}`}>
+				<div className={`font-first-color mx-5 my-auto ${font.className}`}>
 					<button
 						onClick={openMenu}
-						className={`flex flex-col text-5xl p-1.5`}
+						className={`flex flex-col text-5xl first-color rounded p-1.5`}
 					>
 						{" "}
 						<GrMenu/>
@@ -45,7 +47,7 @@ const MobileNavbar = () => {
 
 			{hideMenu ? null : (
 				<div
-					className={`w-full flex flex-col justify-around fifth-color p-2 m-auto text-4xl ${font.className}`}
+					className={`w-full flex flex-col justify-around font-first-color p-2 m-auto text-4xl ${font.className}`}
 				>
 					<Link href="/" className="nav-btn" onClick={closeMenu}>
 						<p>Home</p>

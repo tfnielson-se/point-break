@@ -22,13 +22,13 @@ const Home = () => {
 						<div className="lg:hidden">
 							<p className="home-title text-center text-2xl pb-8 my-5">
 								<strong className="text-5xl font-fourth-color px-4 tracking-widest">
-									point.break
+									Point.Break
 								</strong>
 							</p>
 						</div>
 						<div className="flex flex-row justify-around w-full">
 							<div>
-								<p className="font-fourth-color text-3xl lg:text-4xl my-1 bring-up px-3 italic border-4">
+								<p className="font-fourth-color text-3xl lg:text-4xl my-1 bring-up px-3 italic border-4 border-stone-900">
 									Software Engineering
 								</p>
 								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
