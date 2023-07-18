@@ -24,6 +24,10 @@
 	}
 }
 
+.main-div {
+    height: 100vh;
+}
+
 .home-title {
 	font-size: 10em;
     background: rgb(151,203,169);
