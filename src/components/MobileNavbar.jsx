@@ -13,69 +13,37 @@ const MobileNavbar = () => {
 	return (
 		<AnimatePresence>
 			<motion.div
+				key={"navbar"}
 				initial={{ opacity: 0, x: -15 }}
 				animate={{ opacity: 1, x: -0 }}
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ ease: "easeInOut", delay: 0.1 }}
 			>
-				<nav className="lg:hidden first-color">
-					<div className="flex flex-row justify-between fourth-color py-2">
-						<div className="w-1/3 text-6xl mx-5 m-auto p-2">
+				<nav className="lg:hidden">
+					<div className="flex flex-row fourth-color py-2">
+						<div className="w-1/3 text-6xl p-2">
 							<a href="/" onClick={openMenu}>
 								{" "}
 								<img
 									src="/logo_white.png"
-									className="object-cover h-20"
+									className="object-cover m-auto h-20"
 								/>
 							</a>
 						</div>
-						<div className="flex w-1/3 m-auto">
+						<div className="w-1/3 m-auto text-center">
 							<p className="font-first-color md:text-3xl">
 								Software Engineering
 							</p>
 						</div>
-						<div className={`font-first-color mx-5 my-auto`}>
-							{hideMenu ? (
-								<AnimatePresence>
-									<motion.div
-										key={0}
-										initial={{ opacity: 0 }}
-										animate={{ opacity: 1 }}
-										transition={{
-											duration: 2,
-										}}
-									>
-										<button
-											onClick={openMenu}
-											className={`flex flex-col text-5xl first-color rounded p-1.5`}
-										>
-											{" "}
-											<GrMenu />
-											{""}
-										</button>
-									</motion.div>
-								</AnimatePresence>
-							) : (
-								<AnimatePresence>
-									<motion.div
-										key={1}
-										initial={{ opacity: 0 }}
-										animate={{ opacity: 1 }}
-										transition={{
-											duration: 2,
-										}}
-									>
-										<button
-											onClick={openMenu}
-											className={`flex flex-col text-5xl first-color rounded p-1.5`}
-										>
-											{" "}
-											<GrClose />
-											{""}
-										</button>
-									</motion.div>
-								</AnimatePresence>
-							)}
+						<div className={" w-1/4 flex justify-center"}>
+							<button
+								onClick={openMenu}
+								className="rounded p-1.5 text-5xl"
+>
+										{ hideMenu ? <GrMenu className="first-color rounded p-2 text-5xl" /> : <GrClose className="first-color rounded p-2 text-5xl"/>}
+				
+								{""}
+							</button>
 						</div>
 					</div>
 
