@@ -1,39 +1,34 @@
-import { Cutive_Mono } from "@next/font/google";
 import { VscGithub } from "react-icons/vsc";
 import { TfiEmail } from "react-icons/tfi";
 import { FaLinkedin } from "react-icons/fa";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
-const font = Cutive_Mono({
-	subsets: ["latin"],
-	weight: "400",
-});
 const Footer = () => {
 	return (
 		<section className="mt-5 flex flex-wrap lg:flex-row justify-around fourth-color font-first-color">
 			<div
-				className={`${font.className} flex flex-row justify-around p-2`}
+				className={`cutive-mono flex flex-row justify-around p-2 w-2/3`}
 			>
 				<div className="lg:mx-5">
 					<h2 className="text-center">MENU</h2>
 					<hr></hr>
 					<div className="flex flex-row">
 						<div className="flex flex-col">
-							<Link href="/" className="px-3">
+							<Link to="/" className="px-3">
 								Home
 							</Link>
-							<Link href="/about" className="px-3">
+							<Link to="/about" className="px-3">
 								About
 							</Link>
-							<Link href="/projects" className="px-3">
+							<Link to="/projects" className="px-3">
 								Projects
 							</Link>
 						</div>
 						<div className="flex flex-col">
-							<Link href="/services" className="px-3">
+							<Link to="/services" className="px-3">
 								Services
 							</Link>
-							<Link href="/contact" className="px-3">
+							<Link to="/contact" className="px-3">
 								Contact
 							</Link>{" "}
 						</div>
@@ -45,7 +40,7 @@ const Footer = () => {
 					<div className="flex">
 						<div className="flex flex-col">
 							<a
-								href="https://www.linkedin.com/company/pointbreak-dev/"
+								to="https://www.linkedin.com/company/pointbreak-dev/"
 								className="text-3xl m-auto mx-3"
 							>
 								{" "}
@@ -54,7 +49,7 @@ const Footer = () => {
 						</div>
 						<div className="flex">
 							<a
-								href="mailto: pointbreak.se@gmail.com"
+								to="mailto: pointbreak.se@gmail.com"
 								className="text-3xl m-auto mx-3"
 							>
 								{" "}

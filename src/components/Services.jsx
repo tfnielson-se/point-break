@@ -23,14 +23,14 @@ const Services = () => {
 							title={"Software Development Solutions"}
 							img={"/coding.jpg"}
 							body={
-								"Front End, Back End, and Full Stack Development. We employ cutting-edge technologies to craft a tailored solution that precisely aligns with your requirements."
+								"Front End, Back End, and Full Stack Development. We employ cutting-edge technologies to craft a tailored solution that precisely aligns with your vision."
 							}
 						/>
 						<ServiceCard
 							title={"Business Software Architecture"}
 							img={"/seo.jpg"}
 							body={
-								"Maximize your business potential, streamline operations, enhance efficiency, and drive sustainable success with a Software tailored and thought for your business."
+								"Maximize your business potential, streamline operations, enhance efficiency, and drive sustainable success with a Software thought for your business."
 							}
 						/>
                         <ServiceCard

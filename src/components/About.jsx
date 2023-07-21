@@ -5,7 +5,8 @@ import { FaPhoenixFramework } from "react-icons/fa";
 import { SiRubyonrails } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
+import {FaAws} from "react-icons/fa";
+import {BiLogoPostgresql} from "react-icons/bi";
 import { motion, AnimatePresence } from "framer-motion";
 
 const About = () => {
@@ -38,7 +39,7 @@ const About = () => {
 										our clients, based on trust,
 										communication, and collaboration.
 									</p>
-									<hr className="border-4 border-stone-600 w-2/3 text"></hr>
+									<hr className="border-4 second-color w-2/3 text"></hr>
 									<p className="text-2xl tracking-wide leading-relaxed text-left p-3">
 										Our passion for technology and
 										commitment to excellence drives us to
@@ -52,7 +53,7 @@ const About = () => {
 						<div className="flex justify-left m-auto my-10 max-w-xl bring-up w-full mx-3 border-8 border-stone-900 rounded">
 							<div className="">
 								<p className="text-3xl first-color rounded px-2 m-5 lg:w-2/3">
-									<strong className="p-1">STACKS</strong>
+									<strong className="p-1">RESOURCES</strong>
 								</p>
 								<div className="flex flex-wrap justify-center fifth-color mx-5">
 									<p className="text-2xl text-center tracking-wide leading-relaxed py-1 px-3 python-color">
@@ -77,6 +78,18 @@ const About = () => {
 									<p className="text-2xl text-center tracking-wide leading-relaxed py-1 px-3 react-color">
 										React.js{" "}
 									</p>
+                                    <p className="font-first-color my-auto">
+										|
+									</p>{" "}
+									<p className="text-2xl text-center tracking-wide leading-relaxed py-1 px-3 aws-color">
+										AWS{" "}
+									</p>
+                                    <p className="font-first-color my-auto">
+										|
+									</p>{" "}
+									<p className="text-2xl text-center tracking-wide leading-relaxed py-1 px-3 sql-color">
+										PostgreSQL{" "}
+									</p>
 								</div>
 								<p className="text-2xl text-left p-3 m-2 tracking-wide leading-relaxed">
 									We utilize cutting-edge technologies that
@@ -88,14 +101,15 @@ const About = () => {
 						</div>
 					</div>
 					<div className="flex flex-wrap justify-around p-3">
-						<FaPython className="font-fifth-color text-6xl mx-1" />
-						<SiDjango className="font-fifth-color text-6xl mx-1" />
-						<SiElixir className="font-fifth-color text-6xl mx-1" />
-						<FaPhoenixFramework className="font-fifth-color text-6xl mx-1" />
-						<SiRubyonrails className="font-fifth-color text-6xl mx-1" />
-						<SiJavascript className="font-fifth-color text-6xl mx-1" />
-						<SiReact className="font-fifth-color text-6xl mx-1" />
-						<SiNextdotjs className="font-fifth-color text-6xl mx-1" />
+						<FaPython className="font-fifth-color text-6xl mx-1 my-2" />
+						{/* <SiDjango className="font-fifth-color text-6xl mx-1 my-2" /> */}
+						<SiElixir className="font-fifth-color text-6xl mx-1 my-2" />
+						{/* <FaPhoenixFramework className="font-fifth-color text-6xl mx-1 my-2" /> */}
+						<SiRubyonrails className="font-fifth-color text-6xl mx-1 my-2" />
+						{/* <SiJavascript className="font-fifth-color text-6xl mx-1 my-2" /> */}
+						<SiReact className="font-fifth-color text-6xl mx-1 my-2" />
+						<FaAws className="font-fifth-color text-6xl mx-1 my-2" />
+                        <BiLogoPostgresql className="font-fifth-color text-6xl mx-1 my-2" />
 					</div>
 				</section>
 			</motion.div>

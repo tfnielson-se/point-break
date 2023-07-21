@@ -1,4 +1,3 @@
-// [<0>]
 import { motion, AnimatePresence } from "framer-motion";
 
 const Home = () => {
@@ -46,10 +45,10 @@ const Home = () => {
 					<section className="flex justify-between">
 						<div className="hidden lg:block justify-around m-auto text-3xl leading-loose">
 							<p className="my-1 px-2">
-								Business Software Architecture
+								Simple Creative Solutions
 							</p>
 							<p className="my-1 px-2">
-								Simple Creative Solutions
+								Business Software Architecture
 							</p>
 							<p className="my-1 px-2">UX/UI WebDesign</p>
                             <p className="my-1 px-2">AWS Solutions</p>

@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,24 +11,13 @@
     padding: 0.1rem
 } */
 
-:root {
-	--foreground-rgb: 0, 0, 0;
-	--background-start-rgb: 214, 219, 220;
-	--background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-schreme: dark) {
-	:root {
-		--foreground-rgb: 255, 255, 255;
-		--background-start-rgb: 0, 0, 0;
-		--background-end-rgb: 0, 0, 0;
-	}
-}
 
 html {
 	/* transition: all 60s ease-in-out; */
 	height: 100vh;
     background: rgb(228, 228, 228);
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
 
 	/* background-color: #97cba9; */
 }
@@ -35,6 +25,14 @@ html {
 body {
 	color: #020205;
 }
+
+.cutive-mono {
+	font-family: "Cutive Mono", monospace;
+}
+.sharetech-mono {
+	font-family: "Share Tech Mono", monospace;
+}
+
 .main-div {
     height: 100vh;
 }
@@ -103,7 +101,8 @@ body {
     transition: all 0.5s ease-in-out;
 }
 .ruby-color:hover {
-    background: #dc2f2f;
+    color: #d31d1d;
+    background: #ffffff
 }
 
 .react-color {
@@ -113,6 +112,24 @@ body {
 .react-color:hover {
     background: #0092ca;
     color: #353535;
+}
+
+.aws-color {
+    border-radius: .25rem;
+    transition: all 0.5s ease-in-out;
+}
+.aws-color:hover {
+    background: #1e2850;
+    color: #e28154;
+}
+
+.sql-color {
+    border-radius: .25rem;
+    transition: all 0.5s ease-in-out;
+}
+.sql-color:hover {
+    background: #3d51a2;
+    color: #d1cfcf;
 }
 
 /* COLORS */
@@ -127,7 +144,9 @@ body {
 
 .second-color { 
 	background: #ff5f5f;
+    border-color: #ff5f5f;
 }
+
 
 .fourth-color { 
 	background: #020205; 
