@@ -1,9 +1,3 @@
-import { Cutive_Mono } from "@next/font/google";
-
-const font = Cutive_Mono({
-	subsets: ["latin"],
-	weight: "400",
-});
 
 const ProjectCard = ({ title, url, body }) => {
 	return (
@@ -13,7 +7,7 @@ const ProjectCard = ({ title, url, body }) => {
 			<div className="">
 				<h1 className="fifth-color text-3xl font-bold uppercase px-4 py-2">
 					<strong
-						className={`px-2 ${font.className} first-color rounded`}
+						className={`px-2 cutive-mono first-color rounded`}
 					>
 						{title}
 					</strong>

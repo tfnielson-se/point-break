@@ -1,4 +1,3 @@
-"use client";
 import { VscGithub } from "react-icons/vsc";
 import { motion, AnimatePresence, Reorder } from "framer-motion";
 import ProjectCard from "../components/ProjectCard";
@@ -8,13 +7,14 @@ const Projects = () => {
 	const projList = [
 		{
 			title: "TBWinder",
-			body: "Real Estate Investments Company Rebranding and Website Design.",
+			body: "Phase 1: Real Estate Investments Company Rebranding and Front-End Website Redesign.",
             url: "https://www.tbwinder.com/"
 		},
-		// {
-		// 	title: "Airio Pet Services",
-		// 	body: "Dog Walking and Pet Care Services",
-		// },
+		{
+			title: "TBWinder",
+			body: "Phase 2: Business Software Development, Data Analytic Dashboard, AWS Setup",
+            url: "https://www.tbwinder.com/"
+		},
 	];
 	const [items, setItems] = useState(projList);
 
@@ -32,7 +32,7 @@ const Projects = () => {
 							<p
 								className={`first-color font-third-color text-5xl p-1 bring-up`}
 							>
-								Websites
+								Development
 							</p>
 						</div>
 						<div className="lg:px-20">
@@ -52,13 +52,13 @@ const Projects = () => {
 								<p
 									className={`first-color font-third-color text-5xl p-1 bring-up`}
 								>
-									Our Work
+Solutions
 								</p>
                                 </div>
 								<div className="lg:px-20">
 									<ProjectCard
 										title={"Kahilla"}
-										body={"AWS Solutions: IAM, S3, RDS, Lambda, CloudWatch"}
+										body={"AWS Solutions: IAM, S3, RDS, Lambda, CloudWatch, PostgreSQL"}
                                         url={"https://www.kahilla.com/"}
 									/>
 							</div>
