@@ -22,11 +22,11 @@ function App() {
 			</div>
 			<main className={`min-h-screen grow`}>
 				<Routes>
-					<Route exact path="/" element={<Home />} />
-                    <Route exact path="/about" element={<About />} />
-                    <Route exact path="/projects" element={<Projects />} />
-                    <Route exact path="/services" element={<Services />} />
-                    <Route exact path="/contact" element={<Contact />} />
+					<Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/services" element={<Services />} />
+                    <Route path="/contact" element={<Contact />} />
 				</Routes>
 			</main>
 			<div className="flex-none">
