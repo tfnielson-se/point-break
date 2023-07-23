@@ -8,7 +8,6 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import Projects from "./components/Projects";
 
 const router = createBrowserRouter([
 	{
