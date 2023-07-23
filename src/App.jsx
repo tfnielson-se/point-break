@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+
 	return (
 		<section className={`flex flex-col`}>
 			<div className="flex-none">
@@ -21,12 +22,11 @@ function App() {
 			</div>
 			<main className={`min-h-screen grow`}>
 				<Routes>
-					<Route exact path="/" element={<Home />}>
-						<Route exact path="about" element={<About />} />
-						<Route exact path="projects" element={<Projects />} />
-						<Route exact path="services" element={<Services />} />
-						<Route exact path="contact" element={<Contact />} />
-					</Route>
+					<Route exact path="/" element={<Home />} />
+                    <Route exact path="/about" element={<About />} />
+                    <Route exact path="/projects" element={<Projects />} />
+                    <Route exact path="/services" element={<Services />} />
+                    <Route exact path="/contact" element={<Contact />} />
 				</Routes>
 			</main>
 			<div className="flex-none">
