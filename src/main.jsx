@@ -19,19 +19,19 @@ const router = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: "about",
+				path: "/about",
 				element: <About />,
 			},
 			{
-				path: "projects",
+				path: "/projects",
 				element: <Projects />,
 			},
             {
-				path: "services",
+				path: "/services",
 				element: <Services />,
 			},
             {
-				path: "contact",
+				path: "/contact",
 				element: <Contact />,
 			},
 		],
@@ -39,5 +39,5 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-	<RouterProvider router={router} fallbackElement={<Home />}/>
+	<RouterProvider router={router} />
 );
