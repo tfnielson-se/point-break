@@ -56,7 +56,7 @@ const Home = () => {
 						</div>
 						<div className="flex flex-wrap justify-center m-auto">
 							<img
-								src="/logo.png"
+								src="/logo-white-bg.png"
 								className="object-cover h-96"
 							/>
 						</div>
