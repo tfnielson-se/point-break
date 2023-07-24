@@ -1,3 +1,4 @@
+"use client"
 import { FaPython } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
 import { SiElixir } from "react-icons/si";
@@ -8,6 +9,13 @@ import { SiReact } from "react-icons/si";
 import {FaAws} from "react-icons/fa";
 import {BiLogoPostgresql} from "react-icons/bi";
 import { motion, AnimatePresence } from "framer-motion";
+import { Cutive_Mono } from "next/font/google"
+
+const font = Cutive_Mono({
+	subsets: ["latin"],
+	weight: "400",
+});
+
 
 const About = () => {
 	return (
@@ -27,8 +35,8 @@ const About = () => {
 					<div className="flex flex-row flex-wrap justify-around">
 						<div className="bring-up border-8 border-stone-900 flex justify-center m-1 my-5 lg:m-5 max-w-3xl">
 							<div className="m-5">
-								<p className="text-3xl first-color rounded py-1 px-3 lg:w-2/3">
-									<strong className="">OUR FOCUS</strong>
+								<p className="text-4xl first-color rounded py-1 px-3 lg:w-2/3">
+									<strong className={`${font.className}`}>OUR FOCUS</strong>
 								</p>
 								<div>
 									<p className="text-2xl tracking-wide leading-relaxed text-left p-3">
@@ -52,8 +60,8 @@ const About = () => {
 						</div>
 						<div className="flex justify-left m-auto my-10 max-w-xl bring-up w-full mx-3 border-8 border-stone-900 rounded">
 							<div className="">
-								<p className="text-3xl first-color rounded px-2 m-5 lg:w-2/3">
-									<strong className="p-1">RESOURCES</strong>
+								<p className="text-4xl first-color rounded px-2 m-5 lg:w-2/3">
+									<strong className={`p-1 ${font.className}`}>RESOURCES</strong>
 								</p>
 								<div className="flex flex-wrap justify-center fifth-color mx-5">
 									<p className="text-2xl text-center tracking-wide leading-relaxed py-1 px-3 python-color">

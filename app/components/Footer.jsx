@@ -1,7 +1,8 @@
+'use client'
 import { VscGithub } from "react-icons/vsc";
 import { TfiEmail } from "react-icons/tfi";
 import { FaLinkedin } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Footer = () => {
 	return (
@@ -14,21 +15,21 @@ const Footer = () => {
 					<hr></hr>
 					<div className="flex flex-row">
 						<div className="flex flex-col">
-							<Link to="/" className="px-3">
+							<Link href="/" className="px-3">
 								Home
 							</Link>
-							<Link to="/about" className="px-3">
+							<Link href="/about" className="px-3">
 								About
 							</Link>
-							<Link to="/projects" className="px-3">
+							<Link href="/projects" className="px-3">
 								Projects
 							</Link>
 						</div>
 						<div className="flex flex-col">
-							<Link to="/services" className="px-3">
+							<Link href="/services" className="px-3">
 								Services
 							</Link>
-							<Link to="/contact" className="px-3">
+							<Link href="/contact" className="px-3">
 								Contact
 							</Link>{" "}
 						</div>

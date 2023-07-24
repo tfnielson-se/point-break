@@ -1,8 +1,15 @@
-import { Link } from "react-router-dom";
+"use client"
+import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { GrMenu } from "react-icons/gr";
 import { GrClose } from "react-icons/gr";
+import { Cutive_Mono } from "next/font/google"
+
+const font = Cutive_Mono({
+	subsets: ["latin"],
+	weight: "400",
+});
 
 const MobileNavbar = () => {
 	const [hideMenu, setHideMenu] = useState(true);
@@ -64,39 +71,39 @@ const MobileNavbar = () => {
 										ease: "easeInOut",
 										delay: 0.5,
 									}}
-									className={`w-full flex flex-col justify-around font-first-color p-2 m-auto text-4xl cutive-mono`}
+									className={`${font.className} w-full flex flex-col justify-around font-first-color p-2 m-auto text-4xl`}
 								>
 									<Link
-										to="/"
+										href="/"
 										className="nav-btn my-5"
 										onClick={openMenu}
 									>
-										<p>Home</p>
+										Home
 									</Link>
 
 									<Link
-										to="/about"
+										href="/about"
 										className="nav-btn my-5"
 										onClick={openMenu}
 									>
 										About
 									</Link>
 									<Link
-										to="/projects"
+										href="/projects"
 										className="nav-btn my-5"
 										onClick={openMenu}
 									>
 										Projects
 									</Link>
 									<Link
-										to="/services"
+										href="/services"
 										className="nav-btn my-5"
 										onClick={openMenu}
 									>
 										Services
 									</Link>
 									<Link
-										to="/contact"
+										href="/contact"
 										className="nav-btn my-5"
 										onClick={openMenu}
 									>

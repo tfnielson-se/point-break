@@ -1,3 +1,4 @@
+"use client"
 import { VscGithub } from "react-icons/vsc";
 import { TfiEmail } from "react-icons/tfi";
 import { FaLinkedin } from "react-icons/fa";
@@ -68,6 +69,38 @@ const Contact = () => {
 						<section className="mr-2 w-20 h-2 second-color m-auto rounded"></section>
 						<section className="mr-2 w-10 h-2 second-color m-auto rounded"></section>
 						<section className="mr-2 w-5 h-2 second-color m-auto rounded"></section>
+					</div>
+                    <div className="flex justify around my-10">
+						{""}
+						<section className="ml-2 w-5 h-2 first-color m-auto rounded"></section>
+						<section className="ml-2 w-10 h-2 first-color m-auto rounded"></section>
+						<section className="ml-2 w-20 h-2 first-color m-auto rounded"></section>
+						<section className="ml-2 w-40 h-2 first-color m-auto rounded"></section>
+
+						<section className="w-full h-2 second-color m-auto mx-5 rounded "></section>
+						<section className="w-1/4 h-2 fourth-color m-auto rounded"></section>
+
+						<section className="w-full h-2 second-color m-auto mx-5 rounded"></section>
+						<section className="mr-2 w-40 h-2 first-color m-auto rounded"></section>
+						<section className="mr-2 w-20 h-2 first-color m-auto rounded"></section>
+						<section className="mr-2 w-10 h-2 first-color m-auto rounded"></section>
+						<section className="mr-2 w-5 h-2 first-color m-auto rounded"></section>
+					</div>
+                    <div className="flex justify around">
+						{""}
+						<section className="ml-2 w-5 h-2 fourth-color m-auto rounded"></section>
+						<section className="ml-2 w-10 h-2 fourth-color m-auto rounded"></section>
+						<section className="ml-2 w-20 h-2 fourth-color m-auto rounded"></section>
+						<section className="ml-2 w-40 h-2 fourth-color m-auto rounded"></section>
+
+						<section className="w-full h-2 first-color m-auto mx-5 rounded "></section>
+						<section className="w-1/4 h-2 second-color m-auto rounded"></section>
+
+						<section className="w-full h-2 first-color m-auto mx-5 rounded"></section>
+						<section className="mr-2 w-40 h-2 fourth-color m-auto rounded"></section>
+						<section className="mr-2 w-20 h-2 fourth-color m-auto rounded"></section>
+						<section className="mr-2 w-10 h-2 fourth-color m-auto rounded"></section>
+						<section className="mr-2 w-5 h-2 fourth-color m-auto rounded"></section>
 					</div>
 				</section>
 			</motion.div>
