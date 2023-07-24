@@ -9,7 +9,7 @@ const Projects = () => {
 		{
 			title: "TBWinder",
 			body: "Phase 1: Real Estate Investments Company Rebranding and Front-End Website Redesign.",
-            body2: "Phase 2: Business Software Development, Data Analytic Dashboard, AWS Setup",
+            // body2: "Phase 2: Business Software Development, Data Analytic Dashboard, AWS Setup",
             url: "https://www.tbwinder.com/"
 		},
 	];
