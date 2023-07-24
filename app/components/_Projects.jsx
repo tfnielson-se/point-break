@@ -1,6 +1,7 @@
+"use client"
 import { VscGithub } from "react-icons/vsc";
 import { motion, AnimatePresence, Reorder } from "framer-motion";
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "./ProjectCard";
 import { useState } from "react";
 
 const Projects = () => {
@@ -8,11 +9,7 @@ const Projects = () => {
 		{
 			title: "TBWinder",
 			body: "Phase 1: Real Estate Investments Company Rebranding and Front-End Website Redesign.",
-            url: "https://www.tbwinder.com/"
-		},
-		{
-			title: "TBWinder",
-			body: "Phase 2: Business Software Development, Data Analytic Dashboard, AWS Setup",
+            body2: "Phase 2: Business Software Development, Data Analytic Dashboard, AWS Setup",
             url: "https://www.tbwinder.com/"
 		},
 	];
@@ -41,6 +38,7 @@ const Projects = () => {
 									key={item.title}
 									title={item.title}
 									body={item.body}
+                                    body2={item.body2}
                                     url={item.url}
 								/>
 							))}
@@ -59,7 +57,7 @@ Solutions
 									<ProjectCard
 										title={"Kahilla"}
 										body={"AWS Solutions: IAM, S3, RDS, Lambda, CloudWatch, PostgreSQL"}
-                                        url={"https://www.kahilla.com/"}
+                                        // url={"https://www.kahilla.com/"}
 									/>
 							</div>
 						</section>

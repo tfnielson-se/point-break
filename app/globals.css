@@ -17,7 +17,6 @@ html {
 	height: 100vh;
     background: rgb(228, 228, 228);
     font-family: "Share Tech Mono", monospace;
-    font-weight: 400;
 
 	/* background-color: #97cba9; */
 }
@@ -147,6 +146,9 @@ body {
     border-color: #ff5f5f;
 }
 
+.font-second-color { 
+    color: #ff5f5f;
+}
 
 .fourth-color { 
 	background: #020205; 
