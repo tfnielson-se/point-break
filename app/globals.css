@@ -10,20 +10,22 @@
     border-radius: 0.5rem;
     padding: 0.1rem
 } */
-
+:root {
+    background: linear-gradient(#02020554, rgb(228, 228, 228), rgb(255, 255, 255));
+}
 
 html {
 	/* transition: all 60s ease-in-out; */
-	height: 100vh;
+
     background: rgb(228, 228, 228);
     font-family: "Share Tech Mono", monospace;
-
-	/* background-color: #97cba9; */
 }
 
 body {
 	color: #020205;
 }
+
+
 
 .cutive-mono {
 	font-family: "Cutive Mono", monospace;

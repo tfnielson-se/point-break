@@ -7,13 +7,14 @@ import Footer from "./components/Footer";
 const font = Share_Tech_Mono({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-	title: "Point Break S.E.",
+	title: "Point.Break - Software Engineering",
 	description: "Simple Creative Solutions",
 };
 
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+            <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
 			<body className={font.className}>
             <section className={`${font.className} flex flex-col`}>
 			<div className="flex-none">
