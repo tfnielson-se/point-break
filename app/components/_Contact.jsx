@@ -13,7 +13,7 @@ const Contact = () => {
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ delay: 0.25 }}
 			>
-				<section className="m-5">
+				<section className="m-5 min-h-screen">
 					<div className="m-5 lg:m-10 lg:w-1/4">
 						<p
 							className={`first-color font-third-color text-5xl p-1 bring-up`}
@@ -50,7 +50,7 @@ const Contact = () => {
 								className="text-2xl nav-btn m-auto mx-3"
 							>
 								{" "}
-								pointbreak.se@gmail.com
+								pbse.io
 							</a>
 						</div>
 					</div>

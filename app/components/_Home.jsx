@@ -28,18 +28,18 @@ const Home = () => {
 						</div>
 						<div className="flex flex-row justify-around w-full">
 							<div>
-								<p className="font-fourth-color text-3xl lg:text-4xl my-1 bring-up px-3 italic border-4 border-stone-900">
+								<p className="font-fourth-color text-2xl lg:text-4xl my-1 bring-up px-3 italic border-4 border-stone-900">
 									Software Engineering
 								</p>
 								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
 									Simple Creative Solutions
 								</p>
-								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
-									UX/UI WebDesign
-								</p>
-								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
+								{/* <p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
 									Business Software Architecture
 								</p>
+								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
+									UX/UI WebDesign
+								</p> */}
 							</div>
 						</div>
 					</div>

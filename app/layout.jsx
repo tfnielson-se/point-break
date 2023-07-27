@@ -1,13 +1,14 @@
 import "./globals.css";
 import { Share_Tech_Mono } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import Navbar from "./components/Navbar";
 import MobileNavbar from "./components/MobileNavbar";
 import Footer from "./components/Footer";
 
-const font = Share_Tech_Mono({ subsets: ["latin"], weight: "400" });
+const font = JetBrains_Mono({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-	title: "Point.Break - Software Engineering",
+	title: "Point Break - Software Engineering",
 	description: "Simple Creative Solutions",
 };
 

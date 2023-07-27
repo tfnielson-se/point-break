@@ -9,9 +9,9 @@ import { SiReact } from "react-icons/si";
 import {FaAws} from "react-icons/fa";
 import {BiLogoPostgresql} from "react-icons/bi";
 import { motion, AnimatePresence } from "framer-motion";
-import { Cutive_Mono } from "next/font/google"
+import { Share_Tech_Mono } from "next/font/google"
 
-const font = Cutive_Mono({
+const font = Share_Tech_Mono({
 	subsets: ["latin"],
 	weight: "400",
 });

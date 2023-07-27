@@ -14,11 +14,15 @@
     background: linear-gradient(#02020554, rgb(228, 228, 228), rgb(255, 255, 255));
 }
 
+.bg {
+    background: linear-gradient(#02020554, rgb(228, 228, 228), rgb(255, 255, 255));
+}
+
 html {
 	/* transition: all 60s ease-in-out; */
 
     background: rgb(228, 228, 228);
-    font-family: "Share Tech Mono", monospace;
+    /* font-family: "Jet", monospace; */
 }
 
 body {
