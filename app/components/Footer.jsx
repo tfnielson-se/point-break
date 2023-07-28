@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
 	return (
-		<section className="mt-5 flex flex-wrap lg:flex-row justify-around fourth-color font-first-color">
+		<section className="mt-5 flex flex-wrap lg:flex-row justify-around fourth-color font-first-color bg-footer">
 			<div
 				className={`cutive-mono flex flex-row justify-around p-2 w-2/3`}
 			>

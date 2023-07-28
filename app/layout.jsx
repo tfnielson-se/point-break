@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en">
+		<html lang="en" className="min-h-screen">
             <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
 			<body className={font.className}>
             <section className={`${font.className} flex flex-col`}>
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 				<MobileNavbar />
 				<hr className=""></hr>
 			</div>
-			<main className={`min-h-screen grow`}>
+			<main className={`grow`}>
 				{children}
 			</main>
 			<div className="flex-none">

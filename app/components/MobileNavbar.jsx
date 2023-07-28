@@ -39,7 +39,7 @@ const MobileNavbar = () => {
 						</div>
 						<div className="w-1/3 m-auto text-center">
 							<p className="font-first-color md:text-3xl">
-								Software Engineering
+								point.break
 							</p>
 						</div>
 						<div className={" w-1/4 flex justify-center"}>

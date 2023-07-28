@@ -21,7 +21,7 @@ const ServiceCard = ({
 }) => {
 	return (
 		<div
-			className={`min-h-screen w-full flex flex-col justify-around text-center first-color my-5 py-5`}
+			className={`min-h-screen w-full lg:w-1/2 flex flex-col justify-around text-center first-color my-5 py-5 lg:border-x-8`}
 		>
 			<div className="">
 				<div>
@@ -59,24 +59,6 @@ const ServiceCard = ({
 					<li className="py-2">{li3}</li>
 					<li className="py-2">{li4}</li>
 				</ol>
-			</div>
-			<div className="flex flex-col justify-center">
-				{client1 ? (
-					<div className="flex justify-center my-2 rounded">
-						<Image
-							src={client1}
-							width={300}
-							height={300}
-							alt={"logo"}
-							className="rounded"
-						/>
-					</div>
-				) : null}
-				{client1 ? (
-					<div className="my-2">
-						<h2 className="underline">Clients</h2>
-					</div>
-				) : null}
 			</div>
 		</div>
 	);

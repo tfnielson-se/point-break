@@ -11,27 +11,27 @@ const Home = () => {
 					exit={{ opacity: 0, y: 15 }}
 					transition={{ delay: 0.25 }}
 				>
-					<div className="text-center mt-10 lg:my-10">
+					<div className="text-center lg:my-10">
 						<div className="hidden lg:block">
 							<p className="home-title text-center">
-								<strong className=" font-fourth-color pb-2 px-4 tracking-widest">
+								<strong className=" font-fourth-color px-4 tracking-widest">
 									Point.Break
 								</strong>
 							</p>
 						</div>
 						<div className="lg:hidden">
-							<p className="home-title text-center text-2xl pb-8 my-5">
-								<strong className="text-5xl font-fourth-color px-4 tracking-widest">
-									Point.Break
+							<p className="home-title text-center text-2xl">
+								<strong className="text-5xl font-fourth-color tracking-widest">
+									point.break
 								</strong>
 							</p>
+								<p className="lg:hidden font-fourth-color text-xl my-5 px-3 italic">
+									Software Engineering
+								</p>
 						</div>
 						<div className="flex flex-row justify-around w-full">
 							<div>
-								<p className="font-fourth-color text-2xl lg:text-4xl my-1 bring-up px-3 italic border-4 border-stone-900">
-									Software Engineering
-								</p>
-								<p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
+								<p className="font-fourth-color text-2xl lg:text-4xl my-1 bring-up px-2 italic border-4 border-stone-900">
 									Simple Creative Solutions
 								</p>
 								{/* <p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">
@@ -46,7 +46,7 @@ const Home = () => {
 					<section className="flex justify-between">
 						<div className="hidden lg:block justify-around m-auto text-3xl leading-loose">
 							<p className="my-1 px-2">
-								Simple Creative Solutions
+								Software Engineering
 							</p>
 							<p className="my-1 px-2">
 								Business Software Architecture

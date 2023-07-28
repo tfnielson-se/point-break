@@ -47,23 +47,22 @@ const Services = () => {
                             icon2={<MdAccessibility/>}
                             icon3={<BiWorld/>}
                             li1={"Mobile First"}
-                            li2={"ADA Compliant"}
+                            li2={"Responsive"}
                             li3={"Multilingual Accessibility"}
-                            li4={"Responsive"}
+                            li4={"ADA Compliant"}
                             client1={'/tbWinder_black_high-res.png'}
 							body={
 								"Seamless user experiences, unparalleled success."
 							}
 						/>
 					</div>
-					<div className="flex flex-wrap justify-center font-fifth-color lg:m-5 text-5xl lg:text-6xl shadow-xl border-y-8 lg:border-8 border-stone-900">
+					<div className="flex flex-wrap justify-center shadow-xl ">
 						<img
-							src="/servers.jpg"
-							className="object-cover lg:h-96 w-full"
+							src="/plan.jpg"
+							className="object-cover lg:h-96 w-full "
 						/>
 					</div>
 					<div className="flex flex-wrap justify-around">
-						
                         <ServiceCard
 							title={"Data Analytics"}
                             icon1={<MdOutlineDataset/>}
@@ -91,6 +90,12 @@ const Services = () => {
 							body={
 								"Experience seamless migration, scalable applications, and cost-efficiency."
 							}
+						/>
+					</div>
+                    <div className="flex flex-wrap justify-center shadow-xl ">
+						<img
+							src="/servers.jpg"
+							className="object-cover lg:h-96 w-full"
 						/>
 					</div>
 				</section>
