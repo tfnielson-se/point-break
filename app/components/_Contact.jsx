@@ -46,11 +46,11 @@ const Contact = () => {
 							<TfiEmail className="text-5xl lg:text-6xl my-2" />
 							{/* <span className="text-2xl">e-mail: </span> */}
 							<a
-								href="mailto: pointbreak.se@gmail.com"
+								href="mailto: thomas.nielson@pbse.io"
 								className="text-2xl nav-btn m-auto mx-3"
 							>
 								{" "}
-								pbse.io
+								@pbse.io
 							</a>
 						</div>
 					</div>

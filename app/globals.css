@@ -6,7 +6,7 @@
 /* DEBUG */
 /* div {
     border-width: 1px;
-    border-color: white;
+    border-color: rgb(244, 87, 87);
     border-radius: 0.5rem;
     padding: 0.1rem
 } */
@@ -23,7 +23,7 @@
 html {
 	/* transition: all 60s ease-in-out; */
 
-    background: rgb(228, 228, 228);
+    /* background: rgb(228, 228, 228); */
     /* font-family: "Jet", monospace; */
 }
 
@@ -51,19 +51,11 @@ body {
 /* HOVERS */
 .nav-btn {
     padding: 0.2rem;
-    border-radius: 0.25rem;
 	transition: all 0.5s ease-in-out;
 }
 .nav-btn:hover {
-	/* background: #bbe9db; */
-	padding-right: 0.5rem;
-	padding-left: 0.3rem;
 	opacity: 100%;
-	filter: drop-shadow(0 30px 15px rgba(0, 0, 0, 0.288))
-		drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-	box-shadow: 4px 4px 0px 0px #ff5f5f;
-    background: white;
-    color: black
+	box-shadow: 0px 4px 0px 0px #ff5f5f;
 }
 
 .bring-up {

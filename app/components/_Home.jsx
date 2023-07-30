@@ -1,5 +1,12 @@
 "use client"
 import { motion, AnimatePresence } from "framer-motion";
+import { Share_Tech_Mono } from "next/font/google";
+
+const share_tech = Share_Tech_Mono({
+	subsets: ["latin"],
+	weight: "400",
+});
+
 
 const Home = () => {
 	return (
@@ -14,8 +21,8 @@ const Home = () => {
 					<div className="text-center lg:my-10">
 						<div className="hidden lg:block">
 							<p className="home-title text-center">
-								<strong className=" font-fourth-color px-4 tracking-widest">
-									Point.Break
+								<strong className={`${share_tech.className} font-fourth-color px-4 tracking-widest`}>
+									point.break
 								</strong>
 							</p>
 						</div>
@@ -31,7 +38,7 @@ const Home = () => {
 						</div>
 						<div className="flex flex-row justify-around w-full">
 							<div>
-								<p className="font-fourth-color text-2xl lg:text-4xl my-1 bring-up px-2 italic border-4 border-stone-900">
+								<p className="font-fourth-color text-2xl lg:text-4xl my-1 px-2 italic">
 									Simple Creative Solutions
 								</p>
 								{/* <p className="lg:hidden font-fourth-color text-2xl my-5 px-3 italic">

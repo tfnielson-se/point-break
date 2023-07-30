@@ -27,19 +27,22 @@ const MobileNavbar = () => {
 				transition={{ ease: "easeInOut", delay: 0.1 }}
 			>
 				<nav className="lg:hidden">
-					<div className="flex flex-row fourth-color py-2">
+					<div className="flex flex-row first-color py-2">
 						<div className="w-1/3 text-6xl p-2">
 							<a href="/" onClick={openMenu}>
 								{" "}
 								<img
-									src="/logo_white.png"
+									src="/logo.png"
 									className="object-cover m-auto h-20"
 								/>
 							</a>
 						</div>
 						<div className="w-1/3 m-auto text-center">
-							<p className="font-first-color md:text-3xl">
+							<p className=" text-xl md:text-3xl">
 								point.break
+							</p>
+                            <p className="text-xs md:text-xl rounded-2xl">
+								software engineering
 							</p>
 						</div>
 						<div className={" w-1/4 flex justify-center"}>
@@ -61,7 +64,7 @@ const MobileNavbar = () => {
 								animate={{ opacity: 1, y: -0 }}
 								exit={{ opacity: 0, y: 15 }}
 								transition={{ ease: "easeInOut", delay: 0.1 }}
-								className="fourth-color border-t-8"
+								className="first-color border-y-8"
 							>
 								<motion.div
 									initial={{ opacity: 0, x: -15 }}
@@ -71,11 +74,11 @@ const MobileNavbar = () => {
 										ease: "easeInOut",
 										delay: 0.5,
 									}}
-									className={`${font.className} w-full flex flex-col justify-around font-first-color p-2 m-auto text-4xl`}
+									className={`${font.className} w-full flex flex-col justify-end p-2 m-auto text-4xl text-right`}
 								>
 									<Link
 										href="/"
-										className="nav-btn my-5"
+										className="my-5"
 										onClick={openMenu}
 									>
 										Home
@@ -83,28 +86,28 @@ const MobileNavbar = () => {
 
 									<Link
 										href="/about"
-										className="nav-btn my-5"
+										className="my-5"
 										onClick={openMenu}
 									>
 										About
 									</Link>
 									<Link
 										href="/projects"
-										className="nav-btn my-5"
+										className="my-5"
 										onClick={openMenu}
 									>
 										Projects
 									</Link>
 									<Link
 										href="/services"
-										className="nav-btn my-5"
+										className="my-5"
 										onClick={openMenu}
 									>
 										Services
 									</Link>
 									<Link
 										href="/contact"
-										className="nav-btn my-5"
+										className="my-5"
 										onClick={openMenu}
 									>
 										Contact
