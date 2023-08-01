@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Cutive_Mono } from "next/font/google";
+import { Inconsolata } from "next/font/google";
 import { Share_Tech_Mono } from "next/font/google";
 
-const font = Cutive_Mono({
+const font = Inconsolata({
 	subsets: ["latin"],
 	weight: "400",
 });

@@ -21,11 +21,10 @@ const Services = () => {
 				<section className="">
 					<div className="m-5 lg:m-10 lg:w-1/4">
 						<p
-							className={`first-color font-third-color text-5xl p-1 bring-up`}
+							className={`first-color text-5xl p-1 bring-up`}
 						>
 							Services
 						</p>
-                        
 					</div>
 					<div className="flex flex-wrap justify-around">
 						<ServiceCard
@@ -41,7 +40,12 @@ const Services = () => {
 							body={
 								"Tailored solutions that precisely aligns with your vision."
 							}
-						/><ServiceCard
+						/>
+                        <img
+							src="/webdev.jpg"
+							className="object-cover lg:w-1/2 lg:h-96 m-auto rounded-2xl shadow-xl"
+						/>
+                        {/* <ServiceCard
 							title={"UX/UI"}
                             icon1={<MdMobileFriendly/>}
                             icon2={<MdAccessibility/>}
@@ -54,12 +58,16 @@ const Services = () => {
 							body={
 								"Seamless user experiences, unparalleled success."
 							}
-						/>
+						/> */}
 					</div>
-					<div className="flex flex-wrap justify-center shadow-xl ">
-						<img
-							src="/plan.jpg"
-							className="object-cover lg:h-96 w-full "
+					<div className="flex flex-wrap justify-around">
+						{/* <img
+							src="/webdev.jpg"
+							className="object-cover lg:w-1/2 lg:h-96 m-3 rounded-2xl shadow-xl"
+						/> */}
+                        <img
+							src="/data.jpg"
+							className="object-cover lg:w-1/3 lg:h-96 m-3 rounded-2xl shadow-xl border-4 border-blue-400"
 						/>
 					</div>
 					<div className="flex flex-wrap justify-around">

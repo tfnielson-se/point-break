@@ -1,14 +1,19 @@
 'use client'
-import { VscGithub } from "react-icons/vsc";
+import { Inconsolata } from "next/font/google";
 import { TfiEmail } from "react-icons/tfi";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+
+const font = Inconsolata({
+	subsets: ["latin"],
+	weight: "400",
+});
 
 const Footer = () => {
 	return (
 		<section className="mt-5 flex flex-wrap lg:flex-row justify-around fourth-color font-first-color bg-footer">
 			<div
-				className={`cutive-mono flex flex-row justify-around p-2 w-2/3`}
+				className={`${font.className} flex flex-row justify-around p-2 w-2/3`}
 			>
 				<div className="lg:mx-5">
 					<h2 className="text-center">MENU</h2>
@@ -64,7 +69,7 @@ const Footer = () => {
 				<hr></hr>
 				<img src="/logo_white.png" className="object-cover h-12 mx-5" />
 				<div className="flex flex-col text-center">
-					<p className="text-md">Point Break</p>
+					<p className="text-md">point.break</p>
 					<p className="text-sm">Software Engineering LLC, 2023</p>
 				</div>
 			</div>

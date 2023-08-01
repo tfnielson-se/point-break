@@ -1,7 +1,7 @@
-import { Share_Tech_Mono } from "next/font/google";
+import { Miriam_Libre } from "next/font/google";
 import Image from "next/image";
 
-const font = Share_Tech_Mono({
+const font = Miriam_Libre({
 	subsets: ["latin"],
 	weight: "400",
 });
@@ -21,17 +21,17 @@ const ServiceCard = ({
 }) => {
 	return (
 		<div
-			className={`min-h-screen w-full lg:w-1/2 flex flex-col justify-around text-center first-color my-5 py-5 lg:border-x-8`}
+			className={`min-h-half max-w-xl flex flex-col justify-around text-center first-color border-4 border-green-400 my-5 py-5 rounded-xl shadow-xl`}
 		>
 			<div className="">
 				<div>
-					<h1 className="text-5xl lg:text-6xl">
+					<h1 className="text-3xl lg:text-4xl">
 						<strong className={`${font.className}`}>{title}</strong>
 					</h1>
 				</div>
 				<div className="flex flex-wrap justify-center my-5">
 					<p
-						className={`text-2xl tracking-wide px-4 py-1`}
+						className={`text-lg tracking-wide px-4 py-1`}
 					>
 						{body}
 					</p>
@@ -53,7 +53,7 @@ const ServiceCard = ({
 				</p>
 			</div>
 			<div>
-				<ol className="underline text-2xl tracking-wide px-10 lg:px-10 py-2">
+				<ol className="underline text-xl tracking-wide px-10 lg:px-10 py-2">
 					<li className="py-2">{li1}</li>
 					<li className="py-2">{li2}</li>
 					<li className="py-2">{li3}</li>

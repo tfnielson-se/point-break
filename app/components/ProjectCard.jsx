@@ -1,6 +1,6 @@
-import { Cutive_Mono } from "next/font/google"
+import { Inconsolata } from "next/font/google"
 
-const font = Cutive_Mono({
+const font = Inconsolata({
 	subsets: ["latin"],
 	weight: "400",
 });
@@ -29,7 +29,7 @@ const ProjectCard = ({ title, url, body, body2 }) => {
 				<div className="w-full py-1 px-4">
 					<a
 						href={`${url}`}
-						className="text-2xl tracking-wide px-2 nav-btn second-color p-3 rounded-2xl"
+						className="text-2xl tracking-wide px-2 nav-btn p-3 rounded-2xl"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
