@@ -1,0 +1,102 @@
+"use client";
+import { VscGithub } from "react-icons/vsc";
+import { motion, AnimatePresence, Reorder } from "framer-motion";
+import ProjectCard from "./ProjectCard";
+import { useState } from "react";
+
+const Customers = () => {
+	const projList = [
+		{
+			title: "TBWinder",
+			body: "Real Estate Investments Company Rebranding and Front-End Website Redesign.",
+			// body2: "Phase 2: Business Software Development, Data Analytic Dashboard, AWS Setup",
+			url: "https://www.tbwinder.com/",
+		},
+	];
+	const [items, setItems] = useState(projList);
+
+	return (
+		<AnimatePresence>
+			<motion.div
+				initial={{ opacity: 0, y: 15 }}
+				animate={{ opacity: 1, y: 0 }}
+				exit={{ opacity: 0, y: 15 }}
+				transition={{ delay: 0.25 }}
+				className="projects-bg"
+			>
+				<section className="">
+					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg">
+						<p
+							className={`first-color w-min text-5xl p-1 bring-up`}
+						>
+							Customers
+						</p>
+					</div>
+					<section className="">
+						<div className="flex flex-wrap">
+							<div className="m-auto">
+								{items.map((item) => (
+									<ProjectCard
+										key={item.title}
+										title={item.title}
+										body={item.body}
+										body2={item.body2}
+										url={item.url}
+									/>
+								))}
+							</div>
+							<div className="flex flex-wrap justify-around m-auto">
+								<div>
+									<img
+										src="/tbwinder.png"
+										className="object-cover lg:h-48 w-auto"
+									/>
+								</div>
+								<div>
+									<img
+										src="/tbwinder-ipad.png"
+										className="h-48 lg:h-48 w-auto shadow-xl rounded-2xl"
+									/>
+								</div>
+								<div>
+									<img
+										src="/tbwinder-iphone.png"
+										className="h-48 lg:h-48 w-auto shadow-xl rounded-2xl"
+									/>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div className="flex flex-wrap justify-center font-fifth-color my-5 border-y-8 border-stone-900 shadow-xl">
+						<img
+							src="/texture.jpg"
+							className="object-cover lg:h-96 w-full"
+						/>
+					</div>
+					<section>
+						<section className="flex flex-wrap">
+							<div className="m-auto">
+								<ProjectCard
+									title={"Kahilla"}
+									body={
+										"AWS Solutions: IAM, S3, RDS, Lambda, CloudWatch, PostgreSQL. Development of Python Scrypt for automation of daily tasks."
+									}
+								/>
+							</div>
+								<div className="flex flex-wrap justify-around m-auto">
+									<div>
+										<img
+											src="/aws-scrypt.png"
+											className="h-96 w-auto"
+										/>
+									</div>
+								</div>
+						</section>
+					</section>
+				</section>
+			</motion.div>
+		</AnimatePresence>
+	);
+};
+
+export default Customers;

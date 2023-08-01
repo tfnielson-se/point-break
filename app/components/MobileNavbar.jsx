@@ -92,18 +92,18 @@ const MobileNavbar = () => {
 										About
 									</Link>
 									<Link
-										href="/projects"
+										href="/solutions"
 										className="my-5"
 										onClick={openMenu}
 									>
-										Projects
+										Solutions
 									</Link>
 									<Link
-										href="/services"
+										href="/customers"
 										className="my-5"
 										onClick={openMenu}
 									>
-										Services
+										Customers
 									</Link>
 									<Link
 										href="/contact"

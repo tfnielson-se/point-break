@@ -7,7 +7,7 @@ const font = Inconsolata({
 const ProjectCard = ({ title, url, body, body2 }) => {
 	return (
 		<div
-			className={`max-w-lg rounded-sm my-5`}
+			className={`max-w-lg rounded-sm py-5`}
 		>
 			<div className="">
 				<h1 className="fifth-color text-3xl font-bold uppercase px-4 py-2">
@@ -20,21 +20,21 @@ const ProjectCard = ({ title, url, body, body2 }) => {
                 <p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2 underline">
 					Project Scope:
 				</p>
-				<p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2">
+				<p className="first-color my-1 text-2xl tracking-wide px-4 py-2">
 					{body}
 				</p>
                 <p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2">
 					{body2}
 				</p>
-				<div className="w-full py-1 px-4">
-					<a
+				<div className=" py-1 px-4">
+					{url ? <a
 						href={`${url}`}
-						className="text-2xl tracking-wide px-2 nav-btn p-3 rounded-2xl"
+						className="text-2xl tracking-wide px-2 first-color border-4 border-stone-900 nav-btn"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						{url ? "VIEW PROJECT" : "[N/A...]"}
-					</a>
+						VIEW PROJECT
+					</a> : null}
 				</div>
 			</div>
 

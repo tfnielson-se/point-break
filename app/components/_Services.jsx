@@ -20,11 +20,11 @@ const Services = () => {
                 className="services-bg"
 			>
 				<section className="">
-					<div className="p-5 lg:p-10 lg:w-1/4">
+					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg" >
 						<p
-							className={`first-color text-5xl p-1 bring-up`}
+							className={`first-color w-min text-5xl p-1 bring-up`}
 						>
-							Services
+							Solutions
 						</p>
 					</div>
 					<div className="flex flex-wrap justify-around">
@@ -44,11 +44,11 @@ const Services = () => {
 						/>
                         <img
 							src="/webdev.jpg"
-							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400"
+							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tr-2xl rounded-bl-3xl"
 						/>
                              <img
 							src="/webdesign.jpg"
-							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400"
+							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
 						/>
                         <ServiceCard
 							title={"UX/UI"}
@@ -82,18 +82,18 @@ const Services = () => {
 						/>
                              <img
 							src="/data.jpg"
-							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400"
+							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tr-2xl rounded-bl-3xl"
 						/>
                              <img
 							src="/cloud.jpg"
-							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400"
+							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
 						/>
                          <ServiceCard
-							title={"AWS"}
+							title={"AWS Solutions"}
                             icon1={<MdConnectWithoutContact/>}
                             icon2={<DiAws/>}
                             icon3={<MdOutlineSupport/>}
-                            li1={"IAM, S3, EC2, RDS, Setup and Solutions"}
+                            li1={"IAM, S3, EC2, RDS, Setup and Management"}
                             li2={"Custom Python Scripting"}
                             li3={"Database Management"}
                             li4={"Integration Support"}

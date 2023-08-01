@@ -49,11 +49,11 @@ const Navbar = () => {
 						<Link href="/about" className="nav-btn px-2">
 							About
 						</Link>
-						<Link href="/projects" className="nav-btn px-2">
-							Projects
+						<Link href="/solutions" className="nav-btn px-2">
+							Solutions
 						</Link>
-						<Link href="/services" className="nav-btn px-2">
-							Services
+						<Link href="/customers" className="nav-btn px-2">
+							Customers
 						</Link>
 						<Link href="/contact" className="mr-3 nav-btn px-2">
 							Contact
