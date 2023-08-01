@@ -21,10 +21,10 @@ const ServiceCard = ({
 }) => {
 	return (
 		<div
-			className={`min-h-half max-w-xl flex flex-col justify-around text-center first-color border-4 border-green-400 my-5 py-5 rounded-xl shadow-xl`}
+			className={`flex flex-col lg:w-1/3 justify-around text-center first-color border-4 border-green-300 m-5 shadow-xl rounded-3xl`}
 		>
 			<div className="">
-				<div>
+				<div className="p-3">
 					<h1 className="text-3xl lg:text-4xl">
 						<strong className={`${font.className}`}>{title}</strong>
 					</h1>

@@ -11,7 +11,7 @@ const font = Inconsolata({
 
 const Footer = () => {
 	return (
-		<section className="mt-5 flex flex-wrap lg:flex-row justify-around fourth-color font-first-color bg-footer">
+		<section className="flex flex-wrap lg:flex-row justify-around fourth-color font-first-color bg-footer">
 			<div
 				className={`${font.className} flex flex-row justify-around p-2 w-2/3`}
 			>

@@ -17,9 +17,10 @@ const Services = () => {
 				animate={{ opacity: 1, y: 0 }}
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ delay: 0.25 }}
+                className="services-bg"
 			>
 				<section className="">
-					<div className="m-5 lg:m-10 lg:w-1/4">
+					<div className="p-5 lg:p-10 lg:w-1/4">
 						<p
 							className={`first-color text-5xl p-1 bring-up`}
 						>
@@ -43,9 +44,13 @@ const Services = () => {
 						/>
                         <img
 							src="/webdev.jpg"
-							className="object-cover lg:w-1/2 lg:h-96 m-auto rounded-2xl shadow-xl"
+							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400"
 						/>
-                        {/* <ServiceCard
+                             <img
+							src="/webdesign.jpg"
+							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400"
+						/>
+                        <ServiceCard
 							title={"UX/UI"}
                             icon1={<MdMobileFriendly/>}
                             icon2={<MdAccessibility/>}
@@ -58,16 +63,6 @@ const Services = () => {
 							body={
 								"Seamless user experiences, unparalleled success."
 							}
-						/> */}
-					</div>
-					<div className="flex flex-wrap justify-around">
-						{/* <img
-							src="/webdev.jpg"
-							className="object-cover lg:w-1/2 lg:h-96 m-3 rounded-2xl shadow-xl"
-						/> */}
-                        <img
-							src="/data.jpg"
-							className="object-cover lg:w-1/3 lg:h-96 m-3 rounded-2xl shadow-xl border-4 border-blue-400"
 						/>
 					</div>
 					<div className="flex flex-wrap justify-around">
@@ -85,6 +80,14 @@ const Services = () => {
 								"Drive your growth with Data driven decisions."
 							}
 						/>
+                             <img
+							src="/data.jpg"
+							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400"
+						/>
+                             <img
+							src="/cloud.jpg"
+							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400"
+						/>
                          <ServiceCard
 							title={"AWS"}
                             icon1={<MdConnectWithoutContact/>}
@@ -99,13 +102,14 @@ const Services = () => {
 								"Experience seamless migration, scalable applications, and cost-efficiency."
 							}
 						/>
+                         
 					</div>
-                    <div className="flex flex-wrap justify-center shadow-xl ">
+                    {/* <div className="flex flex-wrap justify-center shadow-xl ">
 						<img
 							src="/servers.jpg"
-							className="object-cover lg:h-96 w-full"
+							className="object-cover lg:h-96 w-full m-5"
 						/>
-					</div>
+					</div> */}
 				</section>
 			</motion.div>
 		</AnimatePresence>
