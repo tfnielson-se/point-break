@@ -25,7 +25,7 @@ const ContactForm = () => {
 	};
 
 	return (
-		<div className="flex flex-col second-color rounded-t-3xl p-5 shadow-xl">
+		<div className="flex flex-col second-color rounded-t-3xl p-5 shadow-2xl">
 			<div className="text-3xl m-3">
 				<h3 className="m-auto">Contact Us</h3>
 			</div>

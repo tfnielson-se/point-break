@@ -39,7 +39,7 @@ const MobileNavbar = () => {
 						</div>
 						<div className="w-1/3 m-auto text-center">
 							<p className=" text-xl md:text-3xl">
-								point.break
+								Point.Break
 							</p>
                             <p className="text-xs md:text-xl rounded-2xl">
 								software engineering

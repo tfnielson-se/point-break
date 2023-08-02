@@ -16,16 +16,18 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en" className="min-h-screen">
             <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
-			<body className={'font.className'}>
+			<body className={font.className}>
             <section className={`${font.className} flex flex-col`}>
 			<div className="flex-none">
 				<Navbar />
 				<MobileNavbar />
 				<hr className=""></hr>
 			</div>
-			<main className={`grow h-screen`}>
+            <div className={`grow`}>
+			<main >
 				{children}
 			</main>
+            </div>
 			<div className="flex-none">
 				<Footer />
 			</div>

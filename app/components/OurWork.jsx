@@ -76,7 +76,7 @@ const Customers = () => {
 					</div>
 					<section className="about-bg m-3 rounded-3xl">
 						<section className="flex flex-wrap">
-							<div className="m-auto ">
+							<div id={"kahilla"} className="m-auto ">
 								<ProjectCard
 									title={"Kahilla"}
 									body={

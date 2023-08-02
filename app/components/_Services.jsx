@@ -36,8 +36,9 @@ const Services = () => {
 							relevant.
 						</p>
 					</div>
-					<div className="flex flex-wrap justify-around lg:m-3 services-bg lg:rounded-t-3xl rounded-bl-3xl">
+					<div id="software-development" className="flex flex-wrap justify-around lg:m-3 services-bg lg:rounded-t-3xl rounded-bl-3xl">
 						<ServiceCard
+                        
 							title={"Software Development"}
 							icon1={<MdOutlineDesignServices />}
 							icon2={<TbDatabase />}
@@ -56,7 +57,7 @@ const Services = () => {
 							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tr-2xl rounded-bl-3xl"
 						/>
 					</div>
-					<div className="flex flex-wrap justify-around m-3 rounded-b-3xl rounded-tr-3xl">
+					<div id="ux-ui" className="flex flex-wrap justify-around m-3 rounded-b-3xl rounded-tr-3xl">
 						<img
 							src="/webdesign.jpg"
 							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
@@ -76,7 +77,8 @@ const Services = () => {
 							}
 						/>
 					</div>
-					<div className="flex flex-wrap justify-around about-bg lg:m-3 lg:rounded-t-3xl rounded-br-3xl">
+					<div id={"data-analytics"} className="flex flex-wrap justify-around about-bg lg:m-3 lg:rounded-t-3xl rounded-br-3xl">
+
 						<ServiceCard
 							title={"Data Analytics"}
 							icon1={<MdOutlineDataset />}
@@ -91,12 +93,13 @@ const Services = () => {
 								"Drive your growth with Data driven decisions."
 							}
 						/>
+
 						<img
 							src="/data.jpg"
 							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tl-2xl rounded-br-3xl"
 						/>
 					</div>
-					<div className="flex flex-wrap justify-around m-3 ">
+					<div id="aws-solutions" className="flex flex-wrap justify-around m-3 ">
 						<img
 							src="/cloud.jpg"
 							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"

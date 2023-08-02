@@ -48,6 +48,9 @@
 body {
 	color: #020205;
 }
+main {
+    min-height: 90vh;
+}
 
 .cutive-mono {
 	font-family: "Cutive Mono", monospace;

@@ -35,7 +35,7 @@ const About = () => {
 						</p>
 					</div>
                     
-					<div className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl mx-3 my-2">
+					<div id={"the-company"} className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl mx-3 my-2">
 						<div className="flex flex-col justify-center my-auto ">
 							<img
 								src="/logo-white-bg.png"
@@ -44,7 +44,7 @@ const About = () => {
                             <p className="text-center py-2 font-first-color tracking-widest">SIMPLE.CREATIVE.SOLUTIONS</p>
 						</div>
 						<div className=" flex justify-center m-5 max-w-xl first-color shadow-2xl rounded-tl-2xl rounded-br-2xl">
-							<div className="m-3">
+							<div  className="m-3">
 								<p className="text-4xl first-color rounded py-1 px-3 lg:w-2/3 underline">
 									<strong className={`${font.className}`}>
 										THE COMPANY
@@ -78,7 +78,7 @@ const About = () => {
 							</div>
 						</div>
 
-						<div className="flex justify-left m-auto my-10 max-w-xl w-full mx-5 border-4 border-stone-900 first-color shadow-2xl rounded-b-2xl">
+						<div id={"resources"} className="flex justify-left m-auto my-10 max-w-xl w-full mx-5 border-4 border-stone-900 first-color shadow-2xl rounded-b-2xl">
 							<div className="">
 								<p className="text-4xl first-color px-2 m-5 underline">
 									<strong className={`p-1 ${font.className}`}>
