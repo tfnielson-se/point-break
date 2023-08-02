@@ -22,17 +22,17 @@ const Customers = () => {
 				animate={{ opacity: 1, y: 0 }}
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ delay: 0.25 }}
-				className="projects-bg"
+				className=""
 			>
 				<section className="">
-					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg">
+					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex text-center">
 						<p
-							className={`first-color w-min text-5xl p-1 bring-up`}
+							className={`w-max text-3xl lg:text-5xl p-1 bring-up m-auto`}
 						>
-							Customers
+							Our Work, your success.
 						</p>
 					</div>
-					<section className="">
+					<section className="projects-bg">
 						<div className="flex flex-wrap">
 							<div className="m-auto">
 								{items.map((item) => (
@@ -45,7 +45,7 @@ const Customers = () => {
 									/>
 								))}
 							</div>
-							<div className="flex flex-wrap justify-around m-auto">
+							<div className="flex flex-wrap justify-around m-auto pb-5">
 								<div>
 									<img
 										src="/tbwinder.png"
@@ -67,13 +67,13 @@ const Customers = () => {
 							</div>
 						</div>
 					</section>
-					<div className="flex flex-wrap justify-center font-fifth-color my-5 border-y-8 border-stone-900 shadow-xl">
+					<div className="flex flex-wrap justify-center border-y-8 border-stone-900 shadow-xl">
 						<img
 							src="/texture.jpg"
 							className="object-cover lg:h-96 w-full"
 						/>
 					</div>
-					<section>
+					<section className="services-bg">
 						<section className="flex flex-wrap">
 							<div className="m-auto">
 								<ProjectCard

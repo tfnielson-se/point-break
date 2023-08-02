@@ -21,7 +21,7 @@
 }
 
 .about-bg {
-	background: #8aacff;
+	background: #6173f4
 }
 
 .projects-bg {
@@ -79,16 +79,8 @@ body {
 .bring-up {
 	filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
 		drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-	box-shadow: 6px 6px 1px 1px #756c83b6;
-	/* box-shadow: 8px 8px 0px 0px #ff5f5f; */
+
 	border-radius: 0.25rem;
-	transition: all 0.3s ease-out;
-}
-.bring-up:hover {
-	filter: drop-shadow(0 30px 15px rgba(0, 0, 0, 0.288))
-		drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-	box-shadow: 12px 12px 0px 0px #ff5f5f;
-	/* box-shadow: 12px 12px 2px 1px #f3818165; */
 }
 
 /* ICONS */

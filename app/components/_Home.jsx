@@ -22,14 +22,14 @@ const Home = () => {
 						<div className="hidden lg:block">
 							<p className="home-title text-center">
 								<strong className={`${share_tech.className} font-fourth-color px-4 tracking-widest`}>
-									point.break
+									Point.Break
 								</strong>
 							</p>
 						</div>
 						<div className="lg:hidden">
 							<p className="home-title text-center text-2xl">
 								<strong className="text-5xl font-fourth-color tracking-widest">
-									point.break
+									Point.Break
 								</strong>
 							</p>
 								<p className="lg:hidden font-fourth-color text-xl my-5 px-3 italic">

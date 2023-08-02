@@ -17,17 +17,18 @@ const Services = () => {
 				animate={{ opacity: 1, y: 0 }}
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ delay: 0.25 }}
-                className="services-bg"
+                className=""
 			>
 				<section className="">
-					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg" >
+					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex text-center" >
 						<p
-							className={`first-color w-min text-5xl p-1 bring-up`}
+							className={`w-max text-3xl lg:text-5xl p-1 bring-up tracking-wider m-auto`}
 						>
-							Solutions
+							Simple creative solutions to help your business stay relevant.
 						</p>
+
 					</div>
-					<div className="flex flex-wrap justify-around">
+					<div className="flex flex-wrap justify-around services-bg">
 						<ServiceCard
 							title={"Software Development"}
                             icon1={<MdOutlineDesignServices/>}
@@ -39,7 +40,7 @@ const Services = () => {
                             li4={"Business Software Architecture"}
                             client1={'/tbWinder_black_high-res.png'}
 							body={
-								"Tailored solutions that precisely aligns with your vision."
+								"Tailored  that precisely aligns with your vision."
 							}
 						/>
                         <img
@@ -65,7 +66,7 @@ const Services = () => {
 							}
 						/>
 					</div>
-					<div className="flex flex-wrap justify-around">
+					<div className="flex flex-wrap justify-around about-bg border-t-8 border-stone-900">
                         <ServiceCard
 							title={"Data Analytics"}
                             icon1={<MdOutlineDataset/>}

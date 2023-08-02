@@ -52,8 +52,8 @@ const Navbar = () => {
 						<Link href="/solutions" className="nav-btn px-2">
 							Solutions
 						</Link>
-						<Link href="/customers" className="nav-btn px-2">
-							Customers
+						<Link href="/ourwork" className="nav-btn px-2">
+							Our Work
 						</Link>
 						<Link href="/contact" className="mr-3 nav-btn px-2">
 							Contact

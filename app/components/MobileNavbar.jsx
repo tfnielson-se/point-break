@@ -4,9 +4,9 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { GrMenu } from "react-icons/gr";
 import { GrClose } from "react-icons/gr";
-import { Cutive_Mono } from "next/font/google"
+import { Inconsolata } from "next/font/google"
 
-const font = Cutive_Mono({
+const font = Inconsolata({
 	subsets: ["latin"],
 	weight: "400",
 });
@@ -99,11 +99,11 @@ const MobileNavbar = () => {
 										Solutions
 									</Link>
 									<Link
-										href="/customers"
+										href="/ourwork"
 										className="my-5"
 										onClick={openMenu}
 									>
-										Customers
+										Our Work
 									</Link>
 									<Link
 										href="/contact"
