@@ -8,7 +8,8 @@ const Customers = () => {
 	const projList = [
 		{
 			title: "TBWinder",
-			body: "Real Estate Investments Company Rebranding and Front-End Website Redesign.",
+			body: "Real Estate Investments Company Rebranding and Website Redesign.",
+            body2:"TBWinder is one-stop-shop real estate firm focusing on real estate sales, private asset based lending, passive investment opportunities, short term real estate development, and joint venture relationships to complete the capital stack for top-tier Real Estate investors throughout Greater Boston and New England, USA.",
 			// body2: "Phase 2: Business Software Development, Data Analytic Dashboard, AWS Setup",
 			url: "https://www.tbwinder.com/",
 		},
@@ -32,7 +33,7 @@ const Customers = () => {
 							Our Work, your success.
 						</p>
 					</div>
-					<section className="projects-bg">
+					<section className="projects-bg m-3 rounded-3xl">
 						<div className="flex flex-wrap">
 							<div className="m-auto">
 								{items.map((item) => (
@@ -73,14 +74,15 @@ const Customers = () => {
 							className="object-cover lg:h-96 w-full"
 						/>
 					</div>
-					<section className="services-bg">
+					<section className="about-bg m-3 rounded-3xl">
 						<section className="flex flex-wrap">
-							<div className="m-auto">
+							<div className="m-auto ">
 								<ProjectCard
 									title={"Kahilla"}
 									body={
 										"AWS Solutions: IAM, S3, RDS, Lambda, CloudWatch, PostgreSQL. Development of Python Scrypt for automation of daily tasks."
 									}
+                                    body2={'Kahilla partners with top companies to bolster their Diversity and Learning & Development initiatives. As we look to the future, our community is united by a common goal: break down barriers that have long kept too many brilliant minds from taking their rightful seats at the highest levels of leadership.'}
 								/>
 							</div>
 								<div className="flex flex-wrap justify-around m-auto">

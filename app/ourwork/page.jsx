@@ -1,4 +1,4 @@
-import _Projects from "../components/_Customers"
+import _Projects from "../components/OurWork"
 
 export default function Projects() {
     return(

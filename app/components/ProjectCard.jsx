@@ -1,6 +1,6 @@
-import { Inconsolata } from "next/font/google"
+import { Share_Tech_Mono } from "next/font/google"
 
-const font = Inconsolata({
+const font = Share_Tech_Mono({
 	subsets: ["latin"],
 	weight: "400",
 });
@@ -17,13 +17,13 @@ const ProjectCard = ({ title, url, body, body2 }) => {
 						{title}
 					</strong>
 				</h1>
-                <p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2 underline">
+                <p className="font-third-colo my-1 text-xl tracking-wide px-4 py-2 underline">
 					Project Scope:
 				</p>
-				<p className="first-color my-1 text-2xl tracking-wide px-4 py-2">
+				<p className="first-color my-1 text-lg  tracking-wide px-4 py-2">
 					{body}
 				</p>
-                <p className="font-third-colo my-1 text-2xl tracking-wide px-4 py-2">
+                <p className="font-third-colo my-1 tracking-wide px-4 py-2">
 					{body2}
 				</p>
 				<div className=" py-1 px-4">

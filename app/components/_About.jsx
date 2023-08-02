@@ -27,20 +27,21 @@ const About = () => {
 				// className="about-bg"
 			>
 				<section className="">
-					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex">
+					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex text-center">
 						<p
 							className={`w-max text-3xl lg:text-5xl p-1 bring-up m-auto`}
 						>
 							About us, our focus, and commitment to your success.
 						</p>
 					</div>
-					<div className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl mx-3 ">
+                    
+					<div className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl mx-3 my-2">
 						<div className="flex flex-col justify-center my-auto ">
 							<img
 								src="/logo-white-bg.png"
-								className="object-cover h-64 py-3"
+								className="object-cover h-64 m-3"
 							/>
-                            <p className="text-center py-2">SIMPLE.CREATIVE.SOLUTIONS</p>
+                            <p className="text-center py-2 font-first-color tracking-widest">SIMPLE.CREATIVE.SOLUTIONS</p>
 						</div>
 						<div className=" flex justify-center m-5 max-w-xl first-color shadow-2xl rounded-tl-2xl rounded-br-2xl">
 							<div className="m-3">
@@ -55,6 +56,7 @@ const About = () => {
 										Creative Solutions' to real world
 										Software Engineering problems.
 									</p>
+                                    <hr className="border-blue-400 mx-10"></hr>
                                     <p className="text-xl tracking-wide leading-relaxed text-left p-3">
 										Established in 2023 in Denver,CO -
 										Point.Break has made a significant
@@ -69,7 +71,7 @@ const About = () => {
 						</div>
 					</div>
 					<div className="flex flex-row flex-wrap justify-around">
-						<div className="border-4 border-stone-900 flex justify-center m-5 max-w-2xl first-color shadow-2xl rounded-t-2xl">
+						<div className="border-4 border-stone-900 flex justify-center m-5 max-w-xl first-color shadow-2xl rounded-t-2xl">
 							<div className=" m-3">
 								<p className="text-4xl first-color rounded py-1 px-3 underline">
 									<strong className={`${font.className}`}>
@@ -103,7 +105,7 @@ const About = () => {
 								<p className="text-xl text-left p-3 m-2 tracking-wide leading-relaxed">
 									We never shy away from a challenge. At
 									Point.Break we work with a dynamic stack of
-									programming lanugugages and platforms to
+									programming languages and platforms to
 									tailor each solution to fit your business
 									needs.
 								</p>
