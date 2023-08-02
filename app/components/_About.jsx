@@ -27,22 +27,22 @@ const About = () => {
 				// className="about-bg"
 			>
 				<section className="">
-					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex text-center">
+					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex">
 						<p
 							className={`w-max text-3xl lg:text-5xl p-1 bring-up m-auto`}
 						>
 							About us, our focus, and commitment to your success.
 						</p>
 					</div>
-					<div className="flex flex-row flex-wrap justify-around about-bg">
+					<div className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl mx-3 ">
 						<div className="flex flex-col justify-center my-auto ">
 							<img
 								src="/logo-white-bg.png"
-								className="object-cover h-64"
+								className="object-cover h-64 py-3"
 							/>
                             <p className="text-center py-2">SIMPLE.CREATIVE.SOLUTIONS</p>
 						</div>
-						<div className="border-4 border-stone-900 flex justify-center m-5 max-w-xl first-color shadow-2xl rounded-tl-2xl rounded-br-2xl">
+						<div className=" flex justify-center m-5 max-w-xl first-color shadow-2xl rounded-tl-2xl rounded-br-2xl">
 							<div className="m-3">
 								<p className="text-4xl first-color rounded py-1 px-3 lg:w-2/3 underline">
 									<strong className={`${font.className}`}>
@@ -68,7 +68,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-row flex-wrap justify-around projects-bg border-t-8 border-stone-900">
+					<div className="flex flex-row flex-wrap justify-around">
 						<div className="border-4 border-stone-900 flex justify-center m-5 max-w-2xl first-color shadow-2xl rounded-t-2xl">
 							<div className=" m-3">
 								<p className="text-4xl first-color rounded py-1 px-3 underline">
@@ -146,7 +146,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-wrap justify-around p-3 projects-bg">
+					<div className="flex flex-wrap justify-around p-3 ">
 						<FaPython className="font-fifth-color text-4xl mx-1 my-2" />
 						{/* <SiDjango className="font-fifth-color text-4xl mx-1 my-2" /> */}
 						<SiElixir className="font-fifth-color text-4xl mx-1 my-2" />
