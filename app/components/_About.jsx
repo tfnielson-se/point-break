@@ -52,19 +52,11 @@ const About = () => {
 								</p>
 								<div>
 									<p className="text-xl tracking-wide leading-relaxed text-left p-3">
-										Point.Break focuses on providing 'Simple
-										Creative Solutions' to real world
-										Software Engineering problems.
+										{"Point.Break focuses on providing &apos;Simple Creative Solutions&apos; to real world Software Engineering problems."}
 									</p>
                                     <hr className="border-blue-400 mx-10"></hr>
                                     <p className="text-xl tracking-wide leading-relaxed text-left p-3">
-										Established in 2023 in Denver,CO -
-										Point.Break has made a significant
-										impact in the industry of software
-										development by leveraging cutting-edge
-										technology and A.I tools to provide
-										unique functionality, user experiences
-										and data analytics.
+										{"Established in 2023 in Denver,CO - Point.Break has made a significant impact in the industry of software development by leveraging cutting-edge technology and A.I tools to provide unique functionality, user experiences and data analytics."}
 									</p>
 								</div>
 							</div>
@@ -80,15 +72,7 @@ const About = () => {
 								</p>
 								<div>
 									<p className="text-xl tracking-wide leading-relaxed text-left p-3">
-										From Software Development, to Data
-										Analytics and AWS Solutions, our focus
-										is to enable businesses and achieve
-										their full potential through the power
-										of technology. We achieve this by
-										building long-term relationships with
-										our clients, based on trust,
-										communication, and seamless
-										collaboration.
+										{"From Software Development, to Data Analytics and AWS Solutions, our focus is to enable businesses and achieve their full potential through the power of technology. We achieve this by building long-term relationships with our clients, based on trust,communication, and seamless collaboration."}
 									</p>
 								</div>
 							</div>
@@ -103,11 +87,7 @@ const About = () => {
 								</p>
 
 								<p className="text-xl text-left p-3 m-2 tracking-wide leading-relaxed">
-									We never shy away from a challenge. At
-									Point.Break we work with a dynamic stack of
-									programming languages and platforms to
-									tailor each solution to fit your business
-									needs.
+									{"We never shy away from a challenge. At Point.Break we work with a dynamic stack of programming languages and platforms to tailor each solution to fit your business needs."}
 								</p>
 								<div className="flex flex-wrap justify-center fourth-color font-first-color rounded-b">
 									<p className="text-sm text-center tracking-wide leading-relaxed py-1 px-3 python-color">
