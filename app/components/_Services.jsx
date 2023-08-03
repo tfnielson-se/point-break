@@ -47,7 +47,6 @@ const Services = () => {
 							li2={"Backend"}
 							li3={"Full Stack Development"}
 							li4={"Business Software Architecture"}
-							client1={"/tbWinder_black_high-res.png"}
 							body={
 								"Tailored  that precisely aligns with your vision."
 							}
@@ -71,7 +70,6 @@ const Services = () => {
 							li2={"Responsive"}
 							li3={"Multilingual Accessibility"}
 							li4={"ADA Compliant"}
-							client1={"/tbWinder_black_high-res.png"}
 							body={
 								"Seamless user experiences, unparalleled success."
 							}
@@ -88,7 +86,6 @@ const Services = () => {
 							li2={"Data Analysis"}
 							li3={"Data Visualization"}
 							li4={"Dashboard Development"}
-							client1={"/kahilla.png"}
 							body={
 								"Drive your growth with Data driven decisions."
 							}
@@ -105,15 +102,14 @@ const Services = () => {
 							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
 						/>
 						<ServiceCard
-							title={"AWS Solutions"}
+							title={"Cloud Solutions"}
 							icon1={<MdConnectWithoutContact />}
 							icon2={<DiAws />}
 							icon3={<MdOutlineSupport />}
-							li1={"IAM, S3, EC2, RDS, Setup and Management"}
+							li1={"AWS: IAM, S3, EC2, RDS, Setup and Management"}
 							li2={"Custom Python Scripting"}
 							li3={"Database Management"}
 							li4={"Integration Support"}
-							client1={"/kahilla.png"}
 							body={
 								"Experience seamless migration, scalable applications, and cost-efficiency."
 							}

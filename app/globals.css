@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* DEBUG */
-/* div {
+/* div, section {
     border-width: 1px;
     border-color: rgb(244, 87, 87);
     border-radius: 0.5rem;
@@ -69,7 +69,7 @@ main {
 
 /* HOVERS */
 .nav-btn {
-	padding: 0.2rem;
+	/* padding: 0.2rem; */
 	transition: all 0.5s ease-in-out;
 }
 .nav-btn:hover {

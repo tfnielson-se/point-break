@@ -25,7 +25,7 @@ const ContactForm = () => {
 	};
 
 	return (
-		<div className="flex flex-col second-color rounded-t-3xl p-5 shadow-2xl">
+		<div className="flex flex-col w-min lg:w-max rounded-t-3xl border-4 border-stone-900 p-5 shadow-2xl">
 			<div className="text-3xl m-3">
 				<h3 className="m-auto">Contact Us</h3>
 			</div>
@@ -40,7 +40,7 @@ const ContactForm = () => {
 						<input
 							type="text"
 							name="from_name"
-							className="flex first-color rounded-3xl p-3  lg:w-96 mx-3 capitalize"
+							className="flex first-color rounded-3xl p-2 border-2 border-blue-400 lg:w-96 mx-3 shadow-md"
 						/>
 					</div>
 					<div className="flex flex-col m-auto">
@@ -48,14 +48,14 @@ const ContactForm = () => {
 						<input
 							type="email"
 							name="from_email"
-							className="flex first-color rounded-3xl p-3  lg:w-96 mx-3"
+							className="flex first-color rounded-3xl p-2 border-2 border-blue-400 lg:w-96 mx-3 shadow-md"
 						/>
 					</div>
 					<div className="hidden lg:flex flex-row justify-around m-auto">
 						<button
 							type="submit"
 							value="Send"
-							className="w-full m-5 p-2 font-first-color fourth-color rounded-3xl border-4 border-stone-900 tracking-widest"
+							className="w-full m-5 p-2 font-first-color fourth-color rounded-3xl border-4 border-stone-900 tracking-widest nav-btn shadow-md"
 						>
 							SEND
 						</button>
@@ -66,14 +66,14 @@ const ContactForm = () => {
 						<label>Message:</label>
 						<textarea
 							name="message"
-							className="flex first-color rounded-3xl p-3 h-48 mx-3"
+							className="flex first-color rounded-3xl p-3 border-2 border-blue-400 h-48 mx-3 shadow-md"
 						/>
 					</div>
                     <div className="lg:hidden flex">
 							<button
 								type="submit"
 								value="Send"
-								className="w-full m-5 p-2 font-first-color fourth-color rounded-3xl border-4 border-stone-900 tracking-widest"
+								className="w-full m-5 p-2 font-first-color fourth-color rounded-3xl border-4 border-stone-900 tracking-widest nav-btn shadow-md"
 							>
 								SEND
 							</button>

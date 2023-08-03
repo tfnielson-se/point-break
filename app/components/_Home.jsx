@@ -2,6 +2,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Share_Tech_Mono } from "next/font/google";
 import Link from "next/link";
+import QuickLinks from "./QuickLinks";
 
 const share_tech = Share_Tech_Mono({
 	subsets: ["latin"],
@@ -40,95 +41,19 @@ const Home = () => {
 							</p>
 						</div>
 					</div>
-					{/* <div className="m-5">
-						<p className="text-xl text-center leading-loose rounded-t-2xl rounded-br-2xl m-3">
-							Quick links
-						</p>
-					</div> */}
-					<section className="flex flex-wrap">
-						<section className="flex flex-wrap justify-around lg:w-1/2 m-5">
-							<div className="text-xl leading-loose about-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link
-									href="/about#the-company"
-									className="my-1 px-2"
-								>
-									The Company
-								</Link>
-							</div>
-							<div className="text-xl leading-loose services-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link
-									href="/solutions#software-development"
-									className="my-1 px-2"
-								>
-									Software Development
-								</Link>
-							</div>
-							<div className="text-xl leading-loose services-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link
-									href="/solutions#ux-ui"
-									className="my-1 px-2"
-								>
-									UX/UI
-								</Link>
-							</div>
-							<div className="text-xl leading-loose services-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link
-									href="/solutions#data-analytics"
-									className="my-1 px-2"
-								>
-									Data Analytics
-								</Link>
-							</div>
-							
-							<div className="text-xl leading-loose projects-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link href="/ourwork" className="my-1 px-2">
-									Clients
-								</Link>
-							</div>
-							<div className="text-xl leading-loose about-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link href="/contact" className="my-1 px-2">
-									Contact Us
-								</Link>
-							</div>
 
-							<div className="text-xl leading-loose projects-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link
-									href="/solutions#software-development"
-									className="my-1 px-2"
-								>
-									Website Redesign
-								</Link>
+					<section className="flex flex-wrap my-5">
+						<div className="flex text-xl leading-loose fourth-color font-first-color rounded-t-2xl rounded-br-2xl m-3">
+							<p className="my-1 px-5">Quick Links About Us</p>
+						</div>
+						<div className="flex flex-col lg:flex-row justify-center">
+							<QuickLinks />
+							<div className="flex flex-wrap justify-center bring-up w-1/2 m-auto">
+								<p className="text-6xl">
+									Simple. Creative. Solutions.
+								</p>
 							</div>
-							<div className="text-xl leading-loose projects-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link
-									href="/ourwork#kahilla"
-									className="my-1 px-2"
-								>
-									Automation
-								</Link>
-							</div>
-                            <div className="text-xl leading-loose services-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link
-									href="/solutions#aws-solutions"
-									className="my-1 px-2"
-								>
-									AWS Solutions
-								</Link>
-							</div>
-							<div className="text-xl leading-loose about-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link
-									href="/about#resources"
-									className="my-1 px-2"
-								>
-									Resources
-								</Link>
-							</div>
-							<div className="text-xl leading-loose projects-bg rounded-t-2xl rounded-br-2xl nav-btn m-3">
-								<Link href="/contact" className="my-1 px-2">
-									Social Media
-								</Link>
-							</div>
-						</section>
+						</div>
 					</section>
 				</motion.div>
 			</AnimatePresence>

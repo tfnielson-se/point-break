@@ -52,7 +52,7 @@ const About = () => {
 								</p>
 								<div>
 									<p className="text-xl tracking-wide leading-relaxed text-left p-3">
-										{"Point.Break focuses on providing &apos;Simple Creative Solutions&apos; to real world Software Engineering problems."}
+										{"Point.Break focuses on providing 'Simple Creative Solutions' to real world Software Engineering problems."}
 									</p>
                                     <hr className="border-blue-400 mx-10"></hr>
                                     <p className="text-xl tracking-wide leading-relaxed text-left p-3">
@@ -77,8 +77,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-
-						<div id={"resources"} className="flex justify-left m-auto my-10 max-w-xl w-full mx-5 border-4 border-stone-900 first-color shadow-2xl rounded-b-2xl">
+						<div id={"resources"} className="flex justify-left m-auto max-w-xl w-full mx-5 border-4 border-stone-900 first-color shadow-2xl rounded-b-2xl">
 							<div className="">
 								<p className="text-4xl first-color px-2 m-5 underline">
 									<strong className={`p-1 ${font.className}`}>
@@ -87,7 +86,7 @@ const About = () => {
 								</p>
 
 								<p className="text-xl text-left p-3 m-2 tracking-wide leading-relaxed">
-									{"We never shy away from a challenge. At Point.Break we work with a dynamic stack of programming languages and platforms to tailor each solution to fit your business needs."}
+									{"At Point.Break we work with a dynamic stack of programming languages and platforms to tailor each solution to fit your business needs."}
 								</p>
 								<div className="flex flex-wrap justify-center fourth-color font-first-color rounded-b">
 									<p className="text-sm text-center tracking-wide leading-relaxed py-1 px-3 python-color">
