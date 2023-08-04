@@ -25,7 +25,7 @@ const Home = () => {
 								<strong
 									className={` ${share_tech.className} text-5xl lg:text-6xl font-fourth-color tracking-widest`}
 								>
-									Point.Break
+									{"Point.Break"}
 								</strong>
 							</p>
 							<div className="flex flex-wrap justify-center m-auto bring-up">
@@ -35,11 +35,11 @@ const Home = () => {
 								/>
 							</div>
 						</div>
-						<div className="lg:hidden">
+						{/* <div className="lg:hidden">
 							<p className="font-fourth-color text-2xl lg:text-4xl my-1 px-2 italic">
 								Simple Creative Solutions
 							</p>
-						</div>
+						</div> */}
 					</div>
 
 					<section className="flex flex-wrap my-5">
@@ -48,9 +48,15 @@ const Home = () => {
 						</div>
 						<div className="flex flex-col lg:flex-row justify-center">
 							<QuickLinks />
-							<div className="flex flex-wrap justify-center bring-up w-1/2 m-auto">
-								<p className="text-6xl">
-									Simple. Creative. Solutions.
+							<div className="flex flex-col m-auto w-min border-4 border-blue-400 rounded-3xl rounded-br-none p-3 text-right">
+								<p className="text-3xl lg:text-4xl py-1">
+									Simple.
+								</p>
+                                <p className="text-4xl lg:text-5xl py-1">
+									Creative.
+								</p>
+                                <p className="text-5xl lg:text-6xl py-1">
+									Solutions!
 								</p>
 							</div>
 						</div>

@@ -37,12 +37,18 @@ const MobileNavbar = () => {
 								/>
 							</a>
 						</div>
-						<div className="w-1/3 m-auto text-center">
-							<p className=" text-xl md:text-3xl">
-								Point.Break
+						<div className="w-1/3 m-auto text-left">
+							{/* <p className=" text-xl md:text-3xl">
+								Point.break
+							</p> */}
+                            <p className="md:text-xl rounded-2xl">
+								Simple.
 							</p>
-                            <p className="text-xs md:text-xl rounded-2xl">
-								software engineering
+                            <p className="md:text-xl rounded-2xl">
+								Creative.
+							</p>
+                            <p className="md:text-xl rounded-2xl">
+								Solutions.
 							</p>
 						</div>
 						<div className={" w-1/4 flex justify-center"}>

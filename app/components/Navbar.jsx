@@ -32,11 +32,11 @@ const Navbar = () => {
 							<p
 								className={`${share_tech.className} text-xl`}
 							>
-								point.break
+								{"<.br>"}
 							</p>
 
 							<p className={`${share_tech.className}`}>
-								software engineeering
+								Simple.Creative.Solutions
 							</p>
 						</div>
 					</div>
