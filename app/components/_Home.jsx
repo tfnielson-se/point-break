@@ -48,15 +48,15 @@ const Home = () => {
 						</div>
 						<div className="flex flex-col lg:flex-row justify-center">
 							<QuickLinks />
-							<div className="flex flex-col m-auto w-min border-4 border-blue-400 rounded-3xl rounded-br-none p-3 text-right">
-								<p className="text-3xl lg:text-4xl py-1">
+							<div className="flex flex-col m-auto w-min p-3 text-left">
+								<p className="text-3xl lg:text-4xl py-1 nav-btn-about w-min">
 									Simple.
 								</p>
-                                <p className="text-4xl lg:text-5xl py-1">
+                                <p className="text-4xl lg:text-5xl py-1 nav-btn-ourwork w-min">
 									Creative.
 								</p>
-                                <p className="text-5xl lg:text-6xl py-1">
-									Solutions!
+                                <p className="text-5xl lg:text-6xl py-1 nav-btn-solutions w-min">
+									Solutions.
 								</p>
 							</div>
 						</div>

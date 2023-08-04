@@ -11,6 +11,13 @@
 } */
 
 
+body {
+    color: #020205;
+}
+html {
+    min-height: 100vh;
+}
+
 .services-bg {
 	/* transition: all 60s ease-in-out; */
 	background: #7c73e6;
@@ -45,13 +52,6 @@
 	opacity: 0.75;
 }
 
-body {
-	color: #020205;
-}
-main {
-    min-height: 90vh;
-}
-
 .cutive-mono {
 	font-family: "Cutive Mono", monospace;
 }
@@ -73,6 +73,38 @@ main {
 	transition: all 0.5s ease-in-out;
 }
 .nav-btn:hover {
+	opacity: 100%;
+	box-shadow: 0px 4px 0px 0px #000000;
+}
+.nav-btn-about {
+	/* padding: 0.2rem; */
+	transition: all 0.5s ease-in-out;
+}
+.nav-btn-about:hover {
+	opacity: 100%;
+	box-shadow: 0px 4px 0px 0px #619cf4;
+}
+.nav-btn-solutions {
+	/* padding: 0.2rem; */
+	transition: all 0.5s ease-in-out;
+}
+.nav-btn-solutions:hover {
+	opacity: 100%;
+	box-shadow: 0px 4px 0px 0px #7c73e6;
+}
+.nav-btn-ourwork {
+	/* padding: 0.2rem; */
+	transition: all 0.5s ease-in-out;
+}
+.nav-btn-ourwork:hover {
+	opacity: 100%;
+	box-shadow: 0px 4px 0px 0px #56d49b;
+}
+.nav-btn-contact {
+	/* padding: 0.2rem; */
+	transition: all 0.5s ease-in-out;
+}
+.nav-btn-contact:hover {
 	opacity: 100%;
 	box-shadow: 0px 4px 0px 0px #ff5f5f;
 }

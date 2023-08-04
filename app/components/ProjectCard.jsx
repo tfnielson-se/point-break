@@ -10,20 +10,20 @@ const ProjectCard = ({ title, url, body, body2 }) => {
 			className={`max-w-lg rounded-sm py-5`}
 		>
 			<div className="">
-				<h1 className="fifth-color text-3xl font-bold uppercase px-4 py-2">
+				<h1 className="text-3xl font-bold uppercase px-4 py-2">
 					<strong
-						className={`${font.className}  px-2 cutive-mono first-color rounded`}
+						className={`${font.className}  px-2 cutive-mono first-color rounded-tl-xl rounded-br-xl`}
 					>
 						{title}
 					</strong>
 				</h1>
-                <p className="font-third-colo my-1 text-xl tracking-wide px-4 py-2 underline">
+                <p className="my-1 text-xl tracking-wide px-4 py-2 underline">
 					Project Scope:
 				</p>
-				<p className="first-color my-1 text-lg  tracking-wide px-4 py-2">
+				<p className="first-color my-1 text-lg rounded-tl-3xl rounded-br-3xl tracking-wide px-4 py-2">
 					{body}
 				</p>
-                <p className="font-third-colo my-1 tracking-wide px-4 py-2">
+                <p className="my-1 tracking-wide px-4 py-2">
 					{body2}
 				</p>
 				<div className=" py-1 px-4">

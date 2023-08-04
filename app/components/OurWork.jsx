@@ -33,7 +33,7 @@ const Customers = () => {
 							Our Work, your success.
 						</p>
 					</div>
-					<section className="projects-bg m-3 rounded-3xl">
+					<section className="projects-bg m-3 rounded-tl-3xl rounded-br-3xl">
 						<div className="flex flex-wrap">
 							<div className="m-auto">
 								{items.map((item) => (
@@ -74,7 +74,7 @@ const Customers = () => {
 							className="object-cover lg:h-96 w-full"
 						/>
 					</div>
-					<section className="about-bg m-3 rounded-3xl">
+					<section className="about-bg m-3 rounded-tl-3xl rounded-br-3xl">
 						<section className="flex flex-wrap">
 							<div id={"kahilla"} className="m-auto ">
 								<ProjectCard
@@ -82,14 +82,14 @@ const Customers = () => {
 									body={
 										"AWS Solutions: IAM, S3, RDS, Lambda, CloudWatch, PostgreSQL. Development of Python Scrypt for automation of daily tasks."
 									}
-                                    body2={'Kahilla partners with top companies to bolster their Diversity and Learning & Development initiatives. As we look to the future, our community is united by a common goal: break down barriers that have long kept too many brilliant minds from taking their rightful seats at the highest levels of leadership.'}
+                                    body2={'Kahilla partners with top companies to bolster their Diversity and Learning & Development initiatives.'}
 								/>
 							</div>
 								<div className="flex flex-wrap justify-around m-auto">
 									<div>
 										<img
 											src="/aws-scrypt.png"
-											className="h-96 w-auto"
+											className="h-64 lg:h-96 w-auto"
 										/>
 									</div>
 								</div>

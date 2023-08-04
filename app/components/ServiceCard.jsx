@@ -21,7 +21,7 @@ const ServiceCard = ({
 }) => {
 	return (
 		<div
-			className={`flex flex-col lg:w-1/3 justify-around text-center first-color rounded-b-2xl rounded m-5 shadow-2xl`}
+			className={`flex flex-col lg:w-1/3 justify-around text-center first-color rounded-b-2xl rounded m-5 shadow-2xl max-w-2xl`}
 		>
 			<div className="">
 				<div className="p-3">

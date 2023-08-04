@@ -32,7 +32,7 @@ const Navbar = () => {
 							<p
 								className={`${share_tech.className} text-xl`}
 							>
-								{"<.br>"}
+								{"Point.Break"}
 							</p>
 
 							<p className={`${share_tech.className}`}>
@@ -46,16 +46,16 @@ const Navbar = () => {
 						<Link href="/" className="nav-btn px-2">
 							Home
 						</Link>
-						<Link href="/about" className="nav-btn px-2">
+						<Link href="/about" className="nav-btn-about px-2">
 							About
 						</Link>
-						<Link href="/solutions" className="nav-btn px-2">
+						<Link href="/solutions" className="nav-btn-solutions px-2">
 							Solutions
 						</Link>
-						<Link href="/ourwork" className="nav-btn px-2">
+						<Link href="/ourwork" className="nav-btn-ourwork px-2">
 							Our Work
 						</Link>
-						<Link href="/contact" className="mr-3 nav-btn px-2">
+						<Link href="/contact" className="mr-3 nav-btn-contact px-2">
 							Contact
 						</Link>
 					</div>

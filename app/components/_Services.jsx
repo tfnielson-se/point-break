@@ -36,7 +36,7 @@ const Services = () => {
 							relevant.
 						</p>
 					</div>
-					<div id="software-development" className="flex flex-wrap justify-around lg:m-3 services-bg lg:rounded-t-3xl rounded-bl-3xl">
+					<div id="software-development" className="flex flex-wrap justify-around m-3 services-bg rounded-3xl rounded-br-none">
 						<ServiceCard
                         
 							title={"Software Development"}
@@ -53,13 +53,13 @@ const Services = () => {
 						/>
 						<img
 							src="/webdev.jpg"
-							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tr-2xl rounded-bl-3xl"
+							className="object-cover md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tr-2xl rounded-bl-3xl "
 						/>
 					</div>
 					<div id="ux-ui" className="flex flex-wrap justify-around m-3 rounded-b-3xl rounded-tr-3xl">
 						<img
 							src="/webdesign.jpg"
-							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
+							className="hidden md:block lg:block object-cover w-full md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
 						/>
 						<ServiceCard
 							title={"UX/UI"}
@@ -75,7 +75,7 @@ const Services = () => {
 							}
 						/>
 					</div>
-					<div id={"data-analytics"} className="flex flex-wrap justify-around about-bg lg:m-3 lg:rounded-t-3xl rounded-br-3xl">
+					<div id={"data-analytics"} className="flex flex-wrap justify-around about-bg m-3 rounded-3xl rounded-bl-none">
 
 						<ServiceCard
 							title={"Data Analytics"}
@@ -93,25 +93,25 @@ const Services = () => {
 
 						<img
 							src="/data.jpg"
-							className="object-cover md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tl-2xl rounded-br-3xl"
+							className="object-cover md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tl-2xl rounded-br-3xl"
 						/>
 					</div>
-					<div id="aws-solutions" className="flex flex-wrap justify-around m-3 ">
+					<div id="aws-solutions" className="flex flex-wrap justify-around m-3 rounded-b-3xl rounded-tr-3xl">
 						<img
 							src="/cloud.jpg"
-							className="hidden md:block lg:block object-cover w-full md:w-1/3 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
+							className="hidden md:block lg:block object-cover w-full md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
 						/>
 						<ServiceCard
 							title={"Cloud Solutions"}
 							icon1={<MdConnectWithoutContact />}
 							icon2={<DiAws />}
 							icon3={<MdOutlineSupport />}
-							li1={"AWS: IAM, S3, EC2, RDS, Setup and Management"}
+							li1={"AWS Setup and Management"}
 							li2={"Custom Python Scripting"}
 							li3={"Database Management"}
 							li4={"Integration Support"}
 							body={
-								"Experience seamless migration, scalable applications, and cost-efficiency."
+								"Seamless migration, scalable applications, and cost-efficiency."
 							}
 						/>
 					</div>
