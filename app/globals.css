@@ -10,15 +10,19 @@
     padding: 0.1rem
 } */
 
-
 body {
     color: #020205;
 }
+main {
+    max-height: fit-content;
+    
+}
 html {
     min-height: 100vh;
+    background: #ffffff;
 }
 
-.services-bg {
+.solutions-bg {
 	/* transition: all 60s ease-in-out; */
 	background: #7c73e6;
 	/* background: rgb(228, 228, 228); */
@@ -29,7 +33,7 @@ html {
 	background: #6173f4
 }
 
-.projects-bg {
+.ourwork-bg {
 	background: #56d49b;
 }
 
@@ -112,8 +116,6 @@ html {
 .bring-up {
 	filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
 		drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-
-	border-radius: 0.25rem;
 }
 
 /* ICONS */

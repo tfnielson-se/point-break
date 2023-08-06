@@ -14,17 +14,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en" className="">
+		<html lang="en" className="min-h-screen">
 			<head>
 				<link rel="icon" href="/favicon.ico" sizes="any" />
 			</head>
-			<body className={`${font.className} flex flex-col`}>
+			<body className={`${font.className} flex flex-col m-auto`}>
 				<div className="flex-none">
 					<Navbar />
 					<MobileNavbar />
 					<hr className=""></hr>
 				</div>
-				<div className={`grow`}>
+				<div className={`grow lg:m-auto max-w-6xl`}>
 					<main>{children}</main>
 				</div>
 				<div className="grow">

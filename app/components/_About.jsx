@@ -63,7 +63,7 @@ const About = () => {
 						</div>
 					</div>
 					<div className="flex flex-row flex-wrap justify-around">
-						<div className="border-4 border-stone-900 flex justify-center m-5 max-w-xl first-color shadow-2xl rounded-t-2xl">
+						<div id="our-focus" className="border-4 border-stone-900 flex justify-center m-5 max-w-lg first-color shadow-2xl rounded-t-2xl">
 							<div className=" m-3">
 								<p className="text-4xl first-color rounded py-1 px-3 underline">
 									<strong className={`${font.className}`}>
@@ -77,7 +77,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div id={"resources"} className="flex justify-left m-auto max-w-xl w-full mx-5 border-4 border-stone-900 first-color shadow-2xl rounded-b-2xl">
+						<div id={"resources"} className="flex justify-left m-auto max-w-lg w-full mx-5 border-4 border-stone-900 first-color shadow-2xl rounded-b-2xl">
 							<div className="">
 								<p className="text-4xl first-color px-2 m-5 underline">
 									<strong className={`p-1 ${font.className}`}>

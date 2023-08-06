@@ -29,7 +29,7 @@ const MobileNavbar = () => {
 				<nav className="lg:hidden ">
 					<div className="flex flex-row first-color py-2">
 						<div className="w-1/3 text-6xl p-2">
-							<a href="/" onClick={openMenu}>
+							<a href="/">
 								{" "}
 								<img
 									src="/logo.png"
@@ -80,7 +80,7 @@ const MobileNavbar = () => {
 										ease: "easeInOut",
 										delay: 0.5,
 									}}
-									className={`${font.className} w-full flex flex-col justify-end p-2 m-auto text-4xl text-left`}
+									className={`${font.className} w-full flex flex-col justify-end p-2 m-auto text-3xl text-left`}
 								>
 									<Link
 										href="/"

@@ -13,7 +13,7 @@ const Contact = () => {
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ delay: 0.25 }}
 			>
-				<section className="lg:min-h-screen">
+				<section className="">
 					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex text-center">
 						<p
 							className={`w-max text-3xl lg:text-5xl p-1 bring-up m-auto`}
@@ -50,7 +50,7 @@ const Contact = () => {
 							</div>
 						</div>
 					</section>
-					<div className="flex justify around">
+					<div className="flex my-20">
 						{""}
 						<section className="ml-2 w-5 h-2 second-color m-auto rounded"></section>
 						<section className="ml-2 w-10 h-2 second-color m-auto rounded"></section>
@@ -82,7 +82,7 @@ const Contact = () => {
 						<section className="mr-2 w-10 h-2 first-color m-auto rounded"></section>
 						<section className="mr-2 w-5 h-2 first-color m-auto rounded"></section>
 					</div>
-					<div className="flex justify around">
+					<div className="flex justify around my-20">
 						{""}
 						<section className="ml-2 w-5 h-2 fourth-color m-auto rounded"></section>
 						<section className="ml-2 w-10 h-2 fourth-color m-auto rounded"></section>

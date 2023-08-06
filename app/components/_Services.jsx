@@ -36,7 +36,7 @@ const Services = () => {
 							relevant.
 						</p>
 					</div>
-					<div id="software-development" className="flex flex-wrap justify-around m-3 services-bg rounded-3xl rounded-br-none">
+					<div id="software-development" className="flex flex-wrap justify-around m-3 solutions-bg rounded-3xl rounded-br-none">
 						<ServiceCard
                         
 							title={"Software Development"}
