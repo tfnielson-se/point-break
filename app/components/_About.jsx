@@ -52,11 +52,11 @@ const About = () => {
 								</p>
 								<div>
 									<p className="text-xl tracking-wide leading-relaxed text-left p-3">
-										{"Point.Break focuses on providing 'Simple Creative Solutions' to real world Software Engineering problems."}
+										{"Simple Creative Solutions to real world Software Engineering problems."}
 									</p>
                                     <hr className="border-blue-400 mx-10"></hr>
                                     <p className="text-xl tracking-wide leading-relaxed text-left p-3">
-										{"Established in 2023 in Denver,CO - Point.Break has made a significant impact in the industry of software development by leveraging cutting-edge technology and A.I tools to provide unique functionality, user experiences and data analytics."}
+										{"Founded in 2023 in Denver, CO, Point.Break has left a innovative imprint on the software development industry. By harnessing state-of-the-art technology and A.I tools, we deliver unparalleled functionalities, user experiences, and insightful data analytics solutions."}
 									</p>
 								</div>
 							</div>

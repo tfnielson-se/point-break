@@ -21,7 +21,7 @@ const ServiceCard = ({
 }) => {
 	return (
 		<div
-			className={`flex flex-col lg:w-1/3 justify-around text-center first-color rounded-b-2xl rounded m-5 shadow-2xl max-w-2xl`}
+			className={`flex flex-col lg:w-1/3 justify-around text-center first-color rounded-2xl rounded-bl-none m-5 shadow-2xl max-w-2xl`}
 		>
 			<div className="">
 				<div className="p-3">
@@ -53,7 +53,7 @@ const ServiceCard = ({
 				</p>
 			</div>
 			<div>
-				<ol className="fourth-color font-first-color underline text-xl tracking-wide px-10 lg:px-10 py-2 rounded-b-2xl">
+				<ol className="fourth-color font-first-color underlin text-lg tracking-wide px-10 lg:px-10 py-2 rounded-b-2xl rounded-bl-none">
 					<li className="py-2">{li1}</li>
 					<li className="py-2">{li2}</li>
 					<li className="py-2">{li3}</li>

@@ -1,5 +1,4 @@
 "use client";
-import { VscGithub } from "react-icons/vsc";
 import { TfiEmail } from "react-icons/tfi";
 import { FaLinkedin } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
@@ -23,7 +22,7 @@ const Contact = () => {
 							have solutions.
 						</p>
 					</div>
-					<section className="flex flex-wrap m-5 w-full">
+					<section className="flex flex-wrap lg:m-5 w-full">
 						<div className="flex flex-wrap justify-around m-auto border-b-4 border-stone-900">
 							<ContactForm />
 						</div>

@@ -44,7 +44,7 @@ const Home = () => {
 
 					<section className="flex flex-wrap my-5">
 						<div className="flex text-xl leading-loose fourth-color font-first-color rounded-t-2xl rounded-br-2xl m-3">
-							<p className="my-1 px-5">Quick Links About Us</p>
+							<p className="my-1 px-5">Quick Browse</p>
 						</div>
 						<div className="flex flex-col lg:flex-row justify-center">
 							<QuickLinks />

@@ -45,7 +45,7 @@ const Services = () => {
 							icon3={<MdComputer />}
 							li1={"Frontend"}
 							li2={"Backend"}
-							li3={"Full Stack Development"}
+							li3={"Full Stack"}
 							li4={"Business Software Architecture"}
 							body={
 								"Tailored  that precisely aligns with your vision."
@@ -107,7 +107,7 @@ const Services = () => {
 							icon2={<DiAws />}
 							icon3={<MdOutlineSupport />}
 							li1={"AWS Setup and Management"}
-							li2={"Custom Python Scripting"}
+							li2={"Custom Scripting"}
 							li3={"Database Management"}
 							li4={"Integration Support"}
 							body={

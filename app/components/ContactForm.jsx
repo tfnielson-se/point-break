@@ -66,7 +66,7 @@ const ContactForm = () => {
 						<label>Message:</label>
 						<textarea
 							name="message"
-							className="flex first-color rounded-3xl rounded-br-none p-3 border-2 border-blue-400 h-48 mx-3 shadow-md"
+							className="flex first-color rounded-3xl rounded-bl-none p-3 border-2 border-blue-400 h-48 mx-3 shadow-md"
 						/>
 					</div>
                     <div className="lg:hidden flex">
