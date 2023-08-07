@@ -166,9 +166,9 @@ const Footer = () => {
 						<div className="flex flex-col text-center m-auto">
 							<p className="text-md">Point.Break</p>
 							<p className="text-sm">
-								Software Engineering LLC, 2023
+								Software Engineering
 							</p>
-							{/* <p className="text-xs first-color font-fourth-color rounded-full rounded-bl-none">Simple.Creative.Solutions</p> */}
+                            <p className="text-xs font-first-color py-1 text-center ">© 2023 All rights reserved. </p>
 						</div>
 					</div>
 				</section>

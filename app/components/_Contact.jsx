@@ -50,53 +50,64 @@ const Contact = () => {
 							</div>
 						</div>
 					</section>
-					<div className="flex my-20">
+                    <div className="flex flex-col justify-end h-48 my-10">
+						<p className="w-1/2 rounded-r-full ourwork-bg p-2 my-1 text-3xl lg:text-center">
+							Simple.
+						</p>
+						<p className="w-2/3 rounded-r-full about-bg p-2 my-1 text-4xl lg:text-center">
+							Creative.
+						</p>
+						<p className="w-5/6 rounded-r-full contact-bg p-2 my-1 text-5xl lg:text-center">
+							Solutions.
+						</p>
+					</div>
+					<div className="flex my-10">
 						{""}
-						<section className="ml-2 w-5 h-2 second-color m-auto rounded"></section>
-						<section className="ml-2 w-10 h-2 second-color m-auto rounded"></section>
-						<section className="ml-2 w-20 h-2 second-color m-auto rounded"></section>
-						<section className="ml-2 w-40 h-2 second-color m-auto rounded"></section>
+						<section className="ml-2 w-5 h-2 bg-violet-500 m-auto rounded"></section>
+						<section className="ml-2 w-10 h-2 bg-violet-500 m-auto rounded"></section>
+						<section className="ml-2 w-20 h-2 bg-violet-500 m-auto rounded"></section>
+						<section className="ml-2 w-40 h-2 bg-violet-500 m-auto rounded"></section>
 
-						<section className="w-full h-2 fourth-color m-auto mx-5 rounded "></section>
-						<section className="w-1/4 h-2 first-color m-auto rounded"></section>
+						<section className="w-full h-2 bg-blue-500 m-auto mx-5 rounded "></section>
+						<section className="w-1/4 h-2 third-color m-auto rounded"></section>
 
-						<section className="w-full h-2 fourth-color m-auto mx-5 rounded"></section>
-						<section className="mr-2 w-40 h-2 second-color m-auto rounded"></section>
-						<section className="mr-2 w-20 h-2 second-color m-auto rounded"></section>
-						<section className="mr-2 w-10 h-2 second-color m-auto rounded"></section>
-						<section className="mr-2 w-5 h-2 second-color m-auto rounded"></section>
+						{/* <section className="w-full h-2 bg-blue-500 m-auto mx-5 rounded"></section>
+						<section className="mr-2 w-40 h-2 bg-violet-500 m-auto rounded"></section>
+						<section className="mr-2 w-20 h-2 bg-violet-500 m-auto rounded"></section>
+						<section className="mr-2 w-10 h-2 bg-violet-500 m-auto rounded"></section>
+						<section className="mr-2 w-5 h-2 bg-violet-500 m-auto rounded"></section> */}
+					</div>
+					<div className="flex justify around my-5">
+						{""}
+						<section className="ml-2 w-5 h-2 third-color m-auto rounded"></section>
+						<section className="ml-2 w-10 h-2 third-color m-auto rounded"></section>
+						<section className="ml-2 w-20 h-2 third-color m-auto rounded"></section>
+						<section className="ml-2 w-40 h-2 third-color m-auto rounded"></section>
+
+						<section className="w-full h-2 bg-violet-500 m-auto mx-5 rounded "></section>
+						<section className="w-1/4 h-2 bg-blue-500 m-auto rounded"></section>
+
+						<section className="w-full h-2 bg-violet-500 m-auto mx-5 rounded"></section>
+						{/* <section className="mr-2 w-40 h-2 third-color m-auto rounded"></section>
+						<section className="mr-2 w-20 h-2 third-color m-auto rounded"></section>
+						<section className="mr-2 w-10 h-2 third-color m-auto rounded"></section>
+						<section className="mr-2 w-5 h-2 third-color m-auto rounded"></section> */}
 					</div>
 					<div className="flex justify around my-10">
 						{""}
-						<section className="ml-2 w-5 h-2 first-color m-auto rounded"></section>
-						<section className="ml-2 w-10 h-2 first-color m-auto rounded"></section>
-						<section className="ml-2 w-20 h-2 first-color m-auto rounded"></section>
-						<section className="ml-2 w-40 h-2 first-color m-auto rounded"></section>
+						<section className="ml-2 w-5 h-2 bg-blue-500 m-auto rounded"></section>
+						<section className="ml-2 w-10 h-2 bg-blue-500 m-auto rounded"></section>
+						<section className="ml-2 w-20 h-2 bg-blue-500 m-auto rounded"></section>
+						<section className="ml-2 w-40 h-2 bg-blue-500 m-auto rounded"></section>
 
-						<section className="w-full h-2 second-color m-auto mx-5 rounded "></section>
-						<section className="w-1/4 h-2 fourth-color m-auto rounded"></section>
+						<section className="w-full h-2 third-color m-auto mx-5 rounded "></section>
+						<section className="w-1/4 h-2 bg-violet-500 m-auto rounded"></section>
 
-						<section className="w-full h-2 second-color m-auto mx-5 rounded"></section>
-						<section className="mr-2 w-40 h-2 first-color m-auto rounded"></section>
-						<section className="mr-2 w-20 h-2 first-color m-auto rounded"></section>
-						<section className="mr-2 w-10 h-2 first-color m-auto rounded"></section>
-						<section className="mr-2 w-5 h-2 first-color m-auto rounded"></section>
-					</div>
-					<div className="flex justify around my-20">
-						{""}
-						<section className="ml-2 w-5 h-2 fourth-color m-auto rounded"></section>
-						<section className="ml-2 w-10 h-2 fourth-color m-auto rounded"></section>
-						<section className="ml-2 w-20 h-2 fourth-color m-auto rounded"></section>
-						<section className="ml-2 w-40 h-2 fourth-color m-auto rounded"></section>
-
-						<section className="w-full h-2 first-color m-auto mx-5 rounded "></section>
-						<section className="w-1/4 h-2 second-color m-auto rounded"></section>
-
-						<section className="w-full h-2 first-color m-auto mx-5 rounded"></section>
-						<section className="mr-2 w-40 h-2 fourth-color m-auto rounded"></section>
-						<section className="mr-2 w-20 h-2 fourth-color m-auto rounded"></section>
-						<section className="mr-2 w-10 h-2 fourth-color m-auto rounded"></section>
-						<section className="mr-2 w-5 h-2 fourth-color m-auto rounded"></section>
+						<section className="w-full h-2 third-color m-auto mx-5 rounded"></section>
+						<section className="mr-2 w-40 h-2 bg-blue-500 m-auto rounded"></section>
+						{/* <section className="mr-2 w-20 h-2 bg-blue-500 m-auto rounded"></section>
+						<section className="mr-2 w-10 h-2 bg-blue-500 m-auto rounded"></section>
+						<section className="mr-2 w-5 h-2 bg-blue-500 m-auto rounded"></section> */}
 					</div>
 				</section>
 			</motion.div>

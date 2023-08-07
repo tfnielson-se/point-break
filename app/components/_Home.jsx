@@ -55,7 +55,7 @@ const Home = () => {
 							Solutions.
 						</p>
 					</div>
-					<section className="flex flex-col my-10 max-w-6xl lg:m-auto border-l-8 border-yellow-400">
+					<section className="flex flex-col lg:my-20 max-w-6xl lg:m-auto border-l-8 border-yellow-400">
 						<div className="flex">
 							<p className="px-5 text-xl leading-loose fourth-color font-first-color rounded-t-2xl rounded-br-2xl shadow-md w-max mx-5">
 								Quick Browse
@@ -93,10 +93,10 @@ const Home = () => {
 							</div>
 							<div className="flex justify-end pl-2">
 								<p
-									className={`px-3 py-2 text-lg lg:text-xl tracking-wide ourwork-bg my-3 rounded-l-full text-right`}
+									className={`px-3 py-2 text-lg lg:text-xl tracking-wide ourwork-bg my-3 rounded-l-full text-right w-5/6`}
 								>
 									{
-										"Help You Achieve Insightful Answers with Data Analysis and Drive Growth."
+										"Help You Achieve Insightful Answers and Drive Growth with Data Analysis."
 									}
 								</p>
 							</div>

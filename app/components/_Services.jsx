@@ -32,11 +32,11 @@ const Services = () => {
 						<p
 							className={`text-3xl lg:text-5xl p-1 bring-up tracking-wider m-auto`}
 						>
-							Simple creative solutions to help your business stay
+							Simple Creative Solutions to help your business stay
 							relevant.
 						</p>
 					</div>
-					<div id="software-development" className="flex flex-wrap justify-around my-5 solutions-bg rounded-3xl rounded-br-none max-w-7xl m-auto">
+					<div id="software-development" className="flex flex-wrap justify-around my-5 solutions-bg rounded-bl-3xl rounded-tr-3xl max-w-7xl m-auto">
 						<ServiceCard
                         
 							title={"Software Development"}
@@ -46,9 +46,9 @@ const Services = () => {
 							li1={"Frontend"}
 							li2={"Backend"}
 							li3={"Full Stack"}
-							li4={"Business Software Architecture"}
+							li4={"Software Architecture"}
 							body={
-								"Tailored  that precisely aligns with your vision."
+								"Custom WebApps that precisely aligns with your vision."
 							}
 						/>
 						<img
@@ -75,7 +75,7 @@ const Services = () => {
 							}
 						/>
 					</div>
-					<div id={"data-analytics"} className="flex flex-wrap justify-around contact-bg my-3 rounded-3xl rounded-bl-none max-w-7xl m-auto">
+					<div id={"data-analytics"} className="flex flex-wrap justify-around contact-bg my-3 rounded-br-3xl rounded-tl-3xl max-w-7xl m-auto">
 
 						<ServiceCard
 							title={"Data Analytics"}
@@ -87,13 +87,13 @@ const Services = () => {
 							li3={"Data Visualization"}
 							li4={"Dashboard Development"}
 							body={
-								"Drive your growth with Data driven decisions."
+								"Growth & Solutions with Data driven decisions."
 							}
 						/>
 
 						<img
 							src="/data.jpg"
-							className="object-cover md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tr-2xl rounded-bl-3xl"
+							className="object-cover md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tl-2xl rounded-br-3xl"
 						/>
 					</div>
 					<div id="aws-solutions" className="flex flex-wrap justify-around my-3 rounded-b-3xl rounded-tr-3xl max-w-7xl m-auto">
