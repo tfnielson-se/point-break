@@ -25,7 +25,7 @@ const ContactForm = () => {
 	};
 
 	return (
-		<div className="flex flex-col w-min lg:w-max rounded-t-3xl border-4 border-stone-900 shadow-2xl">
+		<div className="flex flex-col mx-3 lg:w-max rounded-tl-3xl rounded-br-3xl border-4 border-stone-900 shadow-2xl">
 			<div className="text-3xl my-5">
 				<h3 className=" w-3/4 lg:w-1/2 contact-bg p-2 rounded-r-full">Contact Us</h3>
 			</div>

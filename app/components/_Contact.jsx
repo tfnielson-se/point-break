@@ -23,7 +23,7 @@ const Contact = () => {
 						</p>
 					</div>
 					<section className="flex flex-wrap max-w-7xl lg:m-auto">
-						<div className="flex flex-wrap justify-around m-auto my-5 border-b-4 border-stone-900">
+						<div className="flex flex-wrap justify-around m-auto my-5">
 							<ContactForm />
 						</div>
 						<div className="flex flex-col justify-around m-auto">
