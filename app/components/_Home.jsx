@@ -55,7 +55,7 @@ const Home = () => {
 							Solutions.
 						</p>
 					</div>
-					<section className="flex flex-col my-10 max-w-6xl lg:m-auto">
+					<section className="flex flex-col my-10 max-w-6xl lg:m-auto border-l-8 border-yellow-400">
 						<div className="flex">
 							<p className="px-5 text-xl leading-loose fourth-color font-first-color rounded-t-2xl rounded-br-2xl shadow-md w-max mx-5">
 								Quick Browse
@@ -65,17 +65,26 @@ const Home = () => {
 							<QuickLinks />
 						</div>
 					</section>
-					<div className="flex justify-end my-5">
-                        <div className="flex flex-wrap bg-black w-1/5">
+					<div className="flex justify-end my-5 solutions-bg">
+                        <div className="flex flex-wrap fourth-color w-1/5">
                             <SiElixir className="font-first-color text-5xl flex m-auto px-1"/>
                             <SiReact className="font-first-color text-5xl flex m-auto px-1"/>
                             <FaPython className="font-first-color text-5xl flex m-auto px-1" />
                             <DiRubyRough className="font-first-color text-5xl flex m-auto px-1" />
                         </div>
-						<div className="w-5/6 flex flex-col justify-end py-5 lg:py-10 solutions-bg">
+						<div className="w-5/6 flex flex-col pb-5">
+                        <div className="flex justify-start">
+								<p
+									className={`px-3 py-2 text-lg lg:text-xl tracking-widest font-first-color fourth-color rounded-br-3xl text-right`}
+								>
+									{
+										"What we do"
+									}
+								</p>
+							</div>
 							<div className="flex justify-end pl-2">
 								<p
-									className={`px-3 py-2 text-lg lg:text-xl tracking-widest first-color rounded-l-full text-right`}
+									className={`px-3 py-2 text-lg lg:text-xl tracking-widest first-color mt-3 rounded-l-full text-right`}
 								>
 									{
 										"Build Custom Web and Mobile Applications Delivering Unique User Experience."

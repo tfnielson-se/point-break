@@ -35,7 +35,7 @@ const About = () => {
 						</p>
 					</div>
                     
-					<div id={"the-company"} className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl my-2 mx-3 max-w-7xl m-auto">
+					<div id={"the-company"} className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl my-2 mx-3 max-w-7xl lg:m-auto">
 						<div className="flex flex-col justify-center my-auto ">
 							<img
 								src="/logo-white-bg.png"
