@@ -4,9 +4,9 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { GrMenu } from "react-icons/gr";
 import { GrClose } from "react-icons/gr";
-import { Cutive_Mono } from "next/font/google"
+import { Inconsolata } from "next/font/google"
 
-const font = Cutive_Mono({
+const font = Inconsolata({
 	subsets: ["latin"],
 	weight: "400",
 });
@@ -26,20 +26,29 @@ const MobileNavbar = () => {
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ ease: "easeInOut", delay: 0.1 }}
 			>
-				<nav className="lg:hidden">
-					<div className="flex flex-row fourth-color py-2">
+				<nav className="lg:hidden ">
+					<div className="flex flex-row first-color py-2">
 						<div className="w-1/3 text-6xl p-2">
-							<a href="/" onClick={openMenu}>
+							<a href="/">
 								{" "}
 								<img
-									src="/logo_white.png"
+									src="/logo.png"
 									className="object-cover m-auto h-20"
 								/>
 							</a>
 						</div>
-						<div className="w-1/3 m-auto text-center">
-							<p className="font-first-color md:text-3xl">
-								Software Engineering
+						<div className="w-1/3 m-auto text-left">
+							{/* <p className=" text-xl md:text-3xl">
+								Point.break
+							</p> */}
+                            <p className="md:text-xl rounded-2xl">
+								Simple.
+							</p>
+                            <p className="md:text-xl rounded-2xl">
+								Creative.
+							</p>
+                            <p className="md:text-xl rounded-2xl">
+								Solutions.
 							</p>
 						</div>
 						<div className={" w-1/4 flex justify-center"}>
@@ -61,7 +70,7 @@ const MobileNavbar = () => {
 								animate={{ opacity: 1, y: -0 }}
 								exit={{ opacity: 0, y: 15 }}
 								transition={{ ease: "easeInOut", delay: 0.1 }}
-								className="fourth-color border-t-8"
+								className="first-color border-y-8"
 							>
 								<motion.div
 									initial={{ opacity: 0, x: -15 }}
@@ -71,11 +80,11 @@ const MobileNavbar = () => {
 										ease: "easeInOut",
 										delay: 0.5,
 									}}
-									className={`${font.className} w-full flex flex-col justify-around font-first-color p-2 m-auto text-4xl`}
+									className={`${font.className} w-full flex flex-col justify-end p-2 m-auto text-3xl text-left`}
 								>
 									<Link
 										href="/"
-										className="nav-btn my-5"
+										className="my-5"
 										onClick={openMenu}
 									>
 										Home
@@ -83,28 +92,28 @@ const MobileNavbar = () => {
 
 									<Link
 										href="/about"
-										className="nav-btn my-5"
+										className="my-5"
 										onClick={openMenu}
 									>
 										About
 									</Link>
 									<Link
-										href="/projects"
-										className="nav-btn my-5"
+										href="/solutions"
+										className="my-5"
 										onClick={openMenu}
 									>
-										Projects
+										Solutions
 									</Link>
 									<Link
-										href="/services"
-										className="nav-btn my-5"
+										href="/ourwork"
+										className="my-5"
 										onClick={openMenu}
 									>
-										Services
+										Our Work
 									</Link>
 									<Link
 										href="/contact"
-										className="nav-btn my-5"
+										className="my-5"
 										onClick={openMenu}
 									>
 										Contact

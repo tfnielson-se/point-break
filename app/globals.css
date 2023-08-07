@@ -1,31 +1,64 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* DEBUG */
-/* div {
+/* div, section {
     border-width: 1px;
-    border-color: white;
+    border-color: rgb(244, 87, 87);
     border-radius: 0.5rem;
     padding: 0.1rem
 } */
-:root {
-    background: linear-gradient(#02020554, rgb(228, 228, 228), rgb(255, 255, 255));
-}
-
-html {
-	/* transition: all 60s ease-in-out; */
-
-    background: rgb(228, 228, 228);
-    font-family: "Share Tech Mono", monospace;
-}
 
 body {
-	color: #020205;
+    color: #020205;
+}
+main {
+    max-height: fit-content;
+    
+}
+html {
+    min-height: 100vh;
+    background: #ffffff;
 }
 
+.solutions-bg {
+	/* transition: all 60s ease-in-out; */
+	background: #7c73e6;
+	/* background: rgb(228, 228, 228); */
+	/* font-family: "Jet", monospace; */
+}
 
+.about-bg {
+	background: #6173f4
+}
+
+.ourwork-bg {
+	background: #56d49b;
+}
+
+.contact-bg {
+    background: #facc15;
+}
+
+.title-bg {
+	position: relative;
+	justify-content: center;
+}
+
+.title-bg::before {
+	content: "";
+	background-image: url("/banner.png");
+	background-position-x: 100%;
+	background-position-y: 50%;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.75;
+}
 
 .cutive-mono {
 	font-family: "Cutive Mono", monospace;
@@ -35,7 +68,7 @@ body {
 }
 
 .main-div {
-    height: 100vh;
+	height: 100vh;
 }
 
 .home-title {
@@ -44,53 +77,65 @@ body {
 
 /* HOVERS */
 .nav-btn {
-    padding: 0.2rem;
-    border-radius: 0.25rem;
+	/* padding: 0.2rem; */
 	transition: all 0.5s ease-in-out;
 }
 .nav-btn:hover {
-	/* background: #bbe9db; */
-	padding-right: 0.5rem;
-	padding-left: 0.3rem;
 	opacity: 100%;
-	filter: drop-shadow(0 30px 15px rgba(0, 0, 0, 0.288))
-		drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-	box-shadow: 4px 4px 0px 0px #ff5f5f;
-    background: white;
-    color: black
+	box-shadow: 0px 4px 0px 0px #ff5f5f ;
+}
+.nav-btn-about {
+	/* padding: 0.2rem; */
+	transition: all 0.5s ease-in-out;
+}
+.nav-btn-about:hover {
+	opacity: 100%;
+	box-shadow: 0px 4px 0px 0px #619cf4;
+}
+.nav-btn-solutions {
+	/* padding: 0.2rem; */
+	transition: all 0.5s ease-in-out;
+}
+.nav-btn-solutions:hover {
+	opacity: 100%;
+	box-shadow: 0px 4px 0px 0px #7c73e6;
+}
+.nav-btn-ourwork {
+	/* padding: 0.2rem; */
+	transition: all 0.5s ease-in-out;
+}
+.nav-btn-ourwork:hover {
+	opacity: 100%;
+	box-shadow: 0px 4px 0px 0px #56d49b;
+}
+.nav-btn-contact {
+	/* padding: 0.2rem; */
+	transition: all 0.5s ease-in-out;
+}
+.nav-btn-contact:hover {
+	opacity: 100%;
+	box-shadow: 0px 4px 0px 0px #facc15;
 }
 
 .bring-up {
-	opacity: 95%;
 	filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
 		drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-	box-shadow: 6px 6px 1px 1px #756c83b6;
-	/* box-shadow: 8px 8px 0px 0px #ff5f5f; */
-    border-radius: 0.25rem;
-	transition: all 0.3s ease-out;
-}
-.bring-up:hover {
-	opacity: 100%;
-	filter: drop-shadow(0 30px 15px rgba(0, 0, 0, 0.288))
-		drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-	box-shadow: 12px 12px 0px 0px #ff5f5f;
-	/* box-shadow: 12px 12px 2px 1px #f3818165; */
 }
 
 /* ICONS */
 .elixir-color {
-    border-radius: 0.25rem;
-    transition: all 0.5s ease-in-out;
+	/* border-radius: 0.25rem; */
+	transition: all 0.5s ease-in-out;
 }
 .elixir-color:hover {
 	color: #f1e7e7;
 	background: #4f3b78;
-    transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 .python-color {
-    border-radius: .25rem;
-    transition: all 0.5s ease-in-out;
+	/* border-radius: .25rem; */
+	transition: all 0.5s ease-in-out;
 }
 .python-color:hover {
 	color: #0092ca;
@@ -98,63 +143,67 @@ body {
 }
 
 .ruby-color {
-    border-radius: .25rem;
-    transition: all 0.5s ease-in-out;
+	/* border-radius: .25rem; */
+	transition: all 0.5s ease-in-out;
 }
 .ruby-color:hover {
-    color: #d31d1d;
-    background: #ffffff
+	color: #d31d1d;
+	background: #ffffff;
 }
 
 .react-color {
-    border-radius: .25rem;
-    transition: all 0.5s ease-in-out;
+	/* border-radius: .25rem; */
+	transition: all 0.5s ease-in-out;
 }
 .react-color:hover {
-    background: #0092ca;
-    color: #353535;
+	background: #0092ca;
+	color: #353535;
 }
 
 .aws-color {
-    border-radius: .25rem;
-    transition: all 0.5s ease-in-out;
+	/* border-radius: .25rem; */
+	transition: all 0.5s ease-in-out;
 }
 .aws-color:hover {
-    background: #1e2850;
-    color: #e28154;
+	background: #1e2850;
+	color: #e28154;
 }
 
 .sql-color {
-    border-radius: .25rem;
-    transition: all 0.5s ease-in-out;
+	/* border-radius: .25rem; */
+	transition: all 0.5s ease-in-out;
 }
 .sql-color:hover {
-    background: #3d51a2;
-    color: #d1cfcf;
+	background: #3d51a2;
+	color: #d1cfcf;
 }
 
 /* COLORS */
 
-.first-color { 
-	background: #fdfdfd; 
+.first-color {
+	background: #fafafa;
 }
 
-.font-first-color { 
-	color: #fdfdfd 
+.font-first-color {
+	color: #fdfdfd;
 }
 
-.second-color { 
+.second-color {
 	background: #ff5f5f;
-    border-color: #ff5f5f;
+	border-color: #ff5f5f;
 }
 
-.font-second-color { 
-    color: #ff5f5f;
+.third-color{
+    background: #facc15
 }
 
-.fourth-color { 
-	background: #020205; 
+.font-second-color {
+	color: #ff5f5f;
 }
-.font-fourth-color { 
-	color: #020205; 
+
+.fourth-color {
+	background: #020205;
+}
+.font-fourth-color {
+	color: #020205;
 }
