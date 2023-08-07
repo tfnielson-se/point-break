@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
 					<MobileNavbar />
 					<hr className=""></hr>
 				</div>
-				<div className={`grow lg:m-auto max-w-6xl`}>
+				<div className={`grow`}>
 					<main>{children}</main>
 				</div>
 				<div className="grow">

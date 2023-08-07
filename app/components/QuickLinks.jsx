@@ -3,7 +3,7 @@ import Link from "next/link";
 const QuickLinks = () => {
 	return (
 		// <section className="flex flex-wrap">
-			<section className="flex flex-wrap justify-around lg:w-1/2 m-auto">
+			<section className="flex flex-wrap justify-around lg:w-3/4">
 				<div className="text-lg leading-loose border-2 border-stone-900 rounded-t-2xl rounded-bl-2xl nav-btn-about m-3 shadow-md">
 					<Link href="/about#the-company" className="my-1 px-2">
 						The Company

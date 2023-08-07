@@ -36,7 +36,7 @@ const Services = () => {
 							relevant.
 						</p>
 					</div>
-					<div id="software-development" className="flex flex-wrap justify-around m-3 solutions-bg rounded-3xl rounded-br-none">
+					<div id="software-development" className="flex flex-wrap justify-around my-5 solutions-bg rounded-3xl rounded-br-none max-w-7xl m-auto">
 						<ServiceCard
                         
 							title={"Software Development"}
@@ -56,7 +56,7 @@ const Services = () => {
 							className="object-cover md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tr-2xl rounded-bl-3xl "
 						/>
 					</div>
-					<div id="ux-ui" className="flex flex-wrap justify-around m-3 rounded-b-3xl rounded-tr-3xl">
+					<div id="ux-ui" className="flex flex-wrap justify-around my-3 rounded-b-3xl rounded-tr-3xl max-w-7xl m-auto">
 						<img
 							src="/webdesign.jpg"
 							className="hidden md:block lg:block object-cover w-full md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"
@@ -75,7 +75,7 @@ const Services = () => {
 							}
 						/>
 					</div>
-					<div id={"data-analytics"} className="flex flex-wrap justify-around about-bg m-3 rounded-3xl rounded-bl-none">
+					<div id={"data-analytics"} className="flex flex-wrap justify-around contact-bg my-3 rounded-3xl rounded-bl-none max-w-7xl m-auto">
 
 						<ServiceCard
 							title={"Data Analytics"}
@@ -93,10 +93,10 @@ const Services = () => {
 
 						<img
 							src="/data.jpg"
-							className="object-cover md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tl-2xl rounded-br-3xl"
+							className="object-cover md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl rounded-tr-2xl rounded-bl-3xl"
 						/>
 					</div>
-					<div id="aws-solutions" className="flex flex-wrap justify-around m-3 rounded-b-3xl rounded-tr-3xl">
+					<div id="aws-solutions" className="flex flex-wrap justify-around my-3 rounded-b-3xl rounded-tr-3xl max-w-7xl m-auto">
 						<img
 							src="/cloud.jpg"
 							className="hidden md:block lg:block object-cover w-full md:w-1/2 lg:w-1/2 lg:h-96 m-auto shadow-2xl border-4 border-blue-400 rounded-tl-2xl rounded-br-3xl"

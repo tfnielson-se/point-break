@@ -1,10 +1,10 @@
 "use client";
 import { FaPython } from "react-icons/fa";
-import { SiDjango } from "react-icons/si";
+
 import { SiElixir } from "react-icons/si";
-import { FaPhoenixFramework } from "react-icons/fa";
+
 import { SiRubyonrails } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
+
 import { SiReact } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -35,7 +35,7 @@ const About = () => {
 						</p>
 					</div>
                     
-					<div id={"the-company"} className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl mx-3 my-2">
+					<div id={"the-company"} className="flex flex-row flex-wrap justify-around about-bg rounded-t-3xl rounded-br-3xl my-2 mx-3 max-w-7xl m-auto">
 						<div className="flex flex-col justify-center my-auto ">
 							<img
 								src="/logo-white-bg.png"
@@ -62,7 +62,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-row flex-wrap justify-around">
+					<div className="flex flex-row flex-wrap justify-around max-w-7xl m-auto">
 						<div id="our-focus" className="border-4 border-stone-900 flex justify-center m-5 max-w-lg first-color shadow-2xl rounded-t-2xl">
 							<div className=" m-3">
 								<p className="text-4xl first-color rounded py-1 px-3 underline">

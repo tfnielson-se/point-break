@@ -18,7 +18,7 @@ const Footer = () => {
 				animate={{ opacity: 1, y: 0 }}
 				exit={{ opacity: 0, y: 15 }}
 				transition={{ delay: 0.25 }}
-				className="fourth-color"
+				className="fourth-color border-t-8 border-yellow-400"
 			>
 				<section className="flex flex-wrap justify-around font-first-color max-w-7xl m-auto">
 					<div

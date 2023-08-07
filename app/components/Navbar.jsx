@@ -24,21 +24,21 @@ const Navbar = () => {
 				transition={{ delay: 0.25 }}
                 className="first-color"
 			>
-				<nav className={`hidden lg:flex justify-between py-2  max-w-7xl m-auto`}>
+				<nav className={`hidden lg:flex justify-between py-3  max-w-7xl m-auto`}>
 					<div className="w-1/3 flex justify-center">
 						<Link href="/">
 							<img src="/logo.png" className="h-16 mx-5" />
 						</Link>
 						<div className="text-center my-auto">
 							<p
-								className={`${share_tech.className} text-xl`}
+								className={`${share_tech.className} text-2xl`}
 							>
 								{"Point.Break"}
 							</p>
 
-							<p className={`${share_tech.className}`}>
+							{/* <p className={`${share_tech.className}`}>
 								Simple.Creative.Solutions
-							</p>
+							</p> */}
 						</div>
 					</div>
 					<div

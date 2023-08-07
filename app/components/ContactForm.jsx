@@ -25,14 +25,14 @@ const ContactForm = () => {
 	};
 
 	return (
-		<div className="flex flex-col w-min lg:w-max rounded-t-3xl border-4 border-stone-900 p-5 shadow-2xl">
-			<div className="text-3xl m-3">
-				<h3 className="m-auto">Contact Us</h3>
+		<div className="flex flex-col w-min lg:w-max rounded-t-3xl border-4 border-stone-900 shadow-2xl">
+			<div className="text-3xl my-5">
+				<h3 className=" w-3/4 lg:w-1/2 contact-bg p-2 rounded-r-full">Contact Us</h3>
 			</div>
 			<form
 				ref={form}
 				onSubmit={sendEmail}
-				className="flex flex-wrap justify-between px-3 "
+				className="flex flex-wrap justify-between p-5 "
 			>
 				<div>
 					<div className="flex flex-col m-auto">

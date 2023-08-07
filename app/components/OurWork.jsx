@@ -33,7 +33,7 @@ const Customers = () => {
 							Our Work, your success.
 						</p>
 					</div>
-					<section className="ourwork-bg m-3 rounded-tl-3xl rounded-br-3xl p-3">
+					<section className="ourwork-bg my-5 rounded-tl-3xl rounded-br-3xl p-3 max-w-7xl m-auto">
 						<div className="flex flex-wrap">
 							<div className="m-auto">
 								{items.map((item) => (
@@ -74,7 +74,7 @@ const Customers = () => {
 							className="object-cover lg:h-96 w-full"
 						/>
 					</div>
-					<section className="about-bg my-3 rounded-tl-3xl rounded-br-3xl p-3">
+					<section className="about-bg my-5 m-auto max-w-7xl rounded-tl-3xl rounded-br-3xl p-3">
 						<section className="flex flex-wrap">
 							<div id={"kahilla"} className="m-auto ">
 								<ProjectCard
