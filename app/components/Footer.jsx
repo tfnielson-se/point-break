@@ -24,7 +24,7 @@ const Footer = () => {
 					<div
 						className={`${font.className} flex flex-wrap justify-between p-3 w-full m-10`}
 					>
-						<div className="lg:mx-auto">
+						<div className="lg:mx-auto my-2">
 							<h2 className="text-center border rounded-3xl rounded-bl-none ">
 								MENU
 							</h2>
@@ -47,7 +47,7 @@ const Footer = () => {
 						</Link>{" "}
 							</div>
 						</div>
-						<div className="lg:mx-auto">
+						<div className="lg:mx-auto my-2">
 							<h2 className="text-center border  rounded-3xl rounded-bl-none ">
 								ABOUT
 							</h2>
@@ -68,7 +68,7 @@ const Footer = () => {
 								></Link>
 							</div>
 						</div>
-						<div className="lg:mx-auto">
+						<div className="lg:mx-auto my-2">
 							<h2 className="text-center border bo rounded-3xl rounded-bl-none ">
 								SOLUTIONS
 							</h2>
@@ -97,7 +97,7 @@ const Footer = () => {
 								</Link>
 							</div>
 						</div>
-						<div className="lg:mx-auto">
+						<div className="lg:mx-auto my-2">
 							<h2 className="text-center border b rounded-3xl rounded-bl-none ">
 								OUR WORK
 							</h2>
@@ -114,7 +114,7 @@ const Footer = () => {
 								</Link>
 							</div>
 						</div>
-						<div className="lg:mx-auto">
+						<div className="lg:mx-auto my-2">
 							<h2 className="text-center border rounded-3xl rounded-bl-none ">
 								CONTACT
 							</h2>

@@ -16,14 +16,14 @@ const Contact = () => {
 				<section className="">
 					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex text-center">
 						<p
-							className={`w-max text-3xl lg:text-5xl p-1 bring-up m-auto`}
+							className={`text-3xl lg:text-5xl p-1 bring-up m-auto`}
 						>
 							We never shy away from a challenge, reach out. We
 							have solutions.
 						</p>
 					</div>
 					<section className="flex flex-wrap lg:m-5 w-full">
-						<div className="flex flex-wrap justify-around m-auto border-b-4 border-stone-900">
+						<div className="flex flex-wrap justify-around m-auto my-3 border-b-4 border-stone-900">
 							<ContactForm />
 						</div>
 						<div className="flex flex-col justify-around m-auto">

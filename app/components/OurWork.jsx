@@ -33,7 +33,7 @@ const Customers = () => {
 							Our Work, your success.
 						</p>
 					</div>
-					<section className="ourwork-bg my-3 rounded-tl-3xl rounded-br-3xl p-3">
+					<section className="ourwork-bg m-3 rounded-tl-3xl rounded-br-3xl p-3">
 						<div className="flex flex-wrap">
 							<div className="m-auto">
 								{items.map((item) => (

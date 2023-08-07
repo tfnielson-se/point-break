@@ -29,7 +29,7 @@ const About = () => {
 				<section className="">
 					<div className="p-5 lg:p-10 md:h-48 lg:h-96 title-bg flex text-center">
 						<p
-							className={`w-max text-3xl lg:text-5xl p-1 bring-up m-auto`}
+							className={`text-3xl lg:text-5xl p-1 bring-up m-auto`}
 						>
 							About us, our focus, and commitment to your success.
 						</p>
