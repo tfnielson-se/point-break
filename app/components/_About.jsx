@@ -60,7 +60,7 @@ const About = () => {
 									<hr className="border-blue-400 mx-10"></hr>
 									<p className="text-lg tracking-wide leading-relaxed text-left p-3">
 										{
-											"Founded in 2023 in Denver, CO, Point.Break has left a innovative imprint on the software development industry working with top FinTech, E-Learnign and E-Commerce companies increasing growth, engagement and revenue. Every project is approached with an open mind and without limitations to empower our developer's creativity and innovation."
+											"Founded in 2023 in Denver, CO, Point.Break has left an innovative imprint on the software development industry working with top FinTech, E-Learnign and E-Commerce companies increasing growth, engagement and revenue. Every project is approached with an open mind and without limitations to empower our developer's creativity and innovation."
 										}
 									</p>
 								</div>
@@ -143,9 +143,9 @@ const About = () => {
 								</p>
 							</div>
 							<div className="flex flex-col rounded-br-xl w-1/4 border-l-8 border-yellow-400 h-3/4 m-auto">
-								<div className="flex flex-col m-auto">
-									<SiElixir className="text-7xl flex m-auto px-1 my-10 text-violet-900" />
-									<FaPhoenixFramework className="text-7xl flex m-auto px-1 my-10 text-orange-700" />
+								<div className="flex flex-wrap m-auto">
+									<SiElixir className="text-7xl flex my-5 m-auto px-1 text-violet-900" />
+									<FaPhoenixFramework className="text-7xl flex my-5 m-auto px-1 text-orange-700" />
 								</div>
 							</div>
 						</div>
