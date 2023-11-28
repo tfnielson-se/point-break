@@ -46,7 +46,7 @@ const Services = () => {
 							li1={"Frontend"}
 							li2={"Backend"}
 							li3={"Full Stack"}
-							li4={"Software Architecture"}
+							li4={"API Development and Integration"}
 							body={
 								"Custom WebApps that precisely aligns with your vision."
 							}

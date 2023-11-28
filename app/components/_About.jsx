@@ -108,7 +108,7 @@ const About = () => {
 										Software Development:
 									</p>{" "}
 									<p className="text-sm text-left tracking-wide leading-relaxed px-5">
-										Elixir, Ruby, React
+										Elixir, Ruby on Rails, JavaScript / React
 									</p>
 									<p className="ourwork-bg py-1 px-2 rounded-r-full w-fit">
 										Data Analytics:
@@ -120,14 +120,14 @@ const About = () => {
 										Cloud Solutions:
 									</p>{" "}
 									<p className="text-sm text-left tracking-wide leading-relaxed px-5">
-										AWS, Azure, Google Cloud Platform
+										AWS, Azure, Google Cloud Platform, API integration
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				<section className="solutions-bg p-3 mt-5">
+				{/* <section className="solutions-bg p-3 mt-5">
 					<div className="flex justify-left m-auto my-3 max-w-lg mx-5 border-4 border-stone-900 first-color shadow-2xl rounded-3xl rounded-bl-none lg:m-auto lg:my-3">
 						<div className=" flex flex-row">
 							<div className="flex flex-col w-3/4">
@@ -150,7 +150,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 					<div className="flex flex-wrap justify-around p-3 contact-bg">
 						<FaPython className="font-fifth-color text-4xl mx-1 my-2" />
 						{/* <SiDjango className="font-fifth-color text-4xl mx-1 my-2" /> */}
