@@ -9,8 +9,8 @@ const Customers = () => {
 		{
 			title: "TBWinder",
 			body: "Real Estate Investments Company Rebranding and Website Redesign.",
-            body2:"TBWinder is one-stop-shop real estate firm focusing on real estate sales, private asset based lending, passive investment opportunities, short term real estate development, and joint venture relationships to complete the capital stack for top-tier Real Estate investors throughout Greater Boston and New England, USA.",
-			// body2: "Phase 2: Business Software Development, Data Analytic Dashboard, AWS Setup",
+            body1:"TBWinder is one-stop-shop real estate firm focusing on real estate sales, private asset based lending, passive investment opportunities, short term real estate development, and joint venture relationships to complete the capital stack for top-tier Real Estate investors throughout Greater Boston and New England, USA.",
+			body2: "Phase 2: Marketing design development, Logo design",
 			url: "https://www.tbwinder.com/",
 		},
 	];
@@ -41,6 +41,7 @@ const Customers = () => {
 										key={item.title}
 										title={item.title}
 										body={item.body}
+                    body1={item.body1}
 										body2={item.body2}
 										url={item.url}
 									/>
